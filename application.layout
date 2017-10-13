@@ -289,7 +289,6 @@
                        
                     </ul>
                 </div></li>
-           
             <!--<a href="/directions">About Us</a>-->
             <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
