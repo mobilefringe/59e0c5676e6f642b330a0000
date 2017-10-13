@@ -735,7 +735,7 @@ function renderPropertyLogo(logo_template,site_logo,propertyDetails){
     $(site_logo).show();
     $(site_logo).html(item_rendered.join(''));
 }
-function renderPropertyDetails(logo_template,site_logo,propertyDetails){
+function renderPropertyDetails(logo_template,propertyDetails){
     var item_list = [];
     var item_rendered = [];
     var logo_template_html = $(logo_template).html();
