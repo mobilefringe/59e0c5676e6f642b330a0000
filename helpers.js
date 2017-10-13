@@ -25,7 +25,7 @@ $(window).load(function(e){
         }
     });
     var propertyDetails = getPropertyDetails();
-            renderPropertyLogo('#logo_template','#site_logo',propertyDetails);
+    renderPropertyLogo('#logo_template','#site_logo',propertyDetails);
 });
 // $(document).ready(function(){
     
