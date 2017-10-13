@@ -159,7 +159,23 @@
 </div>
 <!--<section class="section">-->
 <!--      <div class="main-container">-->
-        
+        <!--<div class="section__content teamy-team">-->
+          
+        <!--  <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">-->
+        <!--    <div class="teamy__layout">-->
+        <!--      <div class="teamy__preview">-->
+        <!--        <img src="https://stas-melnikov.ru/cliparts/girl3_424x640.jpg" class="teamy__avatar" alt="The demo photo">-->
+        <!--      </div>-->
+        <!--      <div class="teamy__back">-->
+        <!--        <div class="teamy__back-inner">-->
+                  
+        <!--        </div>-->
+        <!--      </div>-->
+        <!--    </div>-->
+           
+        <!--  </article>-->
+          
+        <!--</div>-->
         
 <!--      </div>-->
 <!--    </section>-->
