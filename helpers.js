@@ -26,7 +26,7 @@ $(window).load(function(e){
     });
     var propertyDetails = getPropertyDetails();
     console.log(propertyDetails);
-    renderPropertyLogo('#main_logo_container','#logo_template',propertyDetails);
+    renderPropertyLogo('#logo_template','#main_logo_container',propertyDetails);
     function renderPropertyLogo(logo_template,site_logo,propertyDetails){
         var item_list = [];
         var item_rendered = [];
