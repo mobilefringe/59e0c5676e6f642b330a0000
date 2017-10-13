@@ -72,7 +72,7 @@
     </div>
 </div>
 <div class="content_container main_container hidden_phone padding_bottom_50 position_relative">
-    <div class="feature_row" id="feature_container">
+    <div class="feature_row section__content teamy-team" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item_container">
                 <p class="feature_title">{{name}}</p>
