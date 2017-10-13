@@ -1,0 +1,239 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <ul class="slides" id="banner_header">
+            <script id="banner_header_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  class="{{gif_class}}"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+        <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Contests
+        </div>
+        <div class="banner_header_location  ">
+            Home / Contests
+        </div>
+    </div>
+</div>
+<div class="content_container main_container mobile_padding padding_bottom_50">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="events_not_empty_section">
+                    <div class="" id="contest_container">
+                        <script id="contest_template" type="x-tmpl-mustache">
+                            <div class="promo-details">
+                                <p class="hidden_now" id="succes_msg">Thank you! Your entry has been received.</p>
+                                <div class="event-image">
+                                    <img class="contest banner" src="{{alt_photo_url}}">
+                                </div>
+                                <br>
+                                <div class="event-description">
+                                    {{{ rich_description }}}
+                                </div>
+                                <br>
+                            </div> 
+                            <form id="contest_form">
+                                <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
+                                <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
+                                <input type="hidden" name="cm-name" id="cm-name" />
+                                <div class="row ">
+                                    <div class="col-md-4 margin_30">
+                                        <label for="first_name">First Name</label>  
+                                        <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
+                                    </div>
+                                    <div class="col-md-4 margin_30">
+                                        <label for="last_name">Last Name</label>  
+                                        <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
+                                    </div>
+                                    <div class="col-md-4 margin_30">
+                                        <label for="phone">Phone Number</label>  
+                                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
+                                    </div>
+                                </div>
+                                <br class="hidden_phone">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="postal_code">Postal Code</label>  
+                                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="city">City</label>  
+                                        <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="email">Email</label> 
+                                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label class="agree">
+                                            <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
+                                            Yes, I would like to receive information about events and promotions from The CORE.
+                                        </label>
+                                        
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a class="contest_link" href="/pages/core-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.
+                                        <br/><br/>
+                                        <input type="button" class=" store_header_btns" tabindex="9">Submit</input>
+                                        <br/><br/>
+                                        <br/><br/>
+                                    </div>
+                                </div>
+                            </form>
+                        </script>
+                    </div>
+                </div>
+                <div id="events_empty_section" style="display:none;">
+                    <p>Check back later for exciting contest details!</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+<!--<div class="content_container main_container padding-top-40">-->
+    <!--<h4 class="promo_main_header">Contest</h4>-->
+<!--    <div class="row padding_20">-->
+<!--        <div class="col-md-12">-->
+<!--            <div id="contest_container">-->
+<!--                <script id="contest_template" type="x-tmpl-mustache/text">-->
+<!--                    <img alt="contest image" class="details_image" src="{{alt_photo_url}}" />-->
+<!--                    <p class="promo_list_name">{{name}}</p>-->
+<!--                    <div class="details_desc">{{{description}}}</div>-->
+<!--                    <form id="contest_form">-->
+<!--                        <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>-->
+<!--                        <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />-->
+<!--                        <input type="hidden" name="cm-name" id="cm-name" />-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6">-->
+<!--                                <label for="first_name">First Name *</label>  -->
+<!--                                <input class="form-control" id="first_name" name="contest[first_name]" type="text" required />-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6">-->
+<!--                                <label for="last_name">Last Name *</label>  -->
+<!--                                <input class="form-control" id="last_name" name="contest[last_name]" type="text" required />-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6">-->
+<!--                                <label for="email">Email *</label> -->
+<!--                                <input class="form-control" id="email" name="contest[email]" type="email" required />-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6">-->
+<!--                                <label for="phone_number">Phone Number</label>  -->
+<!--                                <input class="form-control" id="phone_number" name="contest[phone]" type="text"  />-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-12">-->
+<!--                                <label>-->
+<!--                                    <input type="checkbox" id="agree_terms" /> I agree with <a class="blue" href="#" target="_blank">Terms and Conditions</a>-->
+<!--                                </label>-->
+<!--                                <label>-->
+<!--                                    <input type="checkbox" id="add_to_newsletter" name="contest[newsletter]" /> Yes, subscribe me to your email list to receive promotions and events!-->
+<!--                                </label>-->
+<!--                                <button type="submit" class="newsletter_btn animated_btn" id="submit_btn">Submit</button>-->
+<!--                                <p id="success_subscribe" class="hidden_now">Thank you for entering in the contest</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </script>-->
+<!--            </div>-->
+            
+<!--        </div>-->
+        
+<!--    </div>-->
+<!--</div>-->
+<!--<script>-->
+<!--    $(document).ready(function(e){-->
+<!--        init(e);-->
+<!--        loadMallDataCached(renderAll); -->
+<!--    })-->
+    
+<!--    function renderAll(){-->
+<!--        var pathArray = window.location.pathname.split( '/' );-->
+<!--        var slug = pathArray[pathArray.length-1];-->
+<!--        var contestDetails = getContestBySlug(slug);-->
+<!--        if(contestDetails != undefined){-->
+<!--            renderContest('#contest_container','#contest_template', contestDetails);-->
+<!--        }-->
+<!--        else{-->
+<!--            $('#contest_ended').show();-->
+<!--        }-->
+<!--        show_content();-->
+<!--        $('#contest_form').submit(function(e){-->
+<!--            e.preventDefault();-->
+<!--            if ($("#agree_terms").prop("checked") != true){-->
+<!--                alert("Please agree with Terms and Conditions to continue.");-->
+<!--                $("#agree_terms").focus();-->
+<!--                return false;-->
+<!--            }-->
+<!--            else{-->
+<!--                $('#submit_btn').prop( "disabled", true );-->
+<!--                submit_contest($(this).serialize());-->
+<!--                if ($("#add_to_newsletter").prop("checked")){-->
+<!--                    var form_data = {};-->
+<!--                    form_data['cm-name'] = $("#first_name").val() + " " + $("#last_name").val();-->
+<!--                    form_data[site_json.newsletter_email_field] = $('#email').val();-->
+<!--                    $.getJSON(site_json.newsletter_form_url, form_data);-->
+<!--                }-->
+<!--            }-->
+            
+<!--        })-->
+<!--    }-->
+<!--</script>-->
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderPageData(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            console.log(slug);
+            var contest_details = getContestBySlug(slug);
+            console.log(contest_details);
+            renderContest("#contest_container", '#contest_template', contest_details)
+
+            // show_content();
+            
+            $.validate();
+            
+            $('#contest_form').submit(function(e){
+                e.preventDefault();
+                $('.contest_btn').prop('disabled', true);
+                submit_contest(slug);
+                $('html, body').animate({scrollTop : 0},800);
+            });
+        }
+        
+        function renderContest(container, template, collection){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            console.log(collection);
+            collection.alt_photo_url = getImageURL(collection.photo_url);
+            collection.property_name = getPropertyDetails().name;
+            var rendered = Mustache.render(template_html,collection);
+            item_rendered.push(rendered);
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        }
+
+        loadMallDataCached(renderPageData);
+    });
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
