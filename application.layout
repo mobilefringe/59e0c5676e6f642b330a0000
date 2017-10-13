@@ -289,18 +289,7 @@
                        
                     </ul>
                 </div></li>
-            <!--<a href="/pages/fairfax-fairfax-corner-amenities">Information</a>-->
-            <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
-                <div class="dropdown-menu invisible_dropdown_div dd_info dropdown-menu-hover">
-                    <ul class="dd_guest dropdown_list">
-                        <div class="triangle-up"></div>
-                        <div class="triangle-up-inside"></div>
-                        <li><a href="/pages/yubasutter-gift-cards">Gift Cards</a></li>
-                        <li><a href="/hours">Centre Hours</a></li>
-                        <li><a href="/jobs">Employment</a></li>
-                        <li><a href="/pages/yubasutter-leasing-info">Leasing Info</a></li>
-                    </ul>
-                </div></li>
+           
             <!--<a href="/directions">About Us</a>-->
             <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
