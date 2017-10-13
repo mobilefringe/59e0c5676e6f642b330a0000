@@ -77,7 +77,7 @@
             <div class="feature_item_container ">
                 <p class="feature_title">{{name}}</p>
                 <div class="feature_item wow animated flipInX animated teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">
-                    <a href="{{url}}" class="teamy__preview">
+                    <a href="{{url}}" class="teamy__layout">
                         <figure style="background-image:url('{{image_url}}')">
                             <figcaption>
                                 <div class="view_button">View</div>
