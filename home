@@ -157,6 +157,124 @@
     <!--<iframe class="grayscale" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12427.474211459425!2d-77.3565148!3d38.8583658!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1ea126b72e10a39!2sFairfax+Corner!5e0!3m2!1sen!2sca!4v1477418923253" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>-->
     <iframe  class="grayscale visit_us_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3094.378678236456!2d-121.63442908429614!3d39.1433679400122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8084acabb901865b%3A0xcc9ec91ebddc6b1c!2sYuba+Sutter+Mall!5e0!3m2!1sen!2sca!4v1506981114166"  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
+<section class="section">
+      <div class="main-container">
+        <header class="section__header">
+          <h2 class="title title_xl section__title">Style 1</h2>
+          <span class="section__hint">mask 2</span>
+        </header>
+        <div class="section__content teamy-team">
+          <article class="teamy teamy_style1 teamy_mask-triangle">
+            <div class="teamy__layout">
+              <div class="teamy__preview">
+                <img src="https://stas-melnikov.ru/cliparts/man1_424x640.jpg" class="teamy__avatar" alt="The demo photo">
+              </div>
+              <div class="teamy__back">
+                <div class="teamy__back-inner">
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#twitter"></use></svg>
+                    <span class="social__name">Twitter</span>
+                  </a>
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#codepen"></use></svg>
+                    <span class="social__name">Codepen</span>
+                  </a>
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#linkedin"></use></svg>
+                    <span class="social__name">LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="teamy__content">
+              <h3 class="teamy__name">Tyson Amery</h3>
+              <span class="teamy__post">UI designer</span>
+            </div>
+          </article>
+          <article class="teamy teamy_style1 teamy_mask-triangle teamy_zoom-photo">
+            <div class="teamy__layout">
+              <div class="teamy__preview">
+                <img src="https://stas-melnikov.ru/cliparts/man2_424x640.jpg" class="teamy__avatar" alt="The demo photo">
+              </div>
+              <div class="teamy__back">
+                <div class="teamy__back-inner">
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#twitter"></use></svg>
+                    <span class="social__name">Twitter</span>
+                  </a>
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#codepen"></use></svg>
+                    <span class="social__name">Codepen</span>
+                  </a>
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#linkedin"></use></svg>
+                    <span class="social__name">LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="teamy__content">
+              <h3 class="teamy__name">Stas Melnikov</h3>
+              <span class="teamy__post">UI developer</span>
+            </div>
+          </article>
+          <article class="teamy teamy_style1 teamy_mask-triangle teamy_zoom-rotate-photo">
+            <div class="teamy__layout">
+              <div class="teamy__preview">
+                <img src="https://stas-melnikov.ru/cliparts/girl6_424x640.jpg" class="teamy__avatar" alt="The demo photo">
+              </div>
+              <div class="teamy__back">
+                <div class="teamy__back-inner">
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#twitter"></use></svg>
+                    <span class="social__name">Twitter</span>
+                  </a>
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#codepen"></use></svg>
+                    <span class="social__name">Codepen</span>
+                  </a>
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#linkedin"></use></svg>
+                    <span class="social__name">LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="teamy__content">
+              <h3 class="teamy__name">Lise Laurie</h3>
+              <span class="teamy__post">Photomodel</span>
+            </div>
+          </article>
+          <article class="teamy teamy_style1 teamy_mask-triangle teamy_zoom-slide-photo">
+            <div class="teamy__layout">
+              <div class="teamy__preview">
+                <img src="https://stas-melnikov.ru/cliparts/girl1_424x640.jpg" class="teamy__avatar" alt="The demo photo">
+              </div>
+              <div class="teamy__back">
+                <div class="teamy__back-inner">
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#twitter"></use></svg>
+                    <span class="social__name">Twitter</span>
+                  </a>
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#codepen"></use></svg>
+                    <span class="social__name">Codepen</span>
+                  </a>
+                  <a href="#0" class="social">
+                    <svg class="social__icon"><use xlink:href="#linkedin"></use></svg>
+                    <span class="social__name">LinkedIn</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="teamy__content">
+              <h3 class="teamy__name">Effie Eleanora</h3>
+              <span class="teamy__post">Web-designer</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 <style>
     .newsletter_container{
         margin-top:-5px;
