@@ -74,20 +74,22 @@
 <div class="content_container main_container hidden_phone padding_bottom_50 position_relative">
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
-            <div class="feature_item_container">
-                <p class="feature_title">{{name}}</p>
-                <div class="feature_item wow animated flipInX animated">
-                <a href="{{url}}">
-                       <figure style="background-image:url('{{image_url}}')">
-                            <figcaption>-->
-                                <div class="view_button">View</div>
-                            </figcaption>
-                        </figure>
-                    </a>
-                </div>
-                
-            </div>
-        </script>
+                        <div class="feature_div">
+                            <div class="portfolio_description">
+                                <h3 class="feature_title"><a style="color:black;font-size:20px" href="{{url}}">{{name}}</a></h3>
+                            </div>
+                            <div class="portfolio_item"> 
+                                <a href="{{url}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                                    <figure >
+                                        <img class="feature_image" src="{{image_url}}" />
+                                        <figcaption>
+                                            <div class="view_button">View</div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </div>
+                        </div>
+                    </script>
     </div>
     <div class="feature_row" id="feature_container_2">
         <script id="feature_template_2" type="x-tmpl-mustache/text">
