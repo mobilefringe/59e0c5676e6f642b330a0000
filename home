@@ -76,8 +76,8 @@
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item_container teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">
                 <p class="feature_title">{{name}}</p>
-                <div class="feature_item wow animated flipInX animated teamy__preview">
-                    <a href="{{url}}">
+                <div class="feature_item wow animated flipInX animated ">
+                    <a href="{{url}}" class="teamy__preview">
                         <figure style="background-image:url('{{image_url}}')">
                             <figcaption>
                                 <div class="view_button">View</div>
