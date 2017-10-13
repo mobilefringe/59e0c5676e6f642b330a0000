@@ -184,10 +184,10 @@
                 </div>
               </div>
             </div>
-            <div class="teamy__content">
-              <h3 class="teamy__name">Dora Caelan</h3>
-              <span class="teamy__post">HR-manager</span>
-            </div>
+            <!--<div class="teamy__content">-->
+            <!--  <h3 class="teamy__name">Dora Caelan</h3>-->
+            <!--  <span class="teamy__post">HR-manager</span>-->
+            <!--</div>-->
           </article>
           
         </div>
