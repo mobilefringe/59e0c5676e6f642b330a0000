@@ -181,6 +181,11 @@
         loadMallData(renderAll); 
     });
     $(window).load(function(e){
+        $('.flexslider').flexslider({
+                animation: "slide",
+                allowOneSlide: false,
+            });
+            $(".flex-direction-nav").hide();
         show_content();
     });
 </script>
