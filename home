@@ -125,6 +125,8 @@
                                         </div>
                                     </div>
                                 </div>
+                                <h3 class="promotion_header home_promos">{{name}}</h3>
+                        <p class="promotion_dates">{{dates}}</p>
                             </a>
                         </div>
                     </article>
