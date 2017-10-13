@@ -735,3 +735,17 @@ function renderPropertyLogo(logo_template,site_logo,propertyDetails){
     $(site_logo).show();
     $(site_logo).html(item_rendered.join(''));
 }
+function renderPropertyDetails(logo_template,site_logo,propertyDetails){
+    var item_list = [];
+    var item_rendered = [];
+    var logo_template_html = $(logo_template).html();
+    Mustache.parse(logo_template_html);   // optional, speeds up future uses
+    item_list.push(propertyDetails);
+    $.each( item_list , function( key, val ) {
+        val.alt_site_logo = getImageURL(val.site_logo);
+        var logo_rendered = Mustache.render(logo_template_html,val);
+        item_rendered.push(logo_rendered);
+    });
+    $(site_logo).show();
+    $(site_logo).html(item_rendered.join(''));
+}
