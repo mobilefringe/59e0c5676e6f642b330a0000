@@ -90,7 +90,7 @@
         </script>
     </div>
     <div class="feature_row" id="feature_container_2">
-        <!-- <script id="feature_template_2" type="x-tmpl-mustache/text">-->
+        <script id="feature_template_2" type="x-tmpl-mustache/text">
             <div class="feature_item_container">
                 <p class="feature_title">{{name}}</p>
                 <!--<div class="feature_item wow animated flipInX animated">-->
@@ -120,7 +120,7 @@
                   
                 </div>
             </div>
-        <!--</script>-->
+        </script>
     </div>
     
     <!--<div class="feature_row" id="feature_container">-->
