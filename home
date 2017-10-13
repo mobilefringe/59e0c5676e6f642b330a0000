@@ -159,10 +159,7 @@
 </div>
 <section class="section">
       <div class="main-container">
-        <header class="section__header">
-          <h2 class="title title_xl section__title">Style 1</h2>
-          <span class="section__hint">mask 2</span>
-        </header>
+        
         <div class="section__content teamy-team">
           
           <article class="teamy teamy_style1 teamy_mask-triangle teamy_zoom-photo">
