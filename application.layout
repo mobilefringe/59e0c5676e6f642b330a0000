@@ -278,7 +278,7 @@
             <li class="nav_li"> <a href="/events">Events</a></li>
             <li class="nav_li"><a href="/promotions">Promotions</a></li>
             <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
-             <li class="dropdown nav_li"><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
+             <li class="dropdown nav_li"><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Leasing</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_programs dropdown-menu-hover">
                     <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
