@@ -116,7 +116,7 @@
                         <div class="teamy__layout">
                              <a href="/promotions/{{slug}}">
                                 <div class="teamy__preview">
-                                    <img src="{{image_url}}" class=" featured_promo_img teamy__avatar" alt="The demo photo">
+                                    <img src="{{image_url}}" class=" teamy__avatar" alt="The demo photo">
                                 </div>
                                 <div class="teamy__back">
                                     <div class="teamy__back-inner">
