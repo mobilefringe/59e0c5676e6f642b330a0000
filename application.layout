@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <title>{{meta_title}}</title>
-    <link rel="icon" href="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507819329000/yb_logo.png">
+    <link href="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/346a52de0b9e6d84c82a75ab379b9556/favicon.ico" rel="shortcut icon">
     <!---Google Analytics-->
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
