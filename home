@@ -164,33 +164,7 @@
           <span class="section__hint">mask 2</span>
         </header>
         <div class="section__content teamy-team">
-          <article class="teamy teamy_style1 teamy_mask-triangle">
-            <div class="teamy__layout">
-              <div class="teamy__preview">
-                <img src="https://stas-melnikov.ru/cliparts/man1_424x640.jpg" class="teamy__avatar" alt="The demo photo">
-              </div>
-              <div class="teamy__back">
-                <div class="teamy__back-inner">
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#twitter"></use></svg>
-                    <span class="social__name">Twitter</span>
-                  </a>
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#codepen"></use></svg>
-                    <span class="social__name">Codepen</span>
-                  </a>
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#linkedin"></use></svg>
-                    <span class="social__name">LinkedIn</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="teamy__content">
-              <h3 class="teamy__name">Tyson Amery</h3>
-              <span class="teamy__post">UI designer</span>
-            </div>
-          </article>
+          
           <article class="teamy teamy_style1 teamy_mask-triangle teamy_zoom-photo">
             <div class="teamy__layout">
               <div class="teamy__preview">
@@ -218,60 +192,7 @@
               <span class="teamy__post">UI developer</span>
             </div>
           </article>
-          <article class="teamy teamy_style1 teamy_mask-triangle teamy_zoom-rotate-photo">
-            <div class="teamy__layout">
-              <div class="teamy__preview">
-                <img src="https://stas-melnikov.ru/cliparts/girl6_424x640.jpg" class="teamy__avatar" alt="The demo photo">
-              </div>
-              <div class="teamy__back">
-                <div class="teamy__back-inner">
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#twitter"></use></svg>
-                    <span class="social__name">Twitter</span>
-                  </a>
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#codepen"></use></svg>
-                    <span class="social__name">Codepen</span>
-                  </a>
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#linkedin"></use></svg>
-                    <span class="social__name">LinkedIn</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="teamy__content">
-              <h3 class="teamy__name">Lise Laurie</h3>
-              <span class="teamy__post">Photomodel</span>
-            </div>
-          </article>
-          <article class="teamy teamy_style1 teamy_mask-triangle teamy_zoom-slide-photo">
-            <div class="teamy__layout">
-              <div class="teamy__preview">
-                <img src="https://stas-melnikov.ru/cliparts/girl1_424x640.jpg" class="teamy__avatar" alt="The demo photo">
-              </div>
-              <div class="teamy__back">
-                <div class="teamy__back-inner">
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#twitter"></use></svg>
-                    <span class="social__name">Twitter</span>
-                  </a>
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#codepen"></use></svg>
-                    <span class="social__name">Codepen</span>
-                  </a>
-                  <a href="#0" class="social">
-                    <svg class="social__icon"><use xlink:href="#linkedin"></use></svg>
-                    <span class="social__name">LinkedIn</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div class="teamy__content">
-              <h3 class="teamy__name">Effie Eleanora</h3>
-              <span class="teamy__post">Web-designer</span>
-            </div>
-          </article>
+          
         </div>
       </div>
     </section>
