@@ -114,7 +114,7 @@
                 <div class="promotion_item wow animated flipInX animated teamy-team">
                     <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">
                         <div class="teamy__layout">
-                            <a href="{{url}}" >
+                             <a href="/promotions/{{slug}}">
                                 <div class="teamy__preview">
                                     <img src="{{image_url}}" class="teamy__avatar" alt="The demo photo">
                                 </div>
