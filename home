@@ -111,7 +111,7 @@
                         <p class="promotion_dates">{{dates}}</p>
                     </a>
                 </div>
-                <div class="feature_item wow animated flipInX animated teamy-team">
+                <div class="promotion_item wow animated flipInX animated teamy-team">
                     <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">
                         <div class="teamy__layout">
                             <a href="{{url}}" >
