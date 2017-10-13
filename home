@@ -190,7 +190,7 @@
                     published_promos.push(val)
                 }
             });
-            console.log(published_promos);
+            console.log(published_promos.reverse().slice(0,3));
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
