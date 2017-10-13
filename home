@@ -109,6 +109,7 @@
                         <p class="promotion_dates">{{dates}}</p>
                     </a>
                 </div>
+                
             </script>
             <!--<div class="promotion_item wow animated flipInX animated text-center">-->
             <!--HELLLLOOOOOO-->
