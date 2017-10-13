@@ -162,10 +162,10 @@
         
         <div class="section__content teamy-team">
           
-          <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-rotate-photo">
+          <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">
             <div class="teamy__layout">
               <div class="teamy__preview">
-                <img src="https://stas-melnikov.ru/cliparts/girl4_424x640.jpg" class="teamy__avatar" alt="The demo photo">
+                <img src="https://stas-melnikov.ru/cliparts/girl3_424x640.jpg" class="teamy__avatar" alt="The demo photo">
               </div>
               <div class="teamy__back">
                 <div class="teamy__back-inner">
@@ -185,8 +185,8 @@
               </div>
             </div>
             <div class="teamy__content">
-              <h3 class="teamy__name">Rosanna Pattie</h3>
-              <span class="teamy__post">Illustrator</span>
+              <h3 class="teamy__name">Dora Caelan</h3>
+              <span class="teamy__post">HR-manager</span>
             </div>
           </article>
           
