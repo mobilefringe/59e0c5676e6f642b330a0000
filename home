@@ -81,7 +81,7 @@
                         <div class="teamy__layout">
                             <div class="teamy__preview">
                                 <a href="{{url}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-                                <img src="{{image_url}}" class="teamy__avatar" alt="The demo photo">
+                                    <img src="{{image_url}}" class="teamy__avatar" alt="The demo photo">
                                 </a>
                             </div>
                             <div class="teamy__back">
