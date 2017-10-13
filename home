@@ -110,28 +110,28 @@
                     </a>
                 </div>
             </script>
-            <div class="promotion_item wow animated flipInX animated text-center">
+            <!--<div class="promotion_item wow animated flipInX animated text-center">-->
             <!--HELLLLOOOOOO-->
-                <a href="/promotions/{{slug}}">
-                    <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507138170000/promo_placeholder.png" class="" alt="" style="	border: 1px solid #979797;">
-                    <h3 class="promotion_header home_promos">Save on Select Diamond Rings</h3>
-                    <p class="promotion_dates">Sep 10 - Oct 25</p>
-                </a>
-            </div>
-            <div class="promotion_item wow animated flipInX animated text-center">
-                <a href="/promotions/{{slug}}">
-                    <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507138170000/promo_placeholder.png" class="" alt="" style="	border: 1px solid #979797;">
-                    <h3 class="promotion_header home_promos">Save on Select Diamond Rings</h3>
-                    <p class="promotion_dates">Sep 10 - Oct 25</p>
-                </a>
-            </div>
-            <div class="promotion_item wow animated flipInX animated text-center">
-                <a href="/promotions/{{slug}}">
-                    <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507138170000/promo_placeholder.png" class="" alt="" style="	border: 1px solid #979797;">
-                    <h3 class="promotion_header home_promos">Save on Select Diamond Rings</h3>
-                    <p class="promotion_dates">Sep 10 - Oct 25</p>
-                </a>
-            </div>
+            <!--    <a href="/promotions/{{slug}}">-->
+            <!--        <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507138170000/promo_placeholder.png" class="" alt="" style="	border: 1px solid #979797;">-->
+            <!--        <h3 class="promotion_header home_promos">Save on Select Diamond Rings</h3>-->
+            <!--        <p class="promotion_dates">Sep 10 - Oct 25</p>-->
+            <!--    </a>-->
+            <!--</div>-->
+            <!--<div class="promotion_item wow animated flipInX animated text-center">-->
+            <!--    <a href="/promotions/{{slug}}">-->
+            <!--        <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507138170000/promo_placeholder.png" class="" alt="" style="	border: 1px solid #979797;">-->
+            <!--        <h3 class="promotion_header home_promos">Save on Select Diamond Rings</h3>-->
+            <!--        <p class="promotion_dates">Sep 10 - Oct 25</p>-->
+            <!--    </a>-->
+            <!--</div>-->
+            <!--<div class="promotion_item wow animated flipInX animated text-center">-->
+            <!--    <a href="/promotions/{{slug}}">-->
+            <!--        <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507138170000/promo_placeholder.png" class="" alt="" style="	border: 1px solid #979797;">-->
+            <!--        <h3 class="promotion_header home_promos">Save on Select Diamond Rings</h3>-->
+            <!--        <p class="promotion_dates">Sep 10 - Oct 25</p>-->
+            <!--    </a>-->
+            <!--</div>-->
             
         </div>
         <div class="clearfix"></div>
