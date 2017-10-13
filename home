@@ -80,7 +80,7 @@
                     <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">
                         <div class="teamy__layout">
                             <div class="teamy__preview">
-                                <a href="{{url}}" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+                                <a href="{{url}}" >
                                     <img src="{{image_url}}" class="teamy__avatar" alt="The demo photo">
                                 </a>
                             </div>
