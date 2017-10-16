@@ -265,7 +265,7 @@
        
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
-            <li class="dropdown nav_li"> <a href="/stores">Store Directory</a>
+            <li class=" nav_li"> <a href="/stores">Store Directory</a>
                 <!--<div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">-->
                 <!--    <ul class="dd_guest dropdown_list">-->
                 <!--        <div class="triangle-up"></div>-->
