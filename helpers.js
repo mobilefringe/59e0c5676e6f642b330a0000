@@ -160,7 +160,7 @@ function show_pin(param){
 // 	console.log($("#"+svg));
 	$("#"+svg).attr("class", 'svg_region_selected');
 	map.marksHide();
-    var coords = map.get_coords(id);
+    var coords = map.get_coords(svg);
     var height = parseInt(coords["height"]);
     var width = parseInt(coords["width"]);
     var x_offset = (parseInt(width) / 2);
