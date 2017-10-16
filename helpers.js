@@ -181,7 +181,8 @@ function init_map(reg){
     map = $('#map').mapSvg({
         source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
         colors: {stroke: '#cccccc', selected: -20, hover: "#cccccc"},
-        width: 1000,
+        height:800,
+        width:1140,
         viewBox:[420,420,1650,1650],
         regions: reg,
         tooltipsMode:'custom',
