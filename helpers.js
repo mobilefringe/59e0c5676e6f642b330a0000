@@ -179,19 +179,18 @@ function show_pin(param){
 
 function init_map(reg){
     map = $('#map').mapSvg({
-                source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
-                colors: {stroke: '#cccccc', selected: -20, hover: "#cccccc"},
-                width: 1000,
-                // viewBox: [520,0,1350,1400],
-                regions: reg,
-                tooltipsMode:'custom',
-                zoom: true,
-                pan:true,
-                cursor:'pointer',
-                responsive:true,
-                zoomLimit: [0,10]
-            });
-    
+        source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
+        colors: {stroke: '#cccccc', selected: -20, hover: "#cccccc"},
+        width: 1000,
+        // viewBox: [520,0,1350,1400],
+        regions: reg,
+        tooltipsMode:'custom',
+        zoom: true,
+        pan:true,
+        cursor:'pointer',
+        responsive:true,
+        zoomLimit: [0,10]
+    });
     
 }
 function get_day(id){
