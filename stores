@@ -184,7 +184,7 @@
             var stores = getStoresList(); 
             var stores_map = stores.filter(function( index, val ) {
                 return val.svgmap_region != null && val.svgmap_region != undefined && val.svgmap_region != "" ;
-            })
+            })console.log(stores_map);
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "L");
             renderStoreList('#store_list_container2','#store_list_template', stores, "M", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores_map, "A", "Z");
