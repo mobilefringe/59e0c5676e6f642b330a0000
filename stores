@@ -279,7 +279,7 @@
     });
     $(window).load(function(e){
         show_content();
-        console.log($("#map"));
+        // console.log($("#map"));
         
         //  $(".map_tooltip").css({"height": "rgba(0,0,0,0.75)!important", "width":"300px"});
         console.log($(".map_tooltip"));
