@@ -154,7 +154,7 @@ function show_pin(param){
 		$("#m_show_pin_"+store_id).show();
 	}
 	console.log(param);
-	$(param).attr('store_id')
+	$(param).attr('svgmap_region');
 	//svg_region_selected
 	$('.stores_table').hide()
 	
