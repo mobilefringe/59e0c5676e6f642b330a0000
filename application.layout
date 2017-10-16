@@ -266,14 +266,14 @@
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
             <li class="dropdown nav_li"> <a href="/stores">Store Directory</a>
-                <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
-                    <ul class="dd_guest dropdown_list">
-                        <div class="triangle-up"></div>
-                        <div class="triangle-up-inside"></div>
-                        <li><a href="/stores">Store Directory</a></li>
-                        <li><a href="/map">Centre Map</a></li>
-                    </ul>
-                </div>
+                <!--<div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">-->
+                <!--    <ul class="dd_guest dropdown_list">-->
+                <!--        <div class="triangle-up"></div>-->
+                <!--        <div class="triangle-up-inside"></div>-->
+                <!--        <li><a href="/stores">Store Directory</a></li>-->
+                <!--        <li><a href="/map">Centre Map</a></li>-->
+                <!--    </ul>-->
+                <!--</div>-->
             </li>
             <li class="nav_li"> <a href="/events">Events</a></li>
             <li class="nav_li"><a href="/promotions">Promotions</a></li>
