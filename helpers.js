@@ -153,7 +153,7 @@ function show_pin(param){
 		$("#m_no_pin_"+store_id).hide();
 		$("#m_show_pin_"+store_id).show();
 	}
-	console.log()
+	console.log(param);
 	//svg_region_selected
 	$('.stores_table').hide()
 	
