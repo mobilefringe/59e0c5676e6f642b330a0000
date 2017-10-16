@@ -183,7 +183,7 @@ function init_map(reg){
         colors: {stroke: '#cccccc', selected: -20, hover: "#cccccc"},
         height:800,
         width:1140,
-        viewBox:[1000,420,1650,1650],
+        viewBox:[10020,420,1650,1650],
         regions: reg,
         tooltipsMode:'custom',
         zoom: true,
