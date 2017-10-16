@@ -154,10 +154,10 @@ function show_pin(param){
 		$("#m_show_pin_"+store_id).show();
 	}
 	$("#"+prev_shown_store_svg).attr("class", '');
-	console.log(param);
+// 	console.log(param);
 	var svg = $(param).attr('svgmap_region');
-	console.log(svg);
-	console.log($("#"+svg));
+// 	console.log(svg);
+// 	console.log($("#"+svg));
 	$("#"+svg).attr("class", 'svg_region_selected');
 	
 	//svg_region_selected
