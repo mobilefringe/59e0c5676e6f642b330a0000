@@ -177,7 +177,28 @@ function show_pin(param){
 	return false;
 }
 
-
+function init_map(reg){
+    map = $('#mapsvg').mapSvg({
+        source: getSVGMapURL(),    // Path to SVG map
+        colors: {stroke: '#aaa', hover: '#EF4D86'},
+        disableAll: true,
+        height:800,
+        width:1140,
+        regions: reg,
+        tooltipsMode:'custom',
+        loadingText: "loading...",
+        zoom: true,
+        zoomButtons: {'show': true,'location': 'right' },
+        pan:true,
+        panLimit:true,
+        cursor:'pointer',
+        responsive:true,
+        zoomLimit: [0,10],
+        viewBox:[420,420,1650,1650]
+    });
+    
+    
+}
 function get_day(id){
     switch(id) {
         case 0:
