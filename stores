@@ -34,7 +34,7 @@
     </div>
     <div class="map_container">
         <div id="map" class="hidden_phone">
-            <img alt="map" id="map_image" src="">
+            <!--<img alt="map" id="map_image" src="">-->
         </div>
     </div>
     <h2 class="stores_main_heading">Directory</h2>
