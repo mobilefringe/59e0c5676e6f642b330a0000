@@ -183,6 +183,7 @@
             var property = getPropertyDetails();
             var stores = getStoresList(); 
             var stores_map = stores.filter(function( index, val ) {
+                console.log(val);
                 return val.svgmap_region != null && val.svgmap_region != undefined && val.svgmap_region != "" ;
             });
             console.log(stores_map);
