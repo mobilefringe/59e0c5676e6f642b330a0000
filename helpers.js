@@ -134,7 +134,7 @@ function show_cat_stores(){
     });
     
 }
-var prev_show_store="";
+var prev_show_store_svg="";
 function show_pin(param){
 	store_id = $(param).attr('store_id');
 	if($("#"+store_id).is(":visible")){
