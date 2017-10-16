@@ -192,7 +192,7 @@ function init_map(reg){
         responsive:true,
         zoomLimit: [0,10]
     });
-    
+    $(".map_tooltip").css({"background-color": "rgba(0,0,0,0.75)!important", "width":"300px"});
 }
 function get_day(id){
     switch(id) {
