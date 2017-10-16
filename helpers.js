@@ -182,7 +182,7 @@ function init_map(reg){
         source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
         colors: {stroke: '#cccccc', selected: -20, hover: "#cccccc"},
         width: 1000,
-        // viewBox: [520,0,1350,1400],
+        viewBox:[420,420,1650,1650]
         regions: reg,
         tooltipsMode:'custom',
         zoom: true,
