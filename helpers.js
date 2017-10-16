@@ -178,24 +178,19 @@ function show_pin(param){
 }
 
 function init_map(reg){
-    map = $('#mapsvg').mapSvg({
-        source: getSVGMapURL(),    // Path to SVG map
-        colors: {stroke: '#aaa', hover: '#EF4D86'},
-        disableAll: true,
-        height:800,
-        width:1140,
-        regions: reg,
-        tooltipsMode:'custom',
-        loadingText: "loading...",
-        zoom: true,
-        zoomButtons: {'show': true,'location': 'right' },
-        pan:true,
-        panLimit:true,
-        cursor:'pointer',
-        responsive:true,
-        zoomLimit: [0,10],
-        viewBox:[420,420,1650,1650]
-    });
+    map = $('#map').mapSvg({
+                source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
+                colors: {stroke: '#cccccc', selected: -20, hover: "#cccccc"},
+                width: 1000,
+                // viewBox: [520,0,1350,1400],
+                regions: reg,
+                tooltipsMode:'custom',
+                zoom: true,
+                pan:true,
+                cursor:'pointer',
+                responsive:true,
+                zoomLimit: [0,10]
+            });
     
     
 }
