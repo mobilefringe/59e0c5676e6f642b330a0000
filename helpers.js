@@ -134,7 +134,7 @@ function show_cat_stores(){
     });
     
 }
-var prev_show_store_svg="";
+var prev_shown_store_svg="";
 function show_pin(param){
 	store_id = $(param).attr('store_id');
 	if($("#"+store_id).is(":visible")){
@@ -161,7 +161,7 @@ function show_pin(param){
 	
 	//svg_region_selected
 	$('.stores_table').hide()
-	prev_show_store_svg = svg;
+	prev_shown_store_svg = svg;
 	return false;
 }
 
