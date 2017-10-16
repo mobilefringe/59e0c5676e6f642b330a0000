@@ -270,6 +270,7 @@
                 }
             }]);
             map.setViewBox(id);
+            $('#btnZoomIn').click()
         //      $(".selector-wrap select").hover(
         //     function(){
         //         $(this).next().css("background-color","#F3047A")
