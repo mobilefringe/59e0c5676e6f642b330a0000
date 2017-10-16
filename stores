@@ -246,7 +246,7 @@
             console.log("property", property, getSVGMapURL());
             $('#map').mapSvg({
                 source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: -20, hover: "#F3047A"},
+                colors: {stroke: '#cccccc', selected: -20, hover: "#F3047A"},
                 width: 1000,
                 // viewBox: [520,0,1350,1400],
                 regions: reg,
