@@ -182,7 +182,7 @@
         function renderAll (){
             var property = getPropertyDetails();
             var stores = getStoresList(); 
-            var stores_map = stores.filter(function( index, key ) {
+            var stores_map = stores.filter(function( index, val ) {
                 return $( "strong", this ).length === 1;
             })
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "L");
