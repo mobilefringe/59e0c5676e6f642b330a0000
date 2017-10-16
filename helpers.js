@@ -161,7 +161,7 @@ function show_pin(param){
 	
 	//svg_region_selected
 	$('.stores_table').hide()
-	prev_show_store = svg;
+	prev_show_store_svg = svg;
 	return false;
 }
 
