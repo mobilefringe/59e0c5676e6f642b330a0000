@@ -244,7 +244,7 @@
                 }
             });
             console.log("property", property, getSVGMapURL());
-            $('#mapsvg').mapSvg({
+            $('#map').mapSvg({
                 source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#F3047A"},
                 width: 1170,
