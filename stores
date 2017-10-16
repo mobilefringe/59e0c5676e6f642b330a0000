@@ -259,14 +259,7 @@
             });
     
             $(".map_tooltip").css({"background-color": "#C607A9", "width":"300px"});
-             $(".selector-wrap select").hover(
-            function(){
-                $(this).next().css("background-color","#F3047A")
-            },
-            function(){
-                $(this).next().css("background-color","#05E7E4")
-            }
-        );
+            
         }
         
 		loadMallDataCached(renderAll); 
