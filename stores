@@ -175,7 +175,7 @@
 </script>
 <script type="text/javascript" src="//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/text/javascript/1495734613000/raphael.js"></script>
 <script type="text/javascript" src="//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/text/javascript/1495734619000/jquery.mousewheel.js"></script>
-<script type="text/javascript" src="//codecloud.cdn.speedyrails.net/sites/592482696e6f6450ebc40000/text/javascript/1495734624000/mapsvg.js"></script>
+<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
 <script>
     $(document).ready(function(e){
         init(e);
