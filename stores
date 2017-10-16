@@ -273,5 +273,7 @@
     });
     $(window).load(function(e){
         show_content();
+        $(".map_tooltip").css({"background-color": "rgba(0,0,0,0.75)!important", "width":"300px"});
+            console.log($(".map_tooltip"));
     });
 </script>
