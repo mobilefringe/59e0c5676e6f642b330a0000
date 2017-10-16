@@ -157,6 +157,7 @@ function show_pin(param){
 	var svg = $(param).attr('svgmap_region');
 	$("#"+svg).classlist.add('svg_region_selected');
 	console.log(svg);
+	console.log($("#"+svg));
 	//svg_region_selected
 	$('.stores_table').hide()
 	
