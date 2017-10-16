@@ -144,6 +144,7 @@ function show_pin(param){
 		$("#show_pin_"+store_id).hide();
 		$("#m_no_pin_"+store_id).show();
 		$("#m_show_pin_"+store_id).hide();
+		$($("#"+svg).attr("class", 'svg_region_selected'))
 	}else{
 		$(".marker").hide();
 		$("#"+store_id).show();
