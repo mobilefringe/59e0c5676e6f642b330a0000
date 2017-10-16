@@ -167,7 +167,7 @@ function show_pin(param){
     var y_offset = (parseInt(height) /2);
     map.setMarks([{ xy: [coords["x"] - 46 + x_offset, coords["y"] - 110 + y_offset],
         attrs: {
-            src:  '//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/png/1452532624000/pin_93.png'
+            src:  '//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/png/1508191201000/red_map_pin.png'
         }
     }]);
     map.setViewBox(svg);
