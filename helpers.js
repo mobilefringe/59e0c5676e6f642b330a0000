@@ -170,7 +170,7 @@ function show_pin(param){
             src:  '//codecloud.cdn.speedyrails.net/sites/57f66e416e6f6465fe050000/image/png/1452532624000/pin_93.png'
         }
     }]);
-    map.setViewBox(id);
+    map.setViewBox(svg);
 	//svg_region_selected
 	$('.stores_table').hide()
 	prev_shown_store_svg = svg;
