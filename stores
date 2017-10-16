@@ -243,7 +243,7 @@
                     reg[val.svgmap_region] = obj
                 }
             });
-            console.log("property", property);
+            console.log("property", property, getSVGMapURL());
             $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#F3047A"},
