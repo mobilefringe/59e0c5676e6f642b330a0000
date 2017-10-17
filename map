@@ -35,7 +35,7 @@
         
     });
     $(window).load(function(e){
-        init(e);
+        
         function renderAll (){
             var categories = getStoreCategories();
             var stores = getStoresList(); 
