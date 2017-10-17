@@ -35,26 +35,7 @@ $(window).load(function(e){
 $('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
-    $('#open_menu').click(function(e){
-        // $('body').addClass('no_scroll');
-        $('.mobile_menu_container').fadeIn();
-        console.log("hi");
-    });
-    $('#close_menu').click(function(e){
-        $('body').removeClass('no_scroll');
-        $('.mobile_menu_container').fadeOut();
-    });
-    $('.submenu_expander').click(function(e){
-		e.preventDefault()
-		if ($(this).hasClass('open') == false){
-        	$('.open').next().slideToggle();
-        	$('.open').find('img').toggle();
-        	$('.open').toggleClass('open')
-		}
-		$(this).next().slideToggle();
-		$(this).find('img').toggle();
-		$(this).toggleClass('open')
-	});
+    
     $('#mobile_alpha_list').change(function(){
         window.location.href = "#" + $(this).val().toUpperCase();
     })
