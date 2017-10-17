@@ -62,8 +62,8 @@
                 Thank you for contacting us. A member from our team will contact you shortly. 
             </div>
             <div id="send_contact_error" class="alert alert-danger" role="alert" style="display:none">
-                  <span class="sr-only">Error:</span>
-                  There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
+                <span class="sr-only">Error:</span>
+                There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
             </div>
             <form name="community_form" id="community_form" method="post">
             <p class="promo_header right_column_header">Business Contact Info</p>
