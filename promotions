@@ -46,7 +46,7 @@
                           
                             </p>
                             <div class="promo_list_desc">{{description_short}}</div>
-                            <a class=" newsletter_btn animated_btn" href="/promotions/{{slug}}" style="margin:auto;>Read More</a>
+                            <a class=" newsletter_btn animated_btn" href="/promotions/{{slug}}" style="margin:auto;">Read More</a>
                         </div>
                     </div>
                 </script>
