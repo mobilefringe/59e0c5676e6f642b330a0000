@@ -17,7 +17,9 @@
     
 </style>
 <div class="content_container main_container padding_bottom_50">
-    <h4 class="promo_main_header " id="mm_title_phone"></h4>
+   <div class="promo_main_header">
+        EVENTS
+    </div>
     <div class="direction_container padding_top_20">
         <div class="row">
             <div class="col-md-12">
