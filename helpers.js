@@ -176,7 +176,7 @@ function show_pin(param){
 	prev_shown_store_svg = svg;
 	return false;
 }
-function show_pin(svg){
+function show_pin_store(svg){
 // 	store_id = $(param).attr('store_id');
 // 	if($("#"+store_id).is(":visible")){
 // 		$("."+store_id).hide();				
