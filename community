@@ -178,7 +178,7 @@
         }
         
         loadMallData(renderAll);  
-        });
+    });
     
             
     //     $('#community_form').submit(function(e) {
