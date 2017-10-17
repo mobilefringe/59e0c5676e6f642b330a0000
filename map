@@ -5,11 +5,7 @@
             margin-right:0px
         }
     }
-    .locate_store{
-        position:relative;
-        left: initial;
-        top: initial;
-    }
+    
 </style>
 
 
