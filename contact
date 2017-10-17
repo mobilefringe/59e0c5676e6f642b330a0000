@@ -2,6 +2,13 @@
     .contact_contents .row{
         margin-left:-15px;margin-right:-15px
     }
+    @media (max-width: 767px) {
+        .portfolio_item{
+            margin-right:auto !important;
+            margin-left:auto !important;
+            display:block;
+        }  
+    }
 </style>
 
 <div class="content_container main_container padding_bottom_50">
