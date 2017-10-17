@@ -71,7 +71,7 @@
         <div class="col-md-8">
             <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/2804b99a4a7c2ed210ec0bfcd23dfaee/beautyshot_edited.jpg"/>
              <div class="show_mobile">
-            <p class="right_column_header">centre information</p>
+            <!--<p class="right_column_header">centre information</p>-->
             <div id="show_phone">
                 <script id="centre_info_template_mobile" type="x-tmpl-mustache/text">
                     <p class="directory_content">{{name}}</p>
