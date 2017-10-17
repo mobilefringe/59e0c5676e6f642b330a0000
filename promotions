@@ -77,7 +77,7 @@
         init(e);
         function renderAll (){
             
-            console.log(promotions);
+            console.log(getPromotionsList());
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
