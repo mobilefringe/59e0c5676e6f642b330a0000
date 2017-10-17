@@ -176,7 +176,8 @@
                 
             </form>
         </div>
-        <div class="col-md-4">
+        <div class="row">
+        <div class="col-md-12 contact_contents">
             <p class="right_column_header promo_list_name">CENTRE INFORMATION</p>
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
