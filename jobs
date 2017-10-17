@@ -1,3 +1,18 @@
+<style>
+    @media(max-width: 768px){
+        .padding-side-none, .padding-left-none, .padding-right-none{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .page_banner {
+          font-size: 17px;
+        }
+        .promo_list_desc{
+            padding-top:20px;
+        }
+    }
+</style>
+
 <!--<div class="content_container hidden_phone position_relative">-->
 <!--    <div class="flexslider banner_header">-->
 <!--        <ul class="slides" id="banner_header">-->
