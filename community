@@ -2,6 +2,7 @@
     <div class="promo_main_header">
         CONTACT US
     </div>
+    promo_list_desc
     <div class="row">
         <div class="col-md-12 contact_contents">
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
