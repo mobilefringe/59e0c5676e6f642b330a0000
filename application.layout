@@ -162,16 +162,6 @@
         </div>
         <div class="row header mobile_margin main_container menu_header_content">
             <div class="col-md-4 col-sm-4 col-xs-2 logo_hour_container">
-                <!--<p class="hidden_phone">Follow us on</p>-->
-                <!--<div class="social_icons hidden_phone">-->
-                <!--    <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>-->
-                <!--    <a class="social_twitter" href="https://twitter.com/FairfaxCornerVA" target="_blank"></a>-->
-                <!--    <a class="social_insta" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
-                <!--    <a class="social_newsletter" href="/newsletter" target="_blank"></a>-->
-                <!--</div>-->
-                <!--<div class="col-xs-3" style="padding:0;">-->
-                <!--<a href="/"><img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507908559000/faviconH.png" class="" alt=""></a>-->
-                <!--</div>-->
                 <div class="hours_home hidden_phone_inline col-xs-9" style="padding:0;">
                     <!--<p class=" hidden_phone_inline">-->
                        <div class="row"><span class="hours_dot"></span> <span id="open_today"> Open today:</span></div>
