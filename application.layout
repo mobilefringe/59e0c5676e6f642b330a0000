@@ -144,19 +144,6 @@
                         <li><a href="/community">Community</a></li>
 					</ul>
                 </li>
-                
-                <li>
-                    <a href="#" class="submenu_expander">
-                        CONTACT US
-                         <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650035000/plus_2x_icon42.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" style="display: none;">
-                    </a>
-                    <ul class="sub_menu hidden_now">
-						<li><a href="/pages/yubasutter-press">Contact Us</a></li>
-                        <li><a href="/pages/yubasutter-history">History</a></li>
-                        <li><a href="/pages/yubasutter-services">Services</a></li>
-					</ul>
-                </li>
             </ul>
             <h4 id="close_menu">close</h4>
             <hr class="strikethrough" />
@@ -165,18 +152,6 @@
                 <a href="https://www.facebook.com/HazeldeanMall" target="_blank">
                     <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911898000/icon_facebook2.png" class="" alt="FB">
                 </a>
-                <!--<a href="http:/twitter.com/YubaSutter" target="_blank">-->
-                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911906000/icon_twitter2.png" class="" alt="Twitter">-->
-                <!--</a>-->
-                <!--<a href="https://www.instagram.com/yubasuttermall/" target="_blank">-->
-                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911913000/icon_insta2.png" class="" alt="Instagram">-->
-                <!--</a>-->
-                <!--<a href="/newsletter" target="_blank">-->
-                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911921000/icon_yt2.png" class="" alt="">-->
-                <!--</a>-->
-                <!--<a href="/newsletter" target="_blank">-->
-                <!--    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911930000/icon_gplus2.png" class="" alt="">-->
-                <!--</a>-->
             </div>
         </div>
     </div>
