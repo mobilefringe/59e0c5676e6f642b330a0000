@@ -178,7 +178,7 @@
             </form>
         </div>
         <div class="col_md-4">
-            <p class="right_column_header">CENTRE INFORMATIOn</p>
+            <p class="right_column_header">CENTRE INFORMATION</p>
             <div id="centre_info_container">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                     <p class="directory_content">{{name}}</p>
