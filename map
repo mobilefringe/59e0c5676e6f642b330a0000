@@ -11,7 +11,7 @@
         </ul>
     </div>
     <div class="map_container">
-        <div id="map2">
+        <div id="map">
             <!--<img alt="map" id="map_image" src="">-->
         </div>
     </div>
