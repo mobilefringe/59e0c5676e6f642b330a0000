@@ -7,7 +7,7 @@
         .page_banner {
           font-size: 17px;
         }
-        .promo_list_desc{
+        #jobs_container{
             padding-top:20px;
         }
     }
