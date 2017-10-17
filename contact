@@ -313,7 +313,7 @@
         };
 
         loadMallData(renderAll);  
-
+        show_content();
     
   
     });
