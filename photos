@@ -28,7 +28,7 @@
                 <div class="row isotope_portfolio_container">
                     <script id="photo_template" type="x-tmpl-mustache/text">
             
-                            <div class="portfolio_item"> 
+                            <div class="portfolio_item portfolio_item_img"> 
                                 <a href="{{alt_url}}" rel="lightbox-gallery" title="{{name}}">
                                     <img alt="photo{{id}}" src="{{alt_url}}"/>
                                 </a>
