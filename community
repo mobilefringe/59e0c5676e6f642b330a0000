@@ -170,11 +170,7 @@
 <script>
     $(document).ready(function() {
         function renderAll (){
-            $("#loading_screen").hide();
-            $("#main_content").show();
-
-            
-            
+  
         }
         
         loadMallData(renderAll);  
