@@ -62,16 +62,9 @@
 <!--</script>-->
 
 
-<div id="loading_screen">
-    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>
-</div>
-<div  id="main_content" style="display:none">
-    <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li class="active">Contact Us</li>
-    </ul>
-    <div class="page_banner">
-        Contact Us
+<div class="content_container main_container padding_bottom_50">
+    <div class="promo_main_header">
+        EVENTS
     </div>
     <div class="inside_page_content">
    
