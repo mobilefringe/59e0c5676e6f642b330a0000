@@ -248,7 +248,6 @@
                     reg[val.svgmap_region] = obj
                 }
             });
-            console.log("property", property, getSVGMapURL());
             init_map(reg);
             // $('#map').mapSvg({
             //     source: getSVGMapURL(),//'//mallmaverick.com/' + property.svgmap_url,    // Path to SVG map
