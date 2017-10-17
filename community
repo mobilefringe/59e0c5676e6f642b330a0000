@@ -175,7 +175,9 @@
         
         loadMallData(renderAll);  
     });
-    
+    $(window).load(function(){
+        show_content();
+    })
             
     //     $('#community_form').submit(function(e) {
 
