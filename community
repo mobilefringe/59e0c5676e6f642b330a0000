@@ -13,7 +13,7 @@
                 There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
             </div>
             <form name="community_form" id="community_form" method="post">
-                <p class="promo_list_desc right_column_header">Business Contact Info</p>
+                <p class="promo_list_name right_column_header">Business Contact Info</p>
             
             <div class="row">
                 <div class="col-sm-6 col-md-6 padding-left-none">
