@@ -67,51 +67,154 @@
               <span class="sr-only">Error:</span>
               There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
              </div>
-            <form name="contact_form" id="contact_form" method="post">
-                <div class="row "  style="margin-left:0px;margin-right:0px">
-                    <h5 class="promo_list_desc">We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
+            <form name="community_form" id="community_form" method="post">
+            <p class="promo_header right_column_header">Business Contact Info</p>
+            
+            <div class="row">
+                <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="legalName">Legal Name of Organization</label>
+                    <input name="legalName" id="legalName" class="form-control" type="text" />
                 </div>
-                <div class="row padding_top_20" style="margin-left:-15px;margin-right:-15px">
-                    
-                    <div class="col-sm-6 col-md-6 ">
-                        <label for="name">Name</label>
-                        <input name="name" id="name" class="form-control" type="text" value="" required>
-                    </div>
-                    <div class="col-sm-6 col-md-6">
-                        <label for="email" >E-mail</label>
-                        <input name="email" id="email" class="form-control" type="text" value="" required>
-                    </div>
-                </div>
-                <br>
-                <div class="row" style="margin-left:-15px;margin-right:-15px">
-                    <div class="col-sm-12 col-md-12">
-                        <label for="subject">Subject</label>
-                        <input name="subject" id="subject" class="form-control" type="text" required>
-                    </div>
-                </div>
-                <br>
-                <div class="row" style="margin-left:-15px;margin-right:-15px">
-                    <div class="col-sm-12 col-md-12">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" rows="8" class="form-control" required></textarea>
-                    </div>
-                    <div class="col-sm-12 col-md-12">
-                    <br>
-                        <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
-                        <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
-                        <input type="text" id="enterVerify" name="enterVerify" />
-                    </div>
+                <div class="col-sm-6 col-md-6 padding-right-none">
+                    <label for="operatingName">Operating Name of Organization <span>(if different)</span></label>
+                    <input name="operatingName" id="operatingName" class="form-control" type="text"   />
                 </div>
                 
-                <div class="row" style="margin-left:-15px;margin-right:-15px">
-                        <div class="col-sm-12 col-md-12"><br/>
-                        <button id="submit" class="newsletter_btn animated_btn" type="submit">Submit</button>
+                <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="descOrg">Description of Organization</label>
+                    <textarea name="descOrg" id="descOrg" class="form-control" rows="5" ></textarea>
+                </div>
+                <div class="col-sm-6 col-md-6 padding-right-none">
+                    <div class="col-sm-12 col-md-12 padding-side-none">
+                        <label for="address">Street Address</label>
+                        <input name="address" id="address" class="form-control" type="text"  />
                     </div>
+                    <div class="col-sm-12 col-md-12 padding-side-none">
+                        <div class="col-sm-6 col-md-6 padding-left-none">
+                            <label for="city">Town/City</label>
+                            <input name="city" id="city" class="form-control" type="text"  />
+                        </div>
+                        <div class="col-sm-6 col-md-6 padding-right-none">
+                            <label for="postal">Postal Code</label>
+                            <input name="postal" id="postal" class="form-control" type="text"  />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 padding-side-none">
+               <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="email">Email Address</label>
+                    <input name="email" id="email" class="form-control" type="email"  />
+                </div>
+                <div class="col-sm-6 col-md-6 padding-right-none">
+                    <div class="col-sm-12 col-md-12 padding-side-none">
+                        <div class="col-sm-6 col-md-6 padding-left-none">
+                            <label for="phone">Telephone Number</label>
+                            <input name="phone" id="phone" class="form-control" type="text"  />
+                        </div>
+                        <div class="col-sm-6 col-md-6 padding-right-none">
+                            <label for="fax">Fax Number</label>
+                            <input name="fax" id="fax" class="form-control" type="text"/>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div> 
+     
+     
+            <p class="promo_header right_column_header">Contact Info</p>
+            <div class="row">
+                <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="contactName">Authorized Contact Person</label>
+                    <input name="contactName" id="contactName" class="form-control" type="text" value  />
+                </div>
+                <div class="col-sm-6 col-md-6 padding-right-none">
+                    <label for="insurerName">Name of Insurer</label>
+                    <input name="insurerName" id="insurerName" class="form-control" type="text"   />
+                </div>
+                
+                <div class="col-sm-4 col-md-4 padding-left-none">
+                    <label for="charitable">Charitable <span># (BN/Registration Number)</span></label>
+                    <input name="charitable" id="charitable" class="form-control" type="text" value  />
+                </div>
+                <div class="col-sm-4 col-md-4 padding-right-none">
+                    <label for="lottery">Lottery License <span># (If applicable)</span></label>
+                    <input name="lottery" id="lottery" class="form-control" type="text" value  />
+                </div>
+                <div class="col-sm-4 col-md-4 padding-right-none">
+                    <div class="col-sm-6 col-md-6 padding-right-none">
+                        <label for="fromDate">From Date</label>
+                        <input name="fromDate" id="fromDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
+                    </div>
+                     <div class="col-sm-6 col-md-6 padding-right-none">
+                         <label for="toDate">To Date</label>
+                        <input name="toDate" id="toDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
+                     </div>
                 </div>
                 
                 
-                
-            </form>
+               <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="purpose">Purpose for use of in-mall space</label>
+                    <textarea name="purpose" id="purpose" class="form-control" rows="5" ></textarea>
+                </div>
+                <div class="col-sm-6 col-md-6 padding-side-none">
+                    <div class="col-sm-12 col-md-12 padding-side-none">
+                       <div class="col-sm-4 col-md-4 padding-left-none">
+                            <label for="hydro">Is hydro required?</label>
+                            <select class="form-control" id="hydro" name="hydro" >
+                                <option value="0" selected="selected" disabled>Yes / No</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4 col-md-4  padding-side-none">
+                            <label for="table">Are tables required?</label>
+                            <select class="form-control" id="table" name="table" >
+                                <option value="0" selected="selected" disabled>Yes / No</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>                        </div>
+                        <div class="col-sm-4 col-md-4 padding-right-none">
+                            <label for="tableNumber">How many tables?</label>
+                            <input name="tableNumber" id="tableNumber" class="form-control" type="text" />
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 padding-side-none">
+                       <div class="col-sm-4 col-md-4 padding-left-none">
+                            <label style="font-size:13px;" for="staging">Is staging required?</label>
+                            <select class="form-control" id="staging" name="staging" >
+                                <option value="0" selected="selected" disabled>Yes / No</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>   
+                        </div>
+                        <div class="col-sm-4 col-md-4  padding-side-none">
+                            <label for="chair">Are chairs required?</label>
+                            <select class="form-control" id="chair" name="chair" >
+                                <option value="0" selected="selected" disabled>Yes / No</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>   
+                        </div>
+                        <div class="col-sm-4 col-md-4 padding-right-none">
+                            <label for="chairNumber">How many chairs?</label>
+                            <input name="chairNumber" id="chairNumber" class="form-control" type="text" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 padding-side-none">
+                   <div class="col-sm-6 col-md-6 padding-left-none">
+                        <label for="anyother">Please specify any other requirements</label>
+                        <textarea name="anyother" id="anyother" class="form-control" rows="5" ></textarea>
+                    </div>
+                   <div class="col-sm-6 col-md-6 padding-left-none">
+                        <label for="attendance">Anticipated Attendance</label>
+                        <input name="attendance" id="attendance" class="form-control" type="text"  />
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn btn-default community-btn" type="submit">Submit</button>
+        </form>
         </div>
     </div>
 </div>
