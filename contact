@@ -120,7 +120,7 @@
                    <br><a href="mailto:HazeldeanMallSecurity@BentallKennedy.com" target="_blank">HazeldeanMallSecurity@BentallKennedy.com</a></p>
                 </script>
             </div>
-        </div>
+        
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
               <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
               <span class="sr-only">Success</span>
