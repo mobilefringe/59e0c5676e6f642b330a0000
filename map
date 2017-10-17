@@ -2,7 +2,7 @@
     .locate_store{
         position:relative;
         left: initial;
-        top: 0;
+        top: initial;
     }
 </style>
 
