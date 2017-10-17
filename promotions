@@ -37,7 +37,7 @@
             <div id="promos_container">
                 <script id="promos_template" type="x-tmpl-mustache/text">
                     <div class="row promo_item cats_row" data-cat="{{cat_list}}">
-                        <div class="col-md-5">
+                        <div class="col-md-5 promo_img_container">
                             <img src="{{promo_image_url_abs}}" alt="{{name}}" class="promo_img"/>
                         </div>
                         <div class="col-md-7">
