@@ -1,3 +1,48 @@
+<style>
+    .inside_page_content{
+        margin-left:0px;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    textarea{
+        resize:none;
+    }
+    .padding-side-none{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .padding-left-none{
+        padding-left: 0px;
+    }
+    .padding-right-none{
+        padding-right: 0px;
+    }
+    label{
+        margin-top:20px;
+    }
+    label span{
+        font-weight: normal;
+        font-size: 13px;
+    }
+
+    .promo_header{
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+    .community-btn{
+        margin-top:20px;
+    }
+    @media(max-width: 768px){
+        .padding-side-none, .padding-left-none, .padding-right-none{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .page_banner {
+          font-size: 17px;
+        }
+    }
+</style>
 <div class="content_container main_container padding_bottom_50">
     <div class="promo_main_header">
         CONTACT US
