@@ -1,10 +1,10 @@
 <style>
     @media (max-width: 468px) {
         .locate_store{
-        position:relative;
-        left: initial;
-        top: initial;
-    }
+            position:relative;
+            left: initial;
+            top: initial;
+        }
     }
     
 </style>
