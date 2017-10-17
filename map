@@ -13,7 +13,7 @@
         background-color: rgba(0,0,0,0.75)!important;
         color:#fff!important;
         /*width:300px;*/
-        
+        padding:10px;        
     }
 </style>
 
