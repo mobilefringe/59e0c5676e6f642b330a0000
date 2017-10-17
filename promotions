@@ -78,7 +78,7 @@
         function renderAll (){
             
             console.log(getPromotionsList());
-            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
+            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date }).reverse();
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
