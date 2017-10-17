@@ -9,7 +9,11 @@
             height: 200px!important;
         }
     }
-    
+    .map_tooltip {
+        background-color: rgba(0,0,0,0.75)!important;
+        width:300px;
+        
+    }
 </style>
 
 
