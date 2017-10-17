@@ -38,6 +38,7 @@ function init(e){
     $('.open_menu').click(function(e){
         // $('body').addClass('no_scroll');
         $('.mobile_menu_container').fadeIn();
+        console.log("hi");
     });
     $('#close_menu').click(function(e){
         $('body').removeClass('no_scroll');
