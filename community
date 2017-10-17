@@ -164,6 +164,7 @@
         </div>
     </div>
 </div>
+<script src="//kodekloud.s3.amazonaws.com/sites/550c63266e6f6462fa000000/d3888fcd0fecce8e286f68402e5cdea4/bootstrap-datepicker.js"></script>
 <script>
     $(document).ready(function() {
         function renderAll (){
