@@ -137,7 +137,7 @@
                 </div>
                 <div class="row" style="margin-left:-15px;margin-right:-15px">
                     
-                    <div class="col-sm-6 col-md-6 padding_top_20">
+                    <div class="col-sm-6 col-md-6 ">
                         <label for="name">Name</label>
                         <input name="name" id="name" class="form-control" type="text" value="" required>
                     </div>
