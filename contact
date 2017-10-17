@@ -132,7 +132,7 @@
               There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
              </div>
             <form name="contact_form" id="contact_form" method="post">
-                <div class="col-sm-12 col-md-12" style="margin-left:-15px;margin-right:-15px">
+                <div class="row padding_top_20"  style="margin-left:-15px;margin-right:-15px">
                     <h5 class="promo_list_desc">We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
                 </div>
                 <div class="row padding_top_20" style="margin-left:-15px;margin-right:-15px">
