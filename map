@@ -22,11 +22,18 @@
             var categories = getStoreCategories();
             var stores = getStoresList(); 
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
-            $.each(stores, function(i, val){
-                x = val.x_coordinate - 19;
-                y = val.y_coordinate - 58;
-                $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none"><a style="color:#fff" href=/stores/'+val.slug +'>' + val.name + '</a></div>')
-            });  
+            reg = {};
+    		$.each( stores , function( key, val ) {
+                if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
+                    obj = {};
+                    obj["tooltip"] = "<label class='store_name_map'> "+val.name +"</label>"
+                    obj["attr"] = {}
+                    obj["attr"]["href"] = '/stores/'+val.slug 
+                    reg[val.svgmap_region] = obj
+                }
+            });
+            console.log("property", property, getSVGMapURL());
+            init_map(reg);
             show_content();
             
             $("#map_image").attr("src", getPNGMapURL());
