@@ -53,7 +53,7 @@
                     reg[val.svgmap_region] = obj
                 }
             });
-            console.log("stores", stores, getSVGMapURL());
+            console.log("stores", stores);
             init_map(reg);
             show_content();
             
