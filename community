@@ -169,7 +169,7 @@
                 </div>
             </div>
             
-            <button class="btn btn-default community-btn" type="submit">Submit</button>
+            <button class="newsletter_btn animated_btn " type="submit">Submit</button>
         </form>
         </div>
     </div>
