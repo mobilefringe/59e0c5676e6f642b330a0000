@@ -64,5 +64,8 @@
         }
         
 		loadMallDataCached(renderAll); 
+    });
+    $(window).load(function(e){
+        
     })
 </script>
