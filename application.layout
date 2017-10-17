@@ -173,7 +173,6 @@
                                 <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
                             </script>
                         </span>
-                        
                     </div>
                 </div>
                 
