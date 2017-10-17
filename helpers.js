@@ -26,6 +26,26 @@ $(window).load(function(e){
     });
     var propertyDetails = getPropertyDetails();
     console.log(propertyDetails);
+    $('#open_menu').click(function(e){
+        // $('body').addClass('no_scroll');
+        $('.mobile_menu_container').fadeIn();
+        console.log("hi");
+    });
+    $('#close_menu').click(function(e){
+        $('body').removeClass('no_scroll');
+        $('.mobile_menu_container').fadeOut();
+    });
+    $('.submenu_expander').click(function(e){
+		e.preventDefault()
+		if ($(this).hasClass('open') == false){
+        	$('.open').next().slideToggle();
+        	$('.open').find('img').toggle();
+        	$('.open').toggleClass('open')
+		}
+		$(this).next().slideToggle();
+		$(this).find('img').toggle();
+		$(this).toggleClass('open')
+	});
     // renderPropertyLogo('#logo_template','#main_logo_container',propertyDetails);
     
 });
