@@ -5,6 +5,10 @@
             left: initial;
             top: initial;
         }
+        #map {
+    height: 200px!important;
+    
+        }
     }
     
 </style>
