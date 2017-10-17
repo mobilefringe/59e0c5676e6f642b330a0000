@@ -45,7 +45,7 @@
           font-size: 17px;
         }
         .promo_list_desc{
-            
+            padding-top:20px;
         }
     }
 </style>
