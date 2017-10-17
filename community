@@ -4,6 +4,16 @@
     </div>
     promo_list_desc
     <div class="row">
+        <p>Hazeldean takes great pride in supporting its community. As a service to the area, Hazeldean does not charge local non-profit organizations for temporary space in the mall.</p>
+    
+        <p>
+            <strong>Community Space Application Form:</strong>
+            <br/>
+            Kindly complete this form to enable Hazeldean to process your request and confirm a date. Once your request has been approved, a temporary occupancy agreement will be sent to the contract person listed below. Please note that space will be granted on a first come, first serve basis. In addition, Hazeldean reserves the right to refuse any request which it deems in conflict with the best interests of our merchants or shopping centre. Proof of liability insurance in the amount of three million dollars in Commerical General Liability and $250,000 in Tenant Legal Liability with the following listed as additional insured: Hazeldean Mall LP./Bentall Kennedy(Canada) LP, by its General Partner, Bentall Kennedy(Canada) GP Ltd, must be provided at least five days prior to your commitment date.
+        </p>
+        <p>If you're a Ottawa based, non-profit organization who wishes to use space in our mall for the purpose of fundraising or raising awareness, please submit the following:</p>
+    </div>
+    <div class="row">
         <div class="col-md-12 contact_contents">
             <div id="send_contact_success" class="alert alert-success" role="alert" style="display:none">
                 <span class="sr-only">Success</span>
