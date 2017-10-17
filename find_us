@@ -27,7 +27,7 @@
     <div class="direction_container">
         <div class="row">
             <div class="col-md-12">
-                <div class="overlay2" onclick="style.pointerEvents='none'"></div>
+                <!--<div class="overlay2" onclick="style.pointerEvents='none'"></div>-->
                 <iframe  class=" visit_us_iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5612.589203774693!2d-75.87747866004943!3d45.30247424219449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb1455d27cd82d8!2sHazeldean+Mall!5e0!3m2!1sen!2sca!4v1424885778529"  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <div id="mm_page_content" class="promo_list_desc">
                     <h1 class="promo_list_name">How to Get Here</h1>
