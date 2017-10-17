@@ -68,7 +68,7 @@
     </div>
     <div class="inside_page_content">
    
-        <div class="left_column">
+        <div class="col-md-4">
             <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/2804b99a4a7c2ed210ec0bfcd23dfaee/beautyshot_edited.jpg"/>
              <div class="show_mobile">
             <p class="right_column_header">centre information</p>
