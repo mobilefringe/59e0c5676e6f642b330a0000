@@ -96,6 +96,7 @@
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             var repoList = getRepoList();  
+            console.log(repoList);
             renderPhotos("#photo_container", "#photo_template", repoList);
             $("#loading_screen").hide();
             $("#main_content").show();
