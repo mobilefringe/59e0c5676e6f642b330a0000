@@ -37,29 +37,29 @@
 <!--        </div>-->
 <!--    </div>-->
 <!--</div>-->
-<script>
-    $(document).ready(function(e){
-        init(e);
-        loadMallDataCached(renderPage);
-    })
+<!--<script>-->
+<!--    $(document).ready(function(e){-->
+<!--        init(e);-->
+<!--        loadMallDataCached(renderPage);-->
+<!--    })-->
     
-    function renderPage(){
-        var pathArray = window.location.pathname.split( '/' );
-        var slug = pathArray[pathArray.length-1];
+<!--    function renderPage(){-->
+<!--        var pathArray = window.location.pathname.split( '/' );-->
+<!--        var slug = pathArray[pathArray.length-1];-->
         
-        prefix = get_prefix();
-        $('#top_banner').addClass(slug)
-        var pages_json = prefix+"/pages/yubasutter-contact.json"
-        $.getJSON(pages_json).done(function(data) {
-            $('#mm_page_content').html(data.body);
-        }).fail(function(jqXHR) {
-            if (jqXHR.status == 404) {
-                $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
-            }
-        }); 
-        show_content();
-    }
-</script>
+<!--        prefix = get_prefix();-->
+<!--        $('#top_banner').addClass(slug)-->
+<!--        var pages_json = prefix+"/pages/yubasutter-contact.json"-->
+<!--        $.getJSON(pages_json).done(function(data) {-->
+<!--            $('#mm_page_content').html(data.body);-->
+<!--        }).fail(function(jqXHR) {-->
+<!--            if (jqXHR.status == 404) {-->
+<!--                $("#mm_page_content").text("Sorry. We cant find the page you looking for.");-->
+<!--            }-->
+<!--        }); -->
+<!--        show_content();-->
+<!--    }-->
+<!--</script>-->
 
 
 <div id="loading_screen">
