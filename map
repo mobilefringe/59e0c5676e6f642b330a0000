@@ -1,7 +1,7 @@
 <style>
     .locate_store{
         position:relative;
-        left: 0;
+        left: initial;
         top: 0;
     }
 </style>
