@@ -46,8 +46,6 @@
     $(document).ready(function(e) {
         init(e);
         function renderAll (){
-            // var propertyDetails = getPropertyDetails();
-            // renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             var repoList = getRepoList();  
             renderPhotos("#photo_container", "#photo_template", repoList);
             $("#main_content").show();
