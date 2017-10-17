@@ -21,7 +21,7 @@
                         <input id="fieldEmail" name="cm-bkhoy-bkhoy" type="email" required class="form-control">
                     </div>
                 </div>
-                <div class="row">
+                <div class="row padding_top_20">
                     <div class="col-md-12">
                         <label class="newsletter_label">
                             <input id="newsletter_agree" type="checkbox" />
