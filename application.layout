@@ -45,7 +45,7 @@
     <script src="../site.js" type="text/javascript"></script>
     <script src="../application.js" type="text/javascript"></script>
     <script src="../helpers.js" type="text/javascript"></script>
-    
+    <script src="https://use.fontawesome.com/9cb86d00ca.js"></script>
      <!--jReject is used to warn users certain browsers aren't compatible with this site-->
     <script src="//cdn.jsdelivr.net/jquery.jreject/1.0.2/js/jquery.reject.js"></script>
     <link href="//cdn.jsdelivr.net/jquery.jreject/1.0.2/css/jquery.reject.css" rel="stylesheet" type="text/css">
