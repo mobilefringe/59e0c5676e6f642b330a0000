@@ -44,6 +44,9 @@
         .page_banner {
           font-size: 17px;
         }
+        .promo_list_desc{
+            
+        }
     }
 </style>
 <div class="content_container main_container padding_bottom_50">
