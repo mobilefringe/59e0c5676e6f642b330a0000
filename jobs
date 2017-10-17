@@ -1,7 +1,7 @@
 <style>
     @media(max-width: 768px){
         
-        #jobs_container{
+        .mobile_padding{
             padding-top:20px;
         }
     }
