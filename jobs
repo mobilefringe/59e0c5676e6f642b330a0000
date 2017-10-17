@@ -1,12 +1,6 @@
 <style>
     @media(max-width: 768px){
-        .padding-side-none, .padding-left-none, .padding-right-none{
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-        .page_banner {
-          font-size: 17px;
-        }
+        
         #jobs_container{
             padding-top:20px;
         }
