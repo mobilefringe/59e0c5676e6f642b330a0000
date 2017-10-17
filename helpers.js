@@ -165,7 +165,7 @@ function show_pin(param){
     var width = parseInt(coords["width"]);
     var x_offset = (parseInt(width) / 2);
     var y_offset = (parseInt(height) /2);
-    map.setMarks([{ xy: [coords["x"] - 46 + x_offset, coords["y"] - 60 + y_offset],
+    map.setMarks([{ xy: [coords["x"] - 30 + x_offset, coords["y"] - 60 + y_offset],
         attrs: {
             src:  '//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/png/1508191201000/red_map_pin.png'
         }
