@@ -1,6 +1,10 @@
 <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
 <style>
-    $(".map_tooltip").css({"background-color": "rgba(0,0,0,0.75)!important", "width":"300px"});
+    .map_tooltip {
+        background-color: rgba(0,0,0,0.75)!important;
+        width:300px;
+        
+    }
 </style>
 <!--<div class="content_container hidden_phone position_relative">-->
 <!--    <div class="flexslider banner_header">-->
