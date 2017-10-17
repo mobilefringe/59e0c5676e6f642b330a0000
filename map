@@ -36,9 +36,7 @@
 <script>
     $(document).ready(function(e){
         init(e);
-    });
-    $(window).load(function(e){
-        
+       
         function renderAll (){
             var categories = getStoreCategories();
             var stores = getStoresList(); 
