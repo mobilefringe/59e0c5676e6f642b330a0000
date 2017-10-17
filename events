@@ -1,5 +1,5 @@
-<div class="content_container hidden_phone position_relative">
-    <div class="flexslider banner_header">
+<!--<div class="content_container hidden_phone position_relative">-->
+<!--    <div class="flexslider banner_header">-->
         <!--<ul class="slides" id="banner_header">-->
         <!--    <script id="banner_header_template" type="x-tmpl-mustache/text">-->
         <!--        <li>-->
@@ -9,23 +9,23 @@
         <!--        </li>-->
         <!--    </script>-->
         <!--</ul>-->
-        <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">
-        <div class="banner_overlay"></div>
-    </div>
-    <div class="main_container position_relative">
-        <div class="banner_header_title ">
-            Events
-        </div>
-        <div class="banner_header_location  ">
-            Home / Events
-        </div>
-    </div>
-</div>
+<!--        <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+<!--        <div class="banner_overlay"></div>-->
+<!--    </div>-->
+<!--    <div class="main_container position_relative">-->
+<!--        <div class="banner_header_title ">-->
+<!--            Events-->
+<!--        </div>-->
+<!--        <div class="banner_header_location  ">-->
+<!--            Home / Events-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
 <div class="content_container main_container padding_top_40 padding_bottom_50">
-    <!--<div class="promo_main_header">-->
-    <!--    EVENTS-->
-    <!--</div>-->
+    <div class="promo_main_header">
+        EVENTS
+    </div>
     <div class="row">
         <div class="col-md-8">
             <div id="promos_container">
