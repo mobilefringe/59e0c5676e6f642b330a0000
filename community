@@ -8,6 +8,9 @@
     textarea{
         resize:none;
     }
+    .contact_contents .row{
+        margin:0;
+    }
     .padding-side-none{
         padding-left: 0px;
         padding-right: 0px;
