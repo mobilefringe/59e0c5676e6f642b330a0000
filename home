@@ -172,6 +172,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            renderPopup();
             var banners = getBanners();
             var mobile_banners = getRepoDetailsByName("Mobile Banners");
             var feature_items = getFeatureList().splice(0, 3);
