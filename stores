@@ -2,8 +2,9 @@
 <style>
     .map_tooltip {
         background-color: rgba(0,0,0,0.75)!important;
-        width:300px;
-        
+        color:#fff!important;
+        /*width:300px;*/
+        padding:10px!important;        
     }
 </style>
 <!--<div class="content_container hidden_phone position_relative">-->
