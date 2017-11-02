@@ -74,14 +74,14 @@
 <div class="content_container hidden_phone">
     <div class="flexslider">
         <ul class="slides" id="home_banner">
-            <script id="banner_template" type="x-tmpl-mustache/text">
-                <li>
-                    <div style="background-image:url({{image_url}})" class="banner_image_div">
-                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                        </a>
-                    </div>
-                </li>
-            </script>
+            <!--<script id="banner_template" type="x-tmpl-mustache/text">-->
+            <!--    <li>-->
+            <!--        <div style="background-image:url({{image_url}})" class="banner_image_div">-->
+            <!--            <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >-->
+            <!--            </a>-->
+            <!--        </div>-->
+            <!--    </li>-->
+            <!--</script>-->
         </ul>
         <!--<img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
     </div>
