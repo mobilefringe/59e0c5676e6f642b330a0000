@@ -198,7 +198,7 @@
             var mobile_banners = getRepoDetailsByName("Mobile Banners");
             var feature_items = getFeatureList().splice(0, 3);
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
-            renderBanner('#banner_template','#home_banner',banners);
+            // renderBanner('#banner_template','#home_banner',banners);
             if(mobile_banners != undefined)
                 renderMobileBanner('#mobile_banner_template', '#mobile_banner', mobile_banners.images);
             renderFeatureItems('#feature_container','#feature_template', feature_items);
