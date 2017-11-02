@@ -84,25 +84,25 @@
             <!--</script>-->
             <li>
                 <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509634719000/HomePageBANNERSantaExperience.jpg)" class="banner_image_div">
-                    <a class="banner_image_li" href="" {{css}} onclick="{{noLink}}" >
+                    <a class="banner_image_li" href="" >
                     </a>
                 </div>
             </li>
             <li>
                 <div style="background-image:url({{image_url}})" class="banner_image_div">
-                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    <a class="banner_image_li" href=""  >
                     </a>
                 </div>
             </li>
             <li>
                 <div style="background-image:url({{image_url}})" class="banner_image_div">
-                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    <a class="banner_image_li" href=""  >
                     </a>
                 </div>
             </li>
             <li>
                 <div style="background-image:url({{image_url}})" class="banner_image_div">
-                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    <a class="banner_image_li" href="" >
                     </a>
                 </div>
             </li>
