@@ -296,7 +296,7 @@
                 // renderMobileBanner('#mobile_banner_template', '#mobile_banner', mobile_banners.images);
             // renderFeatureItems('#feature_container','#feature_template', feature_items);
             // renderFeatureItems('#feature_container_2','#feature_template_2', feature_items);
-            var published_promos = [];
+            let published_promos = [];
              console.log(published_promos);
             $.each( promotions , function( key, val ){
                 today = moment();
