@@ -83,29 +83,29 @@
             <!--    </li>-->
             <!--</script>-->
             <li>
-                    <div style="background-image:url({{image_url}})" class="banner_image_div">
-                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div style="background-image:url({{image_url}})" class="banner_image_div">
-                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div style="background-image:url({{image_url}})" class="banner_image_div">
-                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                        </a>
-                    </div>
-                </li>
-                <li>
-                    <div style="background-image:url({{image_url}})" class="banner_image_div">
-                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                        </a>
-                    </div>
-                </li>
+                <div style="background-image:url({{image_url}})" class="banner_image_div">
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div style="background-image:url({{image_url}})" class="banner_image_div">
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div style="background-image:url({{image_url}})" class="banner_image_div">
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div style="background-image:url({{image_url}})" class="banner_image_div">
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    </a>
+                </div>
+            </li>
         </ul>
         <!--<img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
     </div>
