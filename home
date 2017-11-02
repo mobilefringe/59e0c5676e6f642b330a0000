@@ -53,13 +53,13 @@
 <div class="show_phone mobile_banner">
     <div class="flexslider">
         <ul class="slides" id="mobile_banner">
-            <script id="mobile_banner_template" type="x-tmpl-mustache/text">
-                <li>
-                    <a class="banner_image_li" href="{{url}}" >
-                        <img src="{{image_url}}" alt="banner"/>
-                    </a>
-                </li>
-            </script>
+        <!--    <script id="mobile_banner_template" type="x-tmpl-mustache/text">-->
+        <!--        <li>-->
+        <!--            <a class="banner_image_li" href="{{url}}" >-->
+        <!--                <img src="{{image_url}}" alt="banner"/>-->
+        <!--            </a>-->
+        <!--        </li>-->
+        <!--    </script>-->
         </ul> 
         <!--<img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507646813000/mobile_bg_2x.png" class="" alt="">-->
     </div>
