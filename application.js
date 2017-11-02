@@ -76,8 +76,9 @@ function renderPromotions(container, template, collection){
             val.image_url = site_json.default_image;
         }
         
-        if(val.image_url.indexOf('missing.png') > 0){
+        if(val.image_url.indexOf('missing.png') > 0){ 
             val.image_url  = site_json.default_image;
+            promo_image_url_abs = site_json.default_image;
         }
         
         if(val.description.length > 200){
