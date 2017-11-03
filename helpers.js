@@ -102,7 +102,7 @@ function init(e){
     })
     $('.close_search').click(function(){
         $('.close_search ').fadeOut();
-        $('.search_btn').show();
+        $('.search_btn').fadeIn();
         $('.mobile_search').fadeOut();
         $('.search_results_container').fadeOut();
         $('#site_search').val('')
