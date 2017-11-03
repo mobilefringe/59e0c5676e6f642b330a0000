@@ -48,6 +48,7 @@ $(window).load(function(e){
 	});
 	
 	site_search();
+	$('.close_search').hide();
     $('.search_btn').click(function(){
         $('.mobile_search').fadeIn();
         $('#site_search').focus()
