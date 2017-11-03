@@ -80,9 +80,9 @@ function renderPromotions(container, template, collection){
             val.image_url  = site_json.default_image;
             
         }
-        if(val.promo_image_url_abs.indexOf('missing.png') > 0){ 
-            val.promo_image_url_abs = site_json.default_image;
-        }
+        // if(val.promo_image_url_abs.indexOf('missing.png') > 0){ 
+        //     val.promo_image_url_abs = site_json.default_image;
+        // }
         if(val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
         } else {
