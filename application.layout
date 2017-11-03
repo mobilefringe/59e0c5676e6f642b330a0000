@@ -158,7 +158,7 @@
         </div>
     </div>
     <section class="content_container  position_relative menu_header">
-        <div class="mobile_search ">
+        <div class="mobile_search visible_phone">
             <input type="text" placeholder="Search" id="site_search" class="site_search" />
             <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
             
