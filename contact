@@ -75,7 +75,7 @@
                 
             </form>
         </div>
-        <div class="col-md-12 contact_contents">
+        <div class="col-md-4 contact_contents">
             <p class="right_column_header promo_list_name padding_top_40">CENTRE INFORMATION</p>
             <div id="centre_info_container" class="promo_list_desc">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
