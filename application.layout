@@ -158,48 +158,75 @@
         </div>
     </div>
     <section class="content_container  position_relative menu_header">
-        <div class="mobile_search ">
-            <input type="text" placeholder="Search" id="site_search" class="site_search" />
-            <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
-        </div>
-        <div class="row header mobile_margin main_container menu_header_content">
-            <div class="col-md-4 col-sm-4 col-xs-2 logo_hour_container">
-                <div class="hours_home hidden_phone_inline col-xs-9" style="padding:0;">
-                    <div class="row">
-                        <span class="hours_dot"></span>
-                        <span id="open_today"> Open today:</span>
-                    </div>
-                    <div class="row">
-                        <span class="home_hours_container">
-                            <script class="home_hours_template" type="x-tmpl-mustache/text">
-                                <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
-                            </script>
-                        </span>
-                    </div>
-                </div>
+        <!--<div class="mobile_search ">-->
+        <!--    <input type="text" placeholder="Search" id="site_search" class="site_search" />-->
+        <!--    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">-->
+        <!--</div>-->
+        <!--<div class="row header mobile_margin main_container menu_header_content">-->
+        <!--    <div class="col-md-4 col-sm-4 col-xs-2 logo_hour_container">-->
+        <!--        <div class="hours_home hidden_phone_inline col-xs-9" style="padding:0;">-->
+        <!--            <div class="row">-->
+        <!--                <span class="hours_dot"></span>-->
+        <!--                <span id="open_today"> Open today:</span>-->
+        <!--            </div>-->
+        <!--            <div class="row">-->
+        <!--                <span class="home_hours_container">-->
+        <!--                    <script class="home_hours_template" type="x-tmpl-mustache/text">-->
+        <!--                        <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>-->
+        <!--                    </script>-->
+        <!--                </span>-->
+        <!--            </div>-->
+        <!--        </div>-->
                 <!--- MOBILE MENU OPENER-->
-                <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu" id="open_menu">
-            </div>
-            <div class="col-md-5 col-sm-5 col-xs-10 text-center main_logo_container" id="main_logo_container">
+        <!--        <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu" id="open_menu">-->
+        <!--    </div>-->
+        <!--    <div class="col-md-5 col-sm-5 col-xs-10 text-center main_logo_container" id="main_logo_container">-->
                 <!--<a href="/" class="main_logo">-->
                 <!-- Yuba Sutter Mall-->
                 <!--</a>-->
                 <!--<script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}">{% endraw %}</script>-->
-               <a href="/"> <img src="//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/png/1509645151000/hazelogo-01-01.png" class="" alt=""></a>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-1 hidden_phone social_icons_container">
-                <p class="hidden_phone" style="padding-right: 10px;text-align: right;">Follow us on</p>
-                <div class="social_icons hidden_phone_inline pull-right">
-                    <a class="social_fb" href="https://www.facebook.com/HazeldeanMall" target="_blank"></a>
+        <!--       <a href="/"> <img src="//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/png/1509645151000/hazelogo-01-01.png" class="" alt=""></a>-->
+        <!--    </div>-->
+        <!--    <div class="col-md-3 col-sm-3 col-xs-1 hidden_phone social_icons_container">-->
+        <!--        <p class="hidden_phone" style="padding-right: 10px;text-align: right;">Follow us on</p>-->
+        <!--        <div class="social_icons hidden_phone_inline pull-right">-->
+        <!--            <a class="social_fb" href="https://www.facebook.com/HazeldeanMall" target="_blank"></a>-->
                     <!--<a class="social_twitter" href="http:/twitter.com/YubaSutter" target="_blank"></a>-->
                     <!--<a class="social_insta" href="https://www.instagram.com/yubasuttermall/" target="_blank"></a>-->
                     <!--<a class="social_yt" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
                     <!--<a class="social_gp" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
                     <!--<a class="social_newsletter" href="/newsletter" target="_blank"></a>-->
+        <!--        </div>-->
+        <!--        <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">-->
+        <!--    </div>-->
+        <!--</div>-->
+        <div class="row header mobile_margin">
+            <div class="col-md-4 col-xs-4">
+                <p class="hidden_phone">Follow us on</p>
+                <div class="social_icons hidden_phone">
+                    <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>
+                    <a class="social_twitter" href="https://twitter.com/FairfaxCornerVA" target="_blank"></a>
+                    <a class="social_insta" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>
+                    <a class="social_newsletter" href="/newsletter" target="_blank"></a>
                 </div>
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
+            <div class="col-md-4 col-xs-4 text-center">
+                <a href="/">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="main_logo " alt="main_logo">
+                </a>
+            </div>
+            <!--<div class="col-md-4 col-xs-4 text-right position_relative">-->
+            <!--    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn " alt="search">-->
+            <!--    <input type="text" placeholder="Search" id="site_search" class="site_search search_field hidden_phone" />-->
+            <!--    <div class="search_results_container">-->
+            <!--        <div class="site_search_results" id="search_results_stores"></div>-->
+            <!--        <div class="site_search_results" id="search_results_events"></div>-->
+            <!--        <div class="site_search_results" id="search_results_promotions"></div>-->
+            <!--    </div>-->
+            <!--</div>-->
         </div>
+        
        
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
