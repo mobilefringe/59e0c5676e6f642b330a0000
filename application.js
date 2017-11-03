@@ -72,7 +72,7 @@ function renderPromotions(container, template, collection){
             val.image_url = store_details.store_front_url_abs;
             val.cat_list = store_details.categories.join(',');
             if(val.promo_image_url_abs.indexOf('missing.png') > 0){ 
-                val.promo_image_url_abs = site_json.default_image;
+                val.promo_image_url_abs = store_details.store_front_url_abs;
             }
         } else {
             val.store_name = site_json.mall_name;
