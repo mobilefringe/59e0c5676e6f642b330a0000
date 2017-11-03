@@ -101,6 +101,7 @@ function init(e){
         $('#site_search').focus()
     })
     $('.close_search').click(function(){
+        $('.search_btn').hide();
         $('.mobile_search').fadeOut();
         $('.search_results_container').fadeOut();
         $('#site_search').val('')
