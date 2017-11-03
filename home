@@ -291,7 +291,7 @@
             // renderFeatureItems('#feature_container','#feature_template', feature_items);
             // renderFeatureItems('#feature_container_2','#feature_template_2', feature_items);
             var published_promos = [];
-             console.log(published_promos);
+            console.log(published_promos);
             $.each( promotions , function( key, val ){
                 today = moment();
                 webDate = moment(val.show_on_web_date);
