@@ -77,6 +77,9 @@ function renderPromotions(container, template, collection){
         } else {
             val.store_name = site_json.mall_name;
             val.image_url = site_json.default_image;
+            if(val.promo_image_url_abs.indexOf('missing.png') > 0){ 
+                val.promo_image_url_abs = site_json.default_image;
+            }
         }
         console.log(val);
         if(val.image_url.indexOf('missing.png') > 0){ 
