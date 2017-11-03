@@ -158,11 +158,11 @@
         </div>
     </div>
     <section class="content_container  position_relative menu_header">
-        <!--<div class="mobile_search ">-->
-        <!--    <input type="text" placeholder="Search" id="site_search" class="site_search" />-->
-        <!--    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">-->
+        <div class="mobile_search ">
+            <input type="text" placeholder="Search" id="site_search" class="site_search" />
+            <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
             
-        <!--</div>-->
+        </div>
         <!--<div class="row header mobile_margin main_container menu_header_content">-->
         <!--    <div class="col-md-4 col-sm-4 col-xs-2 logo_hour_container">-->
         <!--        <div class="hours_home hidden_phone_inline col-xs-9" style="padding:0;">-->
