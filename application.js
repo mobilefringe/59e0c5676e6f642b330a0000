@@ -602,7 +602,7 @@ function renderHours(container, template, collection, type){
             }
         });
         myArray = item_list.filter(function( obj ) {
-            return obj.field !== 'money';
+            return obj.day_of_week !== 'money';
         });
         collection = []
         collection = item_list;
