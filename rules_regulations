@@ -5,8 +5,8 @@
     <div class="promo_main_header">
         Rules & Regulations
     </div>
-   <div class=" promo_list_desc padding_top_20">
-        <div class="left_column">
+    <div class="row">
+        <div class="col-md-8">
             <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/346a52de0b9e6d84c82a75ab379b9556/Banner-Image-004_edited.jpg"/>
             <section class="article-text">
                <div class="row">
@@ -14,6 +14,22 @@
                     <br></p>
                </div>
           </section>
+            
+        </div>
+        
+        <div class="col-md-4 show_cats">
+            <!--<p class="category_header hidden_phone">Categories</p>-->
+            <!--<h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>-->
+            <!--<div id="category_container" class="hidden_phone">-->
+            <!--    <script id="category_template" type="x-tmpl-mustache/text">-->
+            <!--        <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    -->
+            <!--    </script>-->
+            <!--</div>-->
+        </div>
+    </div>
+    
+        <div class="left_column">
+            
         </div>
         <div class="right_column">
             <p class="right_column_header">centre information</p>
