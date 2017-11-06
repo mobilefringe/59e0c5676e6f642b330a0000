@@ -611,7 +611,7 @@ function renderHours(container, template, collection, type){
         myArray.push(sunday_val);
         collection = []
         collection = item_list;
-        console.log(item_list);
+        console.log(myArray);
     }
     // if (type == "holiday_hours") {
     //     $.each( collection , function( key, val ) {
