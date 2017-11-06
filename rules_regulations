@@ -3,7 +3,7 @@
 <!--</div>-->
 <style>
     
-.row{
+ .rules_reg .row{
     margin:0;
 }
 </style>
