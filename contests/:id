@@ -29,7 +29,7 @@
                 <div id="events_not_empty_section">
                     <div class="" id="contest_container">
                         <script id="contest_template" type="x-tmpl-mustache">
-                            <h4 class="promo_main_header "></h4>
+                            <h4 class="promo_main_header ">{{name}}</h4>
                             <div class="promo-details">
                                 <p class="hidden_now" id="succes_msg">Thank you! Your entry has been received.</p>
                                 <div class="event-image">
