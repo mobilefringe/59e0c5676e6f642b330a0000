@@ -1,6 +1,12 @@
 <!--<div id="loading_screen">-->
 <!--    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>-->
 <!--</div>-->
+<style>
+    
+.row{
+    margin:0;
+}
+</style>
 <div class="content_container main_container padding_bottom_50">
     <div class="promo_main_header">
         Rules & Regulations
