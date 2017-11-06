@@ -38,7 +38,7 @@
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
-            $("#loading_screen").hide();
+            // $("#loading_screen").hide();
             $("#main_content").show();
         }
         
