@@ -583,22 +583,25 @@ function renderHours(container, template, collection, type){
                 case 6:
                     val.day = "Saturday"
                     break;
-            }
-            if (val.open_time && val.close_time && val.is_closed == false){
-                // var open_time = new Date (val.open_time)
-                // var close_time = new Date (val.close_time)
-                // val.open_time = convert_hour(open_time);
-                // val.close_time = convert_hour(close_time);    
-                // val.h = val.open_time+ " - " + val.close_time;
-                
-                var open_time = moment(val.open_time).tz(getPropertyTimeZone());
-                
-                var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-                
-                val.h = open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
-            } else {
-                "Closed"
-            }
+                }
+                if (val.open_time && val.close_time && val.is_closed == false){
+                    // var open_time = new Date (val.open_time)
+                    // var close_time = new Date (val.close_time)
+                    // val.open_time = convert_hour(open_time);
+                    // val.close_time = convert_hour(close_time);    
+                    // val.h = val.open_time+ " - " + val.close_time;
+                    
+                    var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+                    
+                    var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+                    
+                    val.h = open_time.format("h:mm A") + " - " + close_time.format("h:mm A");
+                } else {
+                    "Closed"
+                }
+                if(val.day_of_week== 0){
+                    sunday_val
+                }
                 item_list.push(val)
             }
         });
