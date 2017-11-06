@@ -600,7 +600,7 @@ function renderHours(container, template, collection, type){
                     "Closed"
                 }
                 if(val.day_of_week== 0){
-                    sunday_val
+                    sunday_val = val;
                 }
                 item_list.push(val)
             }
