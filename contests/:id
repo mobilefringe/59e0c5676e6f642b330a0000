@@ -41,7 +41,7 @@
                                 </div>
                                 <br>
                             </div> 
-                            <form id="contest_form">
+                            <form id="contest_form" style="    margin-top: 10px;">
                                 <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
                                 <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
                                 <input type="hidden" name="cm-name" id="cm-name" />
