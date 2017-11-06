@@ -605,13 +605,13 @@ function renderHours(container, template, collection, type){
                 item_list.push(val)
             }
         });
-        myArray = item_list.filter(function( obj ) {
+        item_list = item_list.filter(function( obj ) {
             return obj.day_of_week !== 0;
         });
-        myArray.push(sunday_val);
+        item_list.push(sunday_val);
         collection = []
         collection = item_list;
-        console.log(myArray);
+        console.log(item_list);
     }
     // if (type == "holiday_hours") {
     //     $.each( collection , function( key, val ) {
