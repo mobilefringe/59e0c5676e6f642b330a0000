@@ -86,8 +86,8 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                       <!--<a class="contest_link" href="/pages/core-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.-->
-                                        <br/><br/>
+                                       <!--<a class="contest_link" href="/pages/core-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.
+                                        <br/><br/>-->
                                         <a type="button" tabindex="9" class="text-center newsletter_btn animated_btn ">Submit</a>
                                         <br/><br/>
                                         <br/><br/>
