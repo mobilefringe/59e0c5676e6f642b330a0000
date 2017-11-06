@@ -603,6 +603,7 @@ function renderHours(container, template, collection, type){
         });
         collection = []
         collection = item_list;
+        console.log(item_list);
     }
     // if (type == "holiday_hours") {
     //     $.each( collection , function( key, val ) {
