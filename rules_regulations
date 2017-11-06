@@ -7,7 +7,7 @@
     margin:0;
 }
 </style>
-<div class="content_container main_container padding_bottom_50">
+<div class="content_container main_container padding_bottom_50 rules_reg">
     <div class="promo_main_header">
         Rules & Regulations
     </div>
