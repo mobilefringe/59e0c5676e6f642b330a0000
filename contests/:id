@@ -89,7 +89,7 @@
                                         <a class="contest_link" href="/pages/core-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.
                                         <br/><br/>
                                         // <input type="button" class=" store_header_btns" tabindex="9">Submit</input>
-                                        <a type="button" tabindex="9" class="newsletter_btn animated_btn">Submit</a>
+                                        <a type="button" tabindex="9" class="newsletter_btn animated_btn store_header_btns">Submit</a>
                                         <br/><br/>
                                         <br/><br/>
                                     </div>
