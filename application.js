@@ -580,6 +580,9 @@ function renderHours(container, template, collection, type){
                 case 6:
                     val.day = "Saturday"
                     break;
+                    case 0:
+                    val.day = "Sunday"
+                    break;
             }
             if (val.open_time && val.close_time && val.is_closed == false){
                 // var open_time = new Date (val.open_time)
