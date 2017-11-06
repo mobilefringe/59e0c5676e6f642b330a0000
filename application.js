@@ -561,7 +561,9 @@ function renderHours(container, template, collection, type){
         $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
-                
+                case 0:
+                    val.day = "Sunday"
+                    break;
                 case 1:
                     val.day = "Monday"
                     break;
@@ -579,9 +581,6 @@ function renderHours(container, template, collection, type){
                     break;
                 case 6:
                     val.day = "Saturday"
-                    break;
-                case 0:
-                    val.day = "Sunday"
                     break;
             }
             if (val.open_time && val.close_time && val.is_closed == false){
