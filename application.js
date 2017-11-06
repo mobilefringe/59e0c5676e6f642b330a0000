@@ -601,6 +601,9 @@ function renderHours(container, template, collection, type){
                 item_list.push(val)
             }
         });
+        myArray = myArray.filter(function( obj ) {
+            return obj.field !== 'money';
+        });
         collection = []
         collection = item_list;
         console.log(item_list);
