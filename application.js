@@ -608,6 +608,7 @@ function renderHours(container, template, collection, type){
         myArray = item_list.filter(function( obj ) {
             return obj.day_of_week !== 0;
         });
+        myArray.push(sunday_val);
         collection = []
         collection = item_list;
         console.log(item_list);
