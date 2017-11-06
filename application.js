@@ -606,7 +606,7 @@ function renderHours(container, template, collection, type){
             }
         });
         myArray = item_list.filter(function( obj ) {
-            return obj.day_of_week == 0;
+            return obj.day_of_week !== 0;
         });
         collection = []
         collection = item_list;
