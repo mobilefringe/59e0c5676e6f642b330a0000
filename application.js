@@ -580,7 +580,7 @@ function renderHours(container, template, collection, type){
                 case 6:
                     val.day = "Saturday"
                     break;
-                    case 0:
+                case 0:
                     val.day = "Sunday"
                     break;
             }
