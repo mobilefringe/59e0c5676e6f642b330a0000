@@ -601,7 +601,7 @@ function renderHours(container, template, collection, type){
                 item_list.push(val)
             }
         });
-        myArray = myArray.filter(function( obj ) {
+        myArray = item_list.filter(function( obj ) {
             return obj.field !== 'money';
         });
         collection = []
