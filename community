@@ -235,7 +235,7 @@
             
             prefix = get_prefix();
             $('#top_banner').addClass(slug)
-            var pages_json = prefix+"/pages/hazeldean-find-us.json"
+            var pages_json = prefix+"/pages/hazeldean-community.json"
             $.getJSON(pages_json).done(function(data) {
                 $('#mm_page_content').html(data.body);
             }).fail(function(jqXHR) {
