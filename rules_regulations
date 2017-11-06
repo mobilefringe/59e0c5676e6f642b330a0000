@@ -6,15 +6,6 @@
         Rules & Regulations
     </div>
     <div class="row">
-<div  id="main_content" style="display:none">
-    <ul class="breadcrumb">
-        <li><a href="/home">Home</a> </li>
-        <li class="active">Rules & Regulations</li>
-    </ul>
-    <div class="page_banner">
-        Rules & Regulations
-    </div>
-    <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/346a52de0b9e6d84c82a75ab379b9556/Banner-Image-004_edited.jpg"/>
             <section class="article-text">
