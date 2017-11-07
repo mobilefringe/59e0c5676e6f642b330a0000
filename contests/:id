@@ -291,7 +291,7 @@
             $(container).html(item_rendered.join(''));
         }
         
-        loadMallDataCached(renderPageData);
+        // loadMallDataCached(renderPageData);
     });
     $(window).load(function(e){
         function randomgen() {
