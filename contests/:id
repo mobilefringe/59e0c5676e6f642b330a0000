@@ -46,8 +46,8 @@
                                     </div>
                                     <div class="col-md-8">
                                         
-                                        <label for="fieldjyiyhr">Street Address</label><br />
-                <input id="fieldjyiyhr" name="cm-f-jrihyh" type="text" placeholder="Street Address" class="form-control" tabindex="5"/>
+                                        <label for="mailing_address">Street Address</label><br />
+                <input id="mailing_address" name="contest[mailing_address]" type="text" placeholder="Street Address" class="form-control" tabindex="5"/>
                                     </div>
                                 </div>
                                 <br class="hidden_phone">
