@@ -47,11 +47,9 @@
                                         <label for="fieldjyiyhr">Street Address</label><br />
                 <input id="fieldjyiyhr" name="cm-f-jrihyh" type="text" placeholder="Street Address" class="form-control" tabindex="5"/>
                                     </div>
-                                    <div class="col-md-4">
-                                        <label for="email">Email</label> 
-                                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
-                                    </div>
                                 </div>
+                                <label for="fieldjyiyhy">City</label><br />
+                <input id="fieldjyiyhy" name="cm-f-jyiyhy" type="text" placeholder="City"/>
                                 <br>
                                 <div class="row">
                                     <div class="col-md-12">
