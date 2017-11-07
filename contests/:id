@@ -58,8 +58,8 @@
                                         <input id="fieldjyiydu" name="cm-f-jyiydu" type="text" placeholder="Postal Code" class="form-control" required data-validation="required" tabindex="7"/>
                                     </div>
                                     <div class="col-md-4 margin_30">
-                                        <label for="fieldEmail">Email*</label><br />
-                                        <input id="fieldEmail" name="cm-illrkd-illrkd" type="email" placeholder="Email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
+                                        <label for="fieldjyiyhl">Year of Birth*</label><br />
+                                        <input id="fieldjyiyhl" name="cm-f-jyiyhl" type="text" required placeholder= "Year of Birth"/>
                                     </div>
                                 </div>
                                 
