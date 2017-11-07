@@ -303,7 +303,7 @@
             $('#verifyNumHidden').val(rannumber);
             console.log($('#verifyNum').html());
         }
-        // randomgen();
+        randomgen();
         show_content();
     });
 </script>
