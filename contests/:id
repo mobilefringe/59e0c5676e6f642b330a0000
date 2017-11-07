@@ -18,87 +18,39 @@
                                 <br>
                             </div> 
                             <form id="contest_form" style="    margin-top: 10px;">
-                                // <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
-                                // <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
-                                // <input type="hidden" name="cm-name" id="cm-name" />
-                                // <div class="row ">
-                                //     <div class="col-md-4 margin_30">
-                                //         <label for="first_name">First Name</label>  
-                                //         <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
-                                //     </div>
-                                //     <div class="col-md-4 margin_30">
-                                //         <label for="last_name">Last Name</label>  
-                                //         <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
-                                //     </div>
-                                //     <div class="col-md-4 margin_30">
-                                //         <label for="phone">Phone Number</label>  
-                                //         <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
-                                //     </div>
-                                // </div>
-                                // <br class="hidden_phone">
-                                // <div class="row">
-                                //     <div class="col-md-4">
-                                //         <label for="postal_code">Postal Code</label>  
-                                //         <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
-                                //     </div>
-                                //     <div class="col-md-4">
-                                //         <label for="city">City</label>  
-                                //         <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
-                                //     </div>
-                                //     <div class="col-md-4">
-                                //         <label for="email">Email</label> 
-                                //         <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
-                                //     </div>
-                                // </div>
-                                // <br>
-                                <p style="display:none">
-                <label for="fieldName">Name</label><br />
-                <input id="fieldName" name="cm-name" type="text"/>
-            </p>
-            
-            <p class="large_field">
-                <label for="firstName">First Name*</label><br/>
-                <input id="firstName" type="text" required placeholder="First Name" />
-            </p>
-            <p class="large_field">
-                <label for="lastName">Last Name*</label><br/>
-                <input id="lastName" type="text" required placeholder="Last Name"/>
-            </p>
-          
-            <p class="large_field">
-                <label for="fieldEmail">Email*</label><br />
-                <input id="fieldEmail" name="cm-illrkd-illrkd" type="email" required placeholder="Email"/>
-            </p>
-            <p class="large_field">
-                <label for="fieldjyiydk">Phone Number*</label><br />
-                <input id="fieldjyiydk" name="cm-f-jyiydk" type="text" required placeholder="Phone Number"/>
-            </p>
-            <p class="full_field">
-                <label for="fieldjyiyhr">Street Address</label><br />
-                <input id="fieldjyiyhr" name="cm-f-jrihyh" type="text" placeholder="Street Address"/>
-            </p>
-            <p class="small_field">
-                <label for="fieldjyiyhy">City</label><br />
-                <input id="fieldjyiyhy" name="cm-f-jyiyhy" type="text" placeholder="City"/>
-            </p>
-            
-            <p class="small_field">
-                <label for="fieldjyiydu">Postal Code*</label><br />
-                <input id="fieldjyiydu" name="cm-f-jyiydu" type="text" required placeholder="Postal Code"/>
-            </p>
-            <p class="small_field">
-                <label for="fieldjyiyhl">Year of Birth*</label><br />
-                <input id="fieldjyiyhl" name="cm-f-jyiyhl" type="text" required placeholder= "Year of Birth"/>
-            </p>
-            <p style="display:none">
-                <label for="fieldjyiyhj">Contest ID</label><br />
-                <input id="fieldjyiyhj" name="cm-f-jyiyhj" type="text" />
-            </p>
-            <br>
-            <br>
-            
-       
-            <br>
+                                <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
+                                <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
+                                <input type="hidden" name="cm-name" id="cm-name" />
+                                <div class="row ">
+                                    <div class="col-md-4 margin_30">
+                                        <label for="first_name">First Name</label>  
+                                        <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
+                                    </div>
+                                    <div class="col-md-4 margin_30">
+                                        <label for="last_name">Last Name</label>  
+                                        <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
+                                    </div>
+                                    <div class="col-md-4 margin_30">
+                                        <label for="phone">Phone Number</label>  
+                                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
+                                    </div>
+                                </div>
+                                <br class="hidden_phone">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="postal_code">Postal Code</label>  
+                                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="city">City</label>  
+                                        <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="email">Email</label> 
+                                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
+                                    </div>
+                                </div>
+                                <br>
                                 <div class="row">
                                     <div class="col-md-12">
                                     <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
