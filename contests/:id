@@ -163,6 +163,7 @@
                                                     console.log(data,$("#contest_form").serialize());
                                                     event.preventDefault();
                                                     // alert("Please try again later.");
+                                                    $("#error_subscribe_popup").fadeIn();
                                                 } else { // 200
                                                     data = $("#contest_form").serialize();
                                                     submit_contest(data);
