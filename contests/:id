@@ -220,7 +220,7 @@
                 "//mobilefringe.createsend.com/t/d/s/illrkd/?callback=?",
                 "cm-name=" + name +
                 "&cm-illrkd-illrkd="+$('#email').val()+
-                "&cm-f-tdhrhl="+$("#phone")+
+                "&cm-f-jyiydk="+$("#phone")+
                 "&cm-f-tdtlky="+$('#postal_code').val()+
                 "&cm-fd-tdhrdu-mn="+$("#birthday").val(),
                 function (data) {
