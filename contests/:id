@@ -53,8 +53,8 @@
                                 <br class="hidden_phone">
                                 <div class="row ">
                                     <div class="col-md-4 margin_30">
-                                        <label for="fieldjyiyhy">City</label><br />
-                                        <input id="fieldjyiyhy" name="cm-f-jyiyhy" type="text" placeholder="City" class="form-control" tabindex="6" />
+                                        <label for="city">City</label><br />
+                <input id="city" name="contest[city]" type="text" placeholder="City" class="form-control" tabindex="6" />
                                     </div>
                                     <div class="col-md-4 margin_30">
                                         <label for="fieldjyiydu">Postal Code*</label><br />
