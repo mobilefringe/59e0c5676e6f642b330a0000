@@ -221,7 +221,7 @@
                 "cm-name=" + name +
                 "&cm-illrkd-illrkd="+$('#email').val()+
                 "&cm-f-jyiydk="+$("#phone")+
-                "&cm-f-tdtlky="+$('#postal_code').val()+
+                "&cm-f-jyiydu="+$('#postal_code').val()+
                 "&cm-fd-tdhrdu-mn="+$("#birthday").val(),
                 function (data) {
                     if (data.Status === 400) {
