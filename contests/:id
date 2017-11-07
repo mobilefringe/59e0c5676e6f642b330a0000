@@ -115,6 +115,7 @@
 
 <script>
     function renderAll (){
+        init(e)
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var contestDetails = getContestBySlug(slug);
