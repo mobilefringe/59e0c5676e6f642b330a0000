@@ -223,8 +223,8 @@
                 "&cm-f-jyiydk="+$("#phone")+
                 "&cm-f-jyiydu="+$('#postal_code').val()+
                 "&cm-f-jyiyhl="+$("#birthday").val(),
-                "&cm-f-jyiyhr="+$("#birthday").val(),
-                "&cm-f-jyiyhy="+$("#birthday").val(),
+                "&cm-f-jyiyhr="+$("#mailing_address").val(),
+                "&cm-f-jyiyhy="+$("#city").val(),
                 "&cm-f-jyiyhj="+$("#contest_id").val(),
                 function (data) {
                     if (data.Status === 400) {
