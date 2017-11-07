@@ -458,6 +458,7 @@ function site_search(){
             $('.search_results_container_m').hide();
             $('#close_search_m').hide();
             $(".search_btn_m").show();
+            console.log($(".search_btn_m"));
         }
         else{
             // $('#close_search').show();
