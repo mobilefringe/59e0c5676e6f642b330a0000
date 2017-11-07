@@ -388,7 +388,7 @@ function site_search(){
         else{
             $('#close_search').show();
             $('.search_btn').hide();
-            $('.close_search').show();
+            $('.close_search_desk').show();
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
