@@ -64,7 +64,8 @@ $(window).load(function(e){
         console.log("clear");
         $('.mobile_search').fadeOut();
         $('.search_results_container').fadeOut();
-        $('#site_search').val('')
+        $('#site_search').val('');
+        $('#site_search_m').val('');
         
     })
     $('.popup-close').click(function(){
