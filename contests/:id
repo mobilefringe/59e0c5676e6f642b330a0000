@@ -144,7 +144,7 @@
                                         $('input[name="cm-illljr-illljr"]').attr('value',email);
                                          $.getJSON(
                                             "//mobilefringe.createsend.com/t/d/s/illljr/?callback=?",
-                                          $("#subForm").serialize(),
+                                          $("#contest_form").serialize(),
                                             function (data) {
                                                 if (data.Status === 400) {
                                                     console.log(data);
