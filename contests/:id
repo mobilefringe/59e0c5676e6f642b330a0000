@@ -18,8 +18,8 @@
                                 <br>
                             </div> 
                             <form id="contest_form" style="    margin-top: 10px;">
-                                // <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
-                                // <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
+                                <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
+                                <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
                                 <p style="display:none">
                                     <label for="fieldjyiyhj">Contest ID</label><br />
                                     <input id="fieldjyiyhj" name="cm-f-jyiyhj" type="text" />
