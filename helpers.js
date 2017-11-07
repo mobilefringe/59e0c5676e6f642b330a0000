@@ -58,6 +58,7 @@ $(window).load(function(e){
         $('.mobile_search').fadeOut();
         $('.search_results_container_m').fadeOut();
         $('#site_search_m').val('');
+        $('#site_search').val('');
         
     })
     $('.close_search_desk').click(function(){
