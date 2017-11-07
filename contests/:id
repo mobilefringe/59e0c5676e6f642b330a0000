@@ -59,7 +59,7 @@
                                     </div>
                                     <div class="col-md-4 margin_30">
                                         <label for="fieldjyiyhl">Year of Birth*</label><br />
-                                        <input id="fieldjyiyhl" name="cm-f-jyiyhl" type="text" required placeholder= "Year of Birth"/>
+                                        <input id="fieldjyiyhl" name="cm-f-jyiyhl" type="text" required placeholder= "Year of Birth" class="form-control" required data-validation="required" tabindex="8"/>
                                     </div>
                                 </div>
                                 
