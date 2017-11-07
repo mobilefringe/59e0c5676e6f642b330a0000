@@ -71,6 +71,7 @@ $(window).load(function(e){
         $('#site_search').val('');
         $('#site_search_m').val('');
         $('.close_search_desk').hide();
+        $('.search_btn_desk').show();
         
     })
     $('.popup-close').click(function(){
