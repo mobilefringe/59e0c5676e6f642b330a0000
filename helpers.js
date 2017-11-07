@@ -53,7 +53,7 @@ $(window).load(function(e){
         $('.mobile_search').fadeIn();
         $('#site_search_m').focus()
     })
-    $('.close_search').click(function(){
+    $('.close_search_m').click(function(){
         console.log("clear");
         $('.mobile_search').fadeOut();
         $('.search_results_container').fadeOut();
