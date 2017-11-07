@@ -140,6 +140,16 @@
         loadMallDataCached(renderPageData);
     });
     $(window).load(function(e){
+        function randomgen() {
+            var rannumber='';
+            for(ranNum=1; ranNum<=6; ranNum++){
+                rannumber+=Math.floor(Math.random()*10).toString();
+            }
+            $('#verifyNum').html(rannumber);
+            $('#verifyNumHidden').val(rannumber);
+            console.log($('#verifyNum').html());
+        }
+        randomgen();
         show_content();
     });
 </script>
