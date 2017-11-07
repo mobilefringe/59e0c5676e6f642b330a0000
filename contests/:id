@@ -153,6 +153,7 @@
                                 if ($("#newsletter_signup").prop("checked") == true){
                                     var s = check_email();
                                     if (s == true){
+                                        var name = $("#first_name").val() + " " + $("#last_name").val();
                                         var email = $("#email").val();
                                         $('input[name="cm-illljr-illljr"]').attr('value',email);
                                          $.getJSON(
