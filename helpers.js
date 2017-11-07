@@ -383,7 +383,7 @@ function site_search(){
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
             $('.search_results_container').hide();
-            $('#close_search').hide();
+            $('#close_search_desk').hide();
         }
         else{
             $('#close_search').show();
