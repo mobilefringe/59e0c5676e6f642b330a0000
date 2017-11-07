@@ -60,6 +60,7 @@ $(window).load(function(e){
         $('#site_search_m').val('');
         $('#site_search').val('');
         $('.close_search_m').hide();
+        $('.search_btn_m').show();
         
         
     })
