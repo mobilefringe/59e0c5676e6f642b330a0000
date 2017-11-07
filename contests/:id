@@ -60,7 +60,7 @@
                                             Yes, I would like to receive information about events and promotions from Hazeldean Mall.-->
                                         </label>
                                         <label for="newsletter_signup" style="display:none">Agree Terms</label>
-                                        <input type="checkbox" class="info_check" id="newsletter_signup"/>&nbsp;Yes, I would like to receive ongoing news                                               related to events, promotions and special   
+                                        <input type="checkbox" class="info_check" id="newsletter_signup"/>&nbsp;Yes, I would like to receive ongoing news                                              related to events, promotions and special   
                                         announcements from Hazeldean Mall
                                     </div>
                                 </div>
