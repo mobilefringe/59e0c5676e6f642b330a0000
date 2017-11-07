@@ -159,7 +159,8 @@
                                             "//mobilefringe.createsend.com/t/d/s/illljr/?callback=?",
                                             "cm-name=" + name +
                                             "&cm-illrkd-illrkd="+$('#email').val()+
-                                            "&cm-f-gdrx="+$('#postal_code').val()+
+                                            "&cm-f-jyiydk="+phone+
+                                            "&cm-f-jyiydu="+$('#postal_code').val()+
                                             "&cm-f-gdrm="+$('#phone').val(),
                                             function (data) {
                                                 if (data.Status === 400) {
