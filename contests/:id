@@ -69,11 +69,12 @@
                                 <br>
                                 <div class="row">
                                     <div class="col-md-4">
-                                    </div>
-                                    <div class="col-md-12">
                                     <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
                 <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
                 <input type="text" id="enterVerify" name="enterVerify"   required tabindex="9" />
+                                    </div>
+                                    <div class="col-md-12">
+                                    
                                         <br/><br/>
                                         <!--<label class="agree">
                                             <input type="checkbox" class="info_check" id="newsletter_signup"/>&nbsp;Yes, I would like to receive ongoing news                                             related to events, promotions and special   
