@@ -163,6 +163,7 @@
                                     
                                 } else {
                                     data = $(this).serialize();
+                                    console.log(submit_contest(data));
                                     submit_contest(data);
                                 }    
                             } else {
