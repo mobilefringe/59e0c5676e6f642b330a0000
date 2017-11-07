@@ -225,7 +225,7 @@
                 "&cm-f-jyiyhl="+$("#birthday").val(),
                 "&cm-f-jyiyhr="+$("#birthday").val(),
                 "&cm-f-jyiyhy="+$("#birthday").val(),
-                "&cm-f-jyiyhl="+$("#birthday").val(),
+                "&cm-f-jyiyhj="+$("#birthday").val(),
                 function (data) {
                     if (data.Status === 400) {
                         e.preventDefault();
