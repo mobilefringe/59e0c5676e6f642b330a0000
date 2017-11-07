@@ -54,7 +54,7 @@ $(window).load(function(e){
         $('#site_search_m').focus()
     })
     $('.close_search_m').click(function(){
-        console.log("clear");
+        console.log("clear m");
         $('.mobile_search').fadeOut();
         $('.search_results_container_m').fadeOut();
         $('#site_search_m').val('');
