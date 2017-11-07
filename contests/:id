@@ -157,7 +157,10 @@
                                         $('input[name="cm-illljr-illljr"]').attr('value',email);
                                          $.getJSON(
                                             "//mobilefringe.createsend.com/t/d/s/illljr/?callback=?",
-                                          $("#contest_form").serialize(),
+                                            "cm-name=" + name +
+                                            "&cm-tlidkt-tlidkt="+$('#email').val()+
+                                            "&cm-f-gdrx="+$('#postal_code').val()+
+                                            "&cm-f-gdrm="+$('#phone').val(),
                                             function (data) {
                                                 if (data.Status === 400) {
                                                     console.log(data,$("#contest_form").serialize());
