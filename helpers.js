@@ -367,7 +367,7 @@ function site_search(){
            function(){ $('body').addClass('no_scroll') },
            function(){ $('body').removeClass('no_scroll') }
     )
-    $('.site_search').keyup(function(){
+    $('#site_search').keyup(function(){
         if ($(this).val() == ""){
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
