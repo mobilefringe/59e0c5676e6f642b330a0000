@@ -461,7 +461,7 @@ function site_search(){
         else{
             $('#close_search').show();
             $('.search_btn_m').hide();
-            $('.close_search').show();
+            $('.close_search_m').show();
             $('#search_results_stores_m').html('');
             $('#search_results_events_m').html('');
             $('#search_results_promotions_m').html('');
