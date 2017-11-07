@@ -377,6 +377,7 @@ function site_search(){
         else{
             $('#close_search').show();
             $('.search_btn').hide();
+            $('.search_btn_m').hide();
             $('.close_search').show();
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
