@@ -59,6 +59,7 @@ $(window).load(function(e){
         $('.search_results_container_m').fadeOut();
         $('#site_search_m').val('');
         $('#site_search').val('');
+        $('.close_search_m').hide();
         
     })
     $('.close_search_desk').click(function(){
