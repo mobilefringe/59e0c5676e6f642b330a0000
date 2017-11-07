@@ -49,7 +49,7 @@ $(window).load(function(e){
 	
 	site_search();
 	$('.close_search').hide();
-    $('.search_btn').click(function(){
+    $('.search_btn_m').click(function(){
         $('.mobile_search').fadeIn();
         $('#site_search_m').focus()
     })
