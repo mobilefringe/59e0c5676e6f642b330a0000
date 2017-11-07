@@ -373,6 +373,10 @@ function site_search(){
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
             $('.search_results_container').hide();
+            $('#search_results_stores_m').html('');
+            $('#search_results_events_m').html('');
+            $('#search_results_promotions_m').html('');
+            $('.search_results_container_m').hide();
             $('#close_search').hide();
         }
         else{
