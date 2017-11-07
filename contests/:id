@@ -123,6 +123,7 @@
             var contestDetails = getContestBySlug(slug);
             if (contestDetails) {
                 // renderPageData('#main_content','#contest_template',contestDetails, 'contestDetails')
+                
                 $("#loading_screen").hide();
                 $("#main_content").fadeIn( "fast");
                 randomgen();
