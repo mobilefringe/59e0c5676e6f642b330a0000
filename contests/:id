@@ -223,6 +223,9 @@
                 "&cm-f-jyiydk="+$("#phone")+
                 "&cm-f-jyiydu="+$('#postal_code').val()+
                 "&cm-f-jyiyhl="+$("#birthday").val(),
+                "&cm-f-jyiyhl="+$("#birthday").val(),
+                "&cm-f-jyiyhl="+$("#birthday").val(),
+                "&cm-f-jyiyhl="+$("#birthday").val(),
                 function (data) {
                     if (data.Status === 400) {
                         e.preventDefault();
