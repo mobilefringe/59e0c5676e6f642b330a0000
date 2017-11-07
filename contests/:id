@@ -57,8 +57,8 @@
                 <input id="city" name="contest[city]" type="text" placeholder="City" class="form-control" tabindex="6" />
                                     </div>
                                     <div class="col-md-4 margin_30">
-                                        <label for="fieldjyiydu">Postal Code*</label><br />
-                                        <input id="fieldjyiydu" name="cm-f-jyiydu" type="text" placeholder="Postal Code" class="form-control" required data-validation="required" tabindex="7"/>
+                                        <label for="postal_code">Postal Code*</label><br />
+                <input id="postal_code" name="contest[postal_code]" type="text" required placeholder="Postal Code" class="form-control" required data-validation="required" tabindex="7"/>
                                     </div>
                                     <div class="col-md-4 margin_30">
                                         <label for="fieldjyiyhl">Year of Birth*</label><br />
