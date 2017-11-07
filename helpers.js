@@ -459,7 +459,7 @@ function site_search(){
             $('#close_search_m').hide();
         }
         else{
-            $('#close_search').show();
+            // $('#close_search').show();
             $('.search_btn_m').hide();
             $('.close_search_m').show();
             $('#search_results_stores_m').html('');
