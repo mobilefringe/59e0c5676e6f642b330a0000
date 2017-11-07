@@ -33,8 +33,8 @@
                 <input id="last_name" type="text" name="contest[last_name]" required placeholder="Last Name" class="form-control" required data-validation="required" tabindex="2"/>
                                     </div>
                                     <div class="col-md-4 margin_30">
-                                        <label for="fieldEmail">Email*</label><br />
-                                        <input id="fieldEmail" name="cm-illrkd-illrkd" type="email" placeholder="Email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
+                                        <label for="email">Email*</label><br />
+                <input id="email" name="contest[email]" type="text" required placeholder="Email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
                                     </div>
                                 </div>
                                 <br class="hidden_phone">
