@@ -387,6 +387,9 @@ function site_search(){
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
+            $('#search_results_stores_m').html('');
+            $('#search_results_events_m').html('');
+            $('#search_results_promotions_m').html('');
             
             var val = $(this).val().toLowerCase();
             results = getSearchResults(val);
