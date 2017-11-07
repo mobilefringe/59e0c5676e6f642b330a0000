@@ -116,7 +116,7 @@
             var contestDetails = getContestBySlug(slug);
             console.log(contestDetails);
             if (contestDetails) {
-                renderPageData('#main_content','#contest_template',contestDetails, 'contestDetails')
+                renderPageData('#contest_container','#contest_template',contestDetails, 'contestDetails')
                 
                 // $("#loading_screen").hide();
                 // $("#main_content").fadeIn( "fast");
