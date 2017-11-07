@@ -265,7 +265,7 @@
         }
         
         function check_email (){
-            var email = $("#fieldEmail").val();
+            var email = $("#email").val();
             if( !validateEmail(email)) {
                 return false
             } else {
