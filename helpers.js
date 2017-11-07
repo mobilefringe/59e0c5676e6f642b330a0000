@@ -99,7 +99,7 @@ function init(e){
         $('.stores_table').show()
     })
     site_search();
-    $('.search_btn').click(function(){
+    $('.search_bt_mn').click(function(){
         $('.mobile_search').fadeIn();
         $('#site_search').focus()
     })
