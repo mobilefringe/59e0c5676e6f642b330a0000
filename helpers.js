@@ -58,10 +58,16 @@ $(window).load(function(e){
         $('.mobile_search').fadeOut();
         $('.search_results_container').fadeOut();
         $('#site_search_m').val('');
+        
+    })
+    $('.close_search_m').click(function(){
+        console.log("clear");
+        $('.mobile_search').fadeOut();
+        $('.search_results_container').fadeOut();
+        $('#site_search_m').val('');
         $('#site_search').val('')
         
     })
-    
     $('.popup-close').click(function(){
         $('.hidden-popup-bg').hide()
         $('body').removeClass('no_scroll');
