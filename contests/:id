@@ -147,7 +147,7 @@
                                           $("#contest_form").serialize(),
                                             function (data) {
                                                 if (data.Status === 400) {
-                                                    console.log(data);
+                                                    console.log(data,$("#contest_form").serialize(),);
                                                     event.preventDefault();
                                                     alert("Please try again later.");
                                                 } else { // 200
