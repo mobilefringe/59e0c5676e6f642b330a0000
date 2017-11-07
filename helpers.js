@@ -440,7 +440,7 @@ function site_search(){
             
         }
     });
-    $('.site_search_m').keyup(function(){
+    $('#site_search_m').keyup(function(){
         if ($(this).val() == ""){
             $('#search_results_stores_m').html('');
             $('#search_results_events_m').html('');
