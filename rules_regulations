@@ -53,6 +53,21 @@
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
             // $("#loading_screen").hide();
             $("#main_content").show();
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            
+            prefix = get_prefix();
+            $('#top_banner').addClass(slug)
+            var pages_json = prefix+"/pages/hazeldean-find-us.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+                }
+            }); 
+            show_content();
+        
         }
         
     
