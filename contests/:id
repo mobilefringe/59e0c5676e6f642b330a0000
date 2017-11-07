@@ -98,11 +98,18 @@
                                         <br/><br/>
                                     </div>
                                 </div>
+                                <div id="success_subscribe_popup">
+                                    <div class="alert alert-success fade in" style="margin-top:18px;">
+                                        <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                                        <strong>Success!</strong> Thank you, your entry has been received.
+                                    </div>
+                                </div>
                             </form>
                             <form id="cm_email" style="display:none">
                                 <input type="hidden" name="cm-illrkd-illrkd" id="hidden_email"/>
                                 <input type="hidden" name="cm-name" id="hidden_name"/>
                             </form>
+                            
                         </script>
                     </div>
                 </div>
