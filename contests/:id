@@ -45,6 +45,8 @@
                                     <div class="col-md-8">
                                         <label for="city">City</label>  
                                         <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
+                                        <label for="fieldjyiyhr">Street Address</label><br />
+                <input id="fieldjyiyhr" name="cm-f-jrihyh" type="text" placeholder="Street Address" tabindex="5"/>
                                     </div>
                                     <div class="col-md-4">
                                         <label for="email">Email</label> 
