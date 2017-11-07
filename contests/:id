@@ -54,8 +54,10 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <label class="agree">
-                                            <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
-                                            Yes, I would like to receive information about events and promotions from Hazeldean Mall.
+                                            <input type="checkbox" class="info_check" id="newsletter_signup"/>&nbsp;Yes, I would like to receive ongoing news                                             related to events, promotions and special   
+                                            announcements from Hazeldean Mall.
+                                            // <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
+                                            // Yes, I would like to receive information about events and promotions from Hazeldean Mall.
                                         </label>
                                         
                                     </div>
