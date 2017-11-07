@@ -406,6 +406,7 @@ function site_search(){
                     div_stores = div_stores + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
                     div_stores = div_stores + "</div>";
                     $('#search_results_stores').append(div_stores);
+                    $('#search_results_stores_m').append(div_stores);
                     $('.search_results_container').show();
                 });
             }
