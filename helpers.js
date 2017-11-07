@@ -373,23 +373,15 @@ function site_search(){
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
             $('.search_results_container').hide();
-            $('#search_results_stores_m').html('');
-            $('#search_results_events_m').html('');
-            $('#search_results_promotions_m').html('');
-            $('.search_results_container_m').hide();
             $('#close_search').hide();
         }
         else{
             $('#close_search').show();
             $('.search_btn').hide();
-            $('.search_btn_m').hide();
             $('.close_search').show();
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
-            $('#search_results_stores_m').html('');
-            $('#search_results_events_m').html('');
-            $('#search_results_promotions_m').html('');
             
             var val = $(this).val().toLowerCase();
             results = getSearchResults(val);
@@ -400,39 +392,33 @@ function site_search(){
             if(s_stores !=undefined && s_stores.length > 0){
                 var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
                 $('#search_results_stores').append(h2_stores);
-                $('#search_results_stores_m').append(h2_stores);
                 $.each(s_stores, function(i, v){
                     var div_stores = "<div class='blog_search_results collapse_open_stores'>";
                     div_stores = div_stores + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
                     div_stores = div_stores + "</div>";
                     $('#search_results_stores').append(div_stores);
-                    $('#search_results_stores_m').append(div_stores);
                     $('.search_results_container').show();
                 });
             }
             if(s_promos != undefined && s_promos.length > 0){
                 var h2_promotions = "<h2 id='open_promotions' class='li_open'>(" +s_promos.length + ") Promotions<i class='pull-right fa fa-chevron-down'></i></h2>";
                 $('#search_results_promotions').append(h2_promotions);
-                $('#search_results_promotions_m').append(h2_promotions);
                 $.each(s_promos, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_promotions'>";
                     div = div + "<h4><a href='/promotions/" + v.slug + "'>" + v.name + "</a></h4>";
                     div = div + "</div>";
                     $('#search_results_promotions').append(div);
-                    $('#search_results_promotions_m').append(div);
                     $('.search_results_container').show();
                 });
             }   
             if(s_events != undefined && s_events.length > 0){
                 var h2_events = "<h2 id='open_events' class='li_open'>(" +s_events.length + ") Events<i class='pull-right fa fa-chevron-down'></i></h2>";
                 $('#search_results_stores').append(h2_events);
-                $('#search_results_stores_m').append(h2_events);
                 $.each(s_events, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_events'>";
                     div = div + "<h4><a href='/events/" + v.slug + "'>" + v.name + "</a></h4>";
                     div = div + "</div>";
                     $('#search_results_stores').append(div);
-                    $('#search_results_stores_m').append(div);
                     $('.search_results_container').show();
                 });
             }
