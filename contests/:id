@@ -21,7 +21,7 @@
                             </div> 
                             <form id="contest_form" style="    margin-top: 10px;">
                                 <input id="property_id" name="contest[property_id]" style="display:none" value="{{property_id}}"/>
-            <input id="contest_id" name="contest[contest_id]" style="display:none" value="{{id}}" />
+                                <input id="contest_id" name="contest[contest_id]" style="display:none" value="{{id}}" />
                                 <input type="hidden" name="cm-name" id="cm-name" />
                                 <div class="row ">
                                     <div class="col-md-4 margin_30">
