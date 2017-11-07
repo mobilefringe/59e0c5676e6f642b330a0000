@@ -61,8 +61,8 @@
                 <input id="postal_code" name="contest[postal_code]" type="text" required placeholder="Postal Code" class="form-control" required data-validation="required" tabindex="7"/>
                                     </div>
                                     <div class="col-md-4 margin_30">
-                                        <label for="fieldjyiyhl">Year of Birth*</label><br />
-                                        <input id="fieldjyiyhl" name="cm-f-jyiyhl" type="text"  placeholder= "yyyy-mm-dd" class="form-control" required data-validation="required" tabindex="8"/>
+                                        <label for="birthday">Date of Birth*</label><br />
+                <input id="birthday" name="contest[birthday]" type="text" required placeholder= "yyyy-mm-dd" class="form-control" required data-validation="required" tabindex="8"/>
                                     </div>
                                 </div>
                                 
