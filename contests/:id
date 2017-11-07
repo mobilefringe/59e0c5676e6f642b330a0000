@@ -121,6 +121,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var contestDetails = getContestBySlug(slug);
+            console.log(contestDetails)
             if (contestDetails) {
                 // renderPageData('#main_content','#contest_template',contestDetails, 'contestDetails')
                 
