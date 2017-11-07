@@ -426,6 +426,7 @@ function site_search(){
             if(s_events != undefined && s_events.length > 0){
                 var h2_events = "<h2 id='open_events' class='li_open'>(" +s_events.length + ") Events<i class='pull-right fa fa-chevron-down'></i></h2>";
                 $('#search_results_stores').append(h2_events);
+                $('#search_results_stores_m').append(h2_events);
                 $.each(s_events, function(i, v){
                     var div = "<div class='blog_search_results collapse_open_events'>";
                     div = div + "<h4><a href='/events/" + v.slug + "'>" + v.name + "</a></h4>";
