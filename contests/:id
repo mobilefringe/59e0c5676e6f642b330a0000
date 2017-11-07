@@ -68,6 +68,8 @@
                                 
                                 <br>
                                 <div class="row">
+                                    <div class="col-md-4">
+                                    </div>
                                     <div class="col-md-12">
                                     <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
                 <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
