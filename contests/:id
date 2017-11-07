@@ -66,6 +66,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
+                                    <br/>
                                     <input type="checkbox" class="info_check" id="agree_terms" required/>&nbsp;I agree to the <a href = "/rules_regulations"><u>Rules and Regulations</u>
                                        <!--<a class="contest_link" href="/rules_regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.-->
                                         <br/><br/>
