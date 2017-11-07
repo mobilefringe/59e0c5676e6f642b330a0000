@@ -71,7 +71,7 @@
                                        <!--<a class="contest_link" href="/rules_regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.-->
                                         <br/><br/>
                                         // <input type="submit" tabindex="9" class="text-center newsletter_btn animated_btn" value="Submit"/>
-                                        <button class="btn text-center newsletter_btn animated_btn" type="submit" tabindex="9">Submit</button>
+                                        <button class="text-center newsletter_btn animated_btn" type="submit" tabindex="9">Submit</button>
                                         <br/><br/>
                                         <br/><br/>
                                     </div>
