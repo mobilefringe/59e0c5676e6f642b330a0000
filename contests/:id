@@ -158,7 +158,7 @@
                                          $.getJSON(
                                             "//mobilefringe.createsend.com/t/d/s/illljr/?callback=?",
                                             "cm-name=" + name +
-                                            "&cm-tlidkt-tlidkt="+$('#email').val()+
+                                            "&cm-illrkd-illrkd="+$('#email').val()+
                                             "&cm-f-gdrx="+$('#postal_code').val()+
                                             "&cm-f-gdrm="+$('#phone').val(),
                                             function (data) {
