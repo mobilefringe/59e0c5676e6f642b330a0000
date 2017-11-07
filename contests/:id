@@ -71,7 +71,7 @@
                                     <div class="col-md-4">
                                     <label for="enterVerify">Enter the following number below to proceed: <div id="verifyNum"></div></label><br>
                 <input type="hidden" value="701469" id="verifyNumHidden" name="verifyNumHidden" />
-                <input type="text" id="enterVerify" name="enterVerify"   required tabindex="9" />
+                <input type="text" id="enterVerify" name="enterVerify"   class="form-control" required tabindex="9" />
                                     </div>
                                     <div class="col-md-12">
                                     
