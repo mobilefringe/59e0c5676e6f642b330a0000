@@ -98,19 +98,19 @@ function init(e){
         e.preventDefault();
         $('.stores_table').show()
     })
-    site_search();
-    $('.search_btn_m').click(function(){
-        $('.mobile_search').fadeIn();
-        $('#site_search').focus()
-    })
-    $('.close_search').click(function(){
-        $('.close_search ').hide();
-        $('.search_btn').show();
-        $('.mobile_search').fadeOut();
-        $('.search_results_container').fadeOut();
-        $('#site_search_m').val('');
-        $('#site_search').val('')
-    })
+    // site_search();
+    // $('.search_btn_m').click(function(){
+    //     $('.mobile_search').fadeIn();
+    //     $('#site_search').focus()
+    // })
+    // $('.close_search').click(function(){
+    //     $('.close_search ').hide();
+    //     $('.search_btn').show();
+    //     $('.mobile_search').fadeOut();
+    //     $('.search_results_container').fadeOut();
+    //     $('#site_search_m').val('');
+    //     $('#site_search').val('')
+    // })
     
     $('.popup-close').click(function(){
         $('.hidden-popup-bg').hide()
