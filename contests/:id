@@ -20,7 +20,9 @@
                             <form id="contest_form" style="    margin-top: 10px;">
                                 <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
                                 <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
-                                <input type="hidden" name="cm-name" id="cm-name" />
+                                <label for="fieldjyiyhj">Contest ID</label><br />
+                                <input id="fieldjyiyhj" name="cm-f-jyiyhj" type="text" />
+                                <input type="hidden" name="cm-name" id="cm-name" type="hidden" />
                                 <div class="row ">
                                     <div class="col-md-4 margin_30">
                                         <label for="firstName">First Name*</label><br/>
