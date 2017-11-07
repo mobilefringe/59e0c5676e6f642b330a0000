@@ -114,16 +114,17 @@
 </div>
 
 <script>
-    function renderAll (){
-        init(e)
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll (){
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var contestDetails = getContestBySlug(slug);
             if (contestDetails) {
                 renderPageData('#main_content','#contest_template',contestDetails, 'contestDetails')
-                // $("#loading_screen").hide();
-                // $("#main_content").fadeIn( "fast");
-                // randomgen();
+                $("#loading_screen").hide();
+                $("#main_content").fadeIn( "fast");
+                randomgen();
                 jQuery(function($){
                    $("#birthday").mask("9999/99/99");
                 });
@@ -276,7 +277,6 @@
             return true;
           }
         }
-        
         function renderContest(container, template, collection){
             var item_list = [];
             var item_rendered = [];
