@@ -40,8 +40,7 @@
                                     <div class="col-md-4">
                                         <label for="fieldjyiydk">Phone Number*</label><br />
                                         <input id="fieldjyiydk" name="cm-f-jyiydk" type="text" class="form-control" required placeholder="Phone Number" required data-validation="required" tabindex="4"/>
-                                        <label for="postal_code">Postal Code</label>  
-                                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
+                                       
                                     </div>
                                     <div class="col-md-4">
                                         <label for="city">City</label>  
