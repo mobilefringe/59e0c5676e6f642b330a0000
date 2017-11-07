@@ -230,6 +230,7 @@
                 error: function(data){
                  // alert("There was an issue with submitting the contest entry. Please try again at a later time.")
                     // window.location.href="/contest_thank_you";
+                    $("#error_subscribe_popup").fadeIn();
                 }
             });
         }
