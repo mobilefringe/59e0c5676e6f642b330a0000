@@ -456,7 +456,7 @@ function site_search(){
             $('#search_results_events_m').html('');
             $('#search_results_promotions_m').html('');
             $('.search_results_container_m').hide();
-            $('#close_search').hide();
+            $('#close_search_m').hide();
         }
         else{
             $('#close_search').show();
