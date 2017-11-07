@@ -109,6 +109,8 @@ function init(e){
         $('.mobile_search').fadeOut();
         $('.search_results_container').fadeOut();
         $('#site_search').val('')
+        $('#site_search_m').val('');
+        $('#site_search').val('')
     })
     
     $('.popup-close').click(function(){
