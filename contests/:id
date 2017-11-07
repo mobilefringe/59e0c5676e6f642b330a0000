@@ -40,8 +40,8 @@
                                 <br class="hidden_phone">
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <label for="fieldjyiydk">Phone Number*</label><br />
-                                        <input id="fieldjyiydk" name="cm-f-jyiydk" type="phone" class="form-control"  placeholder="Phone Number" required data-validation="required" tabindex="4"/>
+                                        <label for="phone">Phone Number*</label><br />
+                <input id="phone" name="contest[phone]" type="text" required placeholder="Phone Number" required data-validation="required" tabindex="4"/>
                                        
                                     </div>
                                     <div class="col-md-8">
