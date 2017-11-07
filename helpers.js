@@ -432,6 +432,7 @@ function site_search(){
                     div = div + "<h4><a href='/events/" + v.slug + "'>" + v.name + "</a></h4>";
                     div = div + "</div>";
                     $('#search_results_stores').append(div);
+                    $('#search_results_stores_m').append(div);
                     $('.search_results_container').show();
                 });
             }
