@@ -60,7 +60,7 @@ $(window).load(function(e){
         $('#site_search_m').val('');
         
     })
-    $('.close_search_m').click(function(){
+    $('.close_search').click(function(){
         console.log("clear");
         $('.mobile_search').fadeOut();
         $('.search_results_container').fadeOut();
