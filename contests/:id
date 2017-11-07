@@ -23,20 +23,15 @@
                                 <input type="hidden" name="cm-name" id="cm-name" />
                                 <div class="row ">
                                     <div class="col-md-4 margin_30">
-                                        <label for="first_name">First Name</label>  
-                                        <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
                                         <label for="firstName">First Name*</label><br/>
                                         <input id="firstName" type="text" placeholder="First Name" class="form-control" required data-validation="required" tabindex="1" />
                                     </div>
                                     <div class="col-md-4 margin_30">
-                                        <label for="last_name">Last Name</label>  
-                                        <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
                                         <label for="lastName">Last Name*</label><br/>
                                         <input id="lastName" type="text" placeholder="Last Name" class="form-control" required data-validation="required" tabindex="2"/>
                                     </div>
                                     <div class="col-md-4 margin_30">
-                                        <label for="phone">Phone Number</label>  
-                                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>                                  <label for="fieldEmail">Email*</label><br />
+                                        <label for="fieldEmail">Email*</label><br />
                                         <input id="fieldEmail" name="cm-illrkd-illrkd" type="email" placeholder="Email" class="form-control" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
                                     </div>
                                 </div>
