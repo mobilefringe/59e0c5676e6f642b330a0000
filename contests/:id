@@ -24,6 +24,10 @@
                                     <label for="fieldjyiyhj">Contest ID</label><br />
                                     <input id="fieldjyiyhj" name="cm-f-jyiyhj" type="text" />
                                 </p>
+                                <p style="display:none">
+                                    <label for="fieldName">Name</label><br />
+                                    <input id="fieldName" name="cm-name" type="text"/>
+                                </p>
                                 <input type="hidden" name="cm-name" id="cm-name" />
                                 <div class="row ">
                                     <div class="col-md-4 margin_30">
