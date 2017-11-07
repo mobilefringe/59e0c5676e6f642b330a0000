@@ -161,10 +161,6 @@
                     }
                 
             });
-    
-    
-    
-            
         }
         function verify_required_fields (){
         if ($("#firstName").val() != "" && $("#lastName").val() != "" && $("#fieldEmail").val() != "" && $("#fieldjrihe").val() != "" && $("#fieldjrihs").val() != "" && $("#fieldjrihg").val() != "") {
