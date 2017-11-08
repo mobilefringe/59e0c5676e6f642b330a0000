@@ -1,0 +1,95 @@
+<!--<div id="loading_screen">-->
+<!--    <img alt="loading" src="//kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/3604f5c26997bea3de504de139debcec/loading.gif"/>-->
+<!--</div>-->
+<style>
+    
+ .rules_reg .row{
+    margin:0;
+}
+</style>
+<div class="content_container main_container padding_bottom_50 rules_reg">
+    <div class="promo_main_header">
+        Rules & Regulations
+    </div>
+    <div class="row">
+        <div id="mm_page_content" class=" promo_list_desc mobile_padding padding_top_20">
+       
+        </div>
+        <!--<div class="col-md-8">-->
+        <!--    <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/346a52de0b9e6d84c82a75ab379b9556/Banner-Image-004_edited.jpg"/>-->
+        <!--    <section class="article-text">-->
+        <!--       <div class="row">-->
+        <!--            <p>Winner will be contacted via e-mail or by telephone. Must be 18 years or older to WIN. Only one ballot entry per person. Contest is not open to Hazeldean Mall Retail Employees, Bentall Kennedy LP Employees, Family Members & Affiliated Agencies. No purchase is necessary. One winner will be selected in a random drawing from among all entries received. Chances of winning depends on total number of entries received. Winner will be required to present proof of age (Must be 18 years or older to WIN) and will be required to sign an affidavit of eligibility and release of liability. A correctly answered skill testing question may be required. All entrants must abide by these contest rules. Decision of Hazeldean Mall Management is final.-->
+        <!--            <br></p>-->
+        <!--       </div>-->
+        <!--  </section>-->
+            
+        <!--</div>-->
+        
+        <!--<div class="col-md-4 show_cats">-->
+        <!--</div>-->
+    </div>
+    
+    <!--    <div class="left_column">-->
+            
+    <!--    </div>-->
+    <!--    <div class="right_column">-->
+            
+            
+            
+    <!--    </div>-->
+    <!--</div>-->
+</div>
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll (){
+            var propertyDetails = getPropertyDetails();
+            renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
+            // $("#loading_screen").hide();
+            $("#main_content").show();
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            
+            prefix = get_prefix();
+            $('#top_banner').addClass(slug)
+            var pages_json = prefix+"/pages/hazeldean-thank-you.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+                }
+            }); 
+            show_content();
+        
+        }
+        
+    
+        function renderPageData(container, template, collection, type){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            if (type == "property_details"){
+                item_list.push(collection);
+                collection = []
+                collection = item_list;
+            }
+            $.each( collection , function( key, val ) {
+                var rendered = Mustache.render(template_html,val);
+                item_rendered.push(rendered);
+    
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));
+        };
+
+        loadMallData(renderAll);  
+
+        show_content();
+  
+    });
+    
+</script>
