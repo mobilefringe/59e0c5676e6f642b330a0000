@@ -15,10 +15,7 @@
         <div id="mm_page_content" class=" promo_list_desc mobile_padding padding_top_20">
        
         </div>
-       
     </div>
-    
-   
 </div>
 <script>
     $(document).ready(function(e) {
