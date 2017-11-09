@@ -66,7 +66,7 @@
                         val.alt_url = getImageURL(val.photo_url);
                         item_list.push(val);
                         // console.log(val);
-                    });
+                    // });
                 // }
             });
             $.each( item_list , function( key, val ) {
