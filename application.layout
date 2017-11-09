@@ -169,44 +169,7 @@
                 </div>
             
         </div>
-        <!--<div class="row header mobile_margin main_container menu_header_content">-->
-        <!--    <div class="col-md-4 col-sm-4 col-xs-2 logo_hour_container">-->
-        <!--        <div class="hours_home hidden_phone_inline col-xs-9" style="padding:0;">-->
-        <!--            <div class="row">-->
-        <!--                <span class="hours_dot"></span>-->
-        <!--                <span id="open_today"> Open today:</span>-->
-        <!--            </div>-->
-        <!--            <div class="row">-->
-        <!--                <span class="home_hours_container">-->
-        <!--                    <script class="home_hours_template" type="x-tmpl-mustache/text">-->
-        <!--                        <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>-->
-        <!--                    </script>-->
-        <!--                </span>-->
-        <!--            </div>-->
-        <!--        </div>-->
-                <!--- MOBILE MENU OPENER-->
-        <!--        <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu" id="open_menu">-->
-        <!--    </div>-->
-        <!--    <div class="col-md-5 col-sm-5 col-xs-10 text-center main_logo_container" id="main_logo_container">-->
-                <!--<a href="/" class="main_logo">-->
-                <!-- Yuba Sutter Mall-->
-                <!--</a>-->
-                <!--<script id="logo_template" type="x-tmpl-mustache/text">{% raw %}<img src="{{site_logo}}">{% endraw %}</script>-->
-        <!--       <a href="/"> <img src="//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/png/1509645151000/hazelogo-01-01.png" class="" alt=""></a>-->
-        <!--    </div>-->
-        <!--    <div class="col-md-3 col-sm-3 col-xs-1 hidden_phone social_icons_container">-->
-        <!--        <p class="hidden_phone" style="padding-right: 10px;text-align: right;">Follow us on</p>-->
-        <!--        <div class="social_icons hidden_phone_inline pull-right">-->
-        <!--            <a class="social_fb" href="https://www.facebook.com/HazeldeanMall" target="_blank"></a>-->
-                    <!--<a class="social_twitter" href="http:/twitter.com/YubaSutter" target="_blank"></a>-->
-                    <!--<a class="social_insta" href="https://www.instagram.com/yubasuttermall/" target="_blank"></a>-->
-                    <!--<a class="social_yt" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
-                    <!--<a class="social_gp" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
-                    <!--<a class="social_newsletter" href="/newsletter" target="_blank"></a>-->
-        <!--        </div>-->
-        <!--        <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">-->
-        <!--    </div>-->
-        <!--</div>-->
+        
         <div class="row header mobile_margin row header mobile_margin main_container menu_header_content">
             <div class="col-sm-4 col-xs-2">
                 <p class="hidden_phone">Follow us on</p>
@@ -241,19 +204,9 @@
        
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
-            <li class=" nav_li"> <a href="/stores">Store Directory</a>
-                <!--<div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">-->
-                <!--    <ul class="dd_guest dropdown_list">-->
-                <!--        <div class="triangle-up"></div>-->
-                <!--        <div class="triangle-up-inside"></div>-->
-                <!--        <li><a href="/stores">Store Directory</a></li>-->
-                <!--        <li><a href="/map">Centre Map</a></li>-->
-                <!--    </ul>-->
-                <!--</div>-->
-            </li>
+            <li class=" nav_li"> <a href="/stores">Store Directory</a></li>
             <li class="nav_li"> <a href="/events">Events</a></li>
             <li class="nav_li"><a href="/promotions">Promotions</a></li>
-            <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
             <li class="dropdown nav_li"><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Leasing</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_programs dropdown-menu-hover">
                     <ul class="dd_guest dropdown_list">
@@ -261,12 +214,9 @@
                         <div class="triangle-up-inside"></div>
                         <li><a href="/pages/hazeldean-leasing">Leasing</a></li>
                         <li><a href="/photos">Photos</a></li>
-                       
-                       
                     </ul>
                 </div>
             </li>
-            <!--<a href="/directions">About Us</a>-->
             <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Contact Us</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
                     <ul class="dd_guest dropdown_list">
@@ -344,9 +294,6 @@
                                 <li><a href="/events">Events</a></li>
                                 <!--<li><a href="/photos">Photos</a></li>-->
                                 <li><a href="/hours">Shopping Hours</a></li>
-                                <!--<li><a href="/contests/yubasutter-contest-test--2">Contest</a></li>-->
-                                <!--<li><a href="/directions">Gift Cards</a></li>-->
-                                <!--<li><a href="/hours">Shopping Hours</a></li>-->
                             </ul>
                         </div>
                         <div class="col-md-6 col-xs-6">
@@ -355,29 +302,19 @@
                                 <li><a href="/find_us">Find Us</a></li>
                                 <li><a href="/jobs">Jobs</a></li>
                                 <li><a href="/community">Community</a></li>
-                                <!--<li><a href="#">Tenant Login</a></li>-->
-                                <!--<li><a href="/pages/fairfax-terms-of-website-use" target="_blank">Terms of Use</a></li>-->
-                                <!--<li><a href="/pages/fairfax-privacy-policy" target="_blank">Privacy Policy</a></li>-->
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 col-xs-12 bottom_border">
-                    <!--<h4 class="site_map_heading">© 2017 -  Hazeldean Mall</h4>-->
                     <p class="rights_reserved">
                         © 2017 -  Hazeldean Mall.<br/> All Rights Reserved.
                         <a href="/pages/hazeldean-privacy-policy" target="_blank">Privacy Policy</a> 
-                        <!--| <a href="/pages/fairfax-terms-of-website-use" target="_blank">Terms of Use</a>-->
-                        <!--<br/>-->
-                        <!--Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>-->
+                        
                     </p>
                     <a href="//bentallkennedy.com/" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/png/1507921818000/bentalllogo.png" class="footer_logo" alt=""></a>
                     <p class="rights_reserved">
-                        <!--All Rights Reserved-->
-                        <!--<br />-->
-                        <!--<a href="/pages/hazeldean-privacy-policy" target="_blank">Privacy Policy</a> -->
-                        <!--| <a href="/pages/fairfax-terms-of-website-use" target="_blank">Terms of Use</a>-->
-                        <!--<br/>-->
+                        
                         Powered by <a href="//mallmaverick.com" target="_blank">Mall Maverick</a>
                     </p>
                 </div>
