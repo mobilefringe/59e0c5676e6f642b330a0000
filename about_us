@@ -7,23 +7,45 @@
                 <div id="mm_page_content" class="promo_list_desc"></div>
             </div>
             <div class="col-md-4">
-               
-                <div class="col-md-12 property_right">
-                    <h2 class="promo_list_name">Property Management</h2>
-                    <div class="col-md-12">
-                        <a href="">Bridget Graves</a>
-                        <div class="contact_addresss promo_list_desc">
-                            Senior Property Manager<br/>bgraves@petersoncos.com<br/>703-227-0883
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <a href="">Vonnette Dupree</a>
-                        <div class="contact_addresss promo_list_desc">
-                            Assistant Property Manager<br/>vdupree@petersoncos.com<br/>703-227-0890
-                        </div>
-                    </div>
-                    
-                </div>
+               <p class="directory_content"><strong>Cindy Lavigne</strong> 
+                    <br>General Manager
+                    <br>613-592-7515
+                    <br><a href="mailto:clavigne@bentallkennedy.com ">clavigne@bentallkennedy.com</a></p>
+                    <br>
+                     <p class="directory_content"><strong>Jennifer Crispel</strong> 
+                    <br>Director, Leasing*
+                    <br>1.866.681.2715
+                    <br><a href="mailto:jcrispel@bentallkennedy.com">jcrispel@bentallkennedy.com</a>
+                    <br>*Sales Representative</p>
+                    <br>
+                    <p class="directory_content"><strong>Robin Forrest </strong> 
+                    <br>Operations Manager
+                    <br>613-592-4614
+                    <br><a href="mailto:rforrest@bentallkennedy.com">rforrest@bentallkennedy.com</a></p>
+                    <br>
+                       <p class="directory_content"><strong>Cindy Lavigne</strong> 
+                   <br>Marketing Inquiries
+                   <br>613-592-7515
+                   <br><a href="mailto:clavigne@bentallkennedy.com">clavigne@bentallkennedy.com</a></p>
+                   <br>
+                    <p class="directory_content"><strong>Frank Fenn</strong> 
+                    <br>Marketing Coordinator
+                    <br>613-592-6184
+                    <br><a href="mailto:ffenn@bentallkennedy.com ">ffenn@bentallkennedy.com</a></p>
+                    <br>
+                   <p class="directory_content"><strong>Teresa Savoie</strong> 
+                   <br>Retail Accounts Coordinator
+                   <br>613-592-4542 
+                   <br><a href="mailto:tsavoie@bentallkennedy.com" target="_blank">tsavoie@bentallkennedy.com</a></p>
+                   <br>
+                   <p class="directory_content"><strong>Leanne Burley</strong> 
+                   <br>Administrative Assistant
+                   <br>613-592-0095
+                   <br><a href="mailto:lburley@bentallkennedy.com" target="_blank">lburley@bentallkennedy.com</a></p>
+                   <br>
+                   <p class="directory_content"><strong>Security</strong> 
+                   <br>613-227-1711
+                   <br><a href="mailto:HazeldeanMallSecurity@BentallKennedy.com" target="_blank">HazeldeanMallSecurity@BentallKennedy.com</a></p>
             </div> 
         </div>
     </div>
