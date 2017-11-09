@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-sm-6 col-md-6 padding-right-none">
                     <label for="operatingName">Operating Name of Organization <span>(if different)</span></label>
-                    <input name="operatingName" id="operatingName" class="form-control" type="text" required  />
+                    <input name="operatingName" id="operatingName" class="form-control" type="text"  />
                 </div>
                 
                 <div class="col-sm-6 col-md-6 padding-left-none">
