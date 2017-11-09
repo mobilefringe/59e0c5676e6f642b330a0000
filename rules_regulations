@@ -15,30 +15,9 @@
         <div id="mm_page_content" class=" promo_list_desc mobile_padding padding_top_20">
        
         </div>
-        <!--<div class="col-md-8">-->
-        <!--    <img class="inside_banner_image" alt="banner" src="//kodekloud.s3.amazonaws.com/sites/54edfd7a6e6f640717000000/346a52de0b9e6d84c82a75ab379b9556/Banner-Image-004_edited.jpg"/>-->
-        <!--    <section class="article-text">-->
-        <!--       <div class="row">-->
-        <!--            <p>Winner will be contacted via e-mail or by telephone. Must be 18 years or older to WIN. Only one ballot entry per person. Contest is not open to Hazeldean Mall Retail Employees, Bentall Kennedy LP Employees, Family Members & Affiliated Agencies. No purchase is necessary. One winner will be selected in a random drawing from among all entries received. Chances of winning depends on total number of entries received. Winner will be required to present proof of age (Must be 18 years or older to WIN) and will be required to sign an affidavit of eligibility and release of liability. A correctly answered skill testing question may be required. All entrants must abide by these contest rules. Decision of Hazeldean Mall Management is final.-->
-        <!--            <br></p>-->
-        <!--       </div>-->
-        <!--  </section>-->
-            
-        <!--</div>-->
-        
-        <!--<div class="col-md-4 show_cats">-->
-        <!--</div>-->
+      
     </div>
-    
-    <!--    <div class="left_column">-->
-            
-    <!--    </div>-->
-    <!--    <div class="right_column">-->
-            
-            
-            
-    <!--    </div>-->
-    <!--</div>-->
+  
 </div>
 <script>
     $(document).ready(function(e) {
