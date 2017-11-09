@@ -195,7 +195,7 @@
                         </div>
                         <div class="col-sm-4 col-md-4 padding-right-none">
                             <label for="chairNumber">How many chairs?</label>
-                            <input name="chairNumber" id="chairNumber" class="form-control" type="text" />
+                            <input name="chairNumber" id="chairNumber" class="form-control" type="text" required />
                         </div>
                     </div>
                 </div>
