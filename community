@@ -173,7 +173,7 @@
                             </select>                        </div>
                         <div class="col-sm-4 col-md-4 padding-right-none">
                             <label for="tableNumber">How many tables?</label>
-                            <input name="tableNumber" id="tableNumber" class="form-control" type="text" />
+                            <input name="tableNumber" id="tableNumber" class="form-control" type="text" required />
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 padding-side-none">
