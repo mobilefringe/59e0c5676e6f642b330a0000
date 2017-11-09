@@ -24,8 +24,8 @@ $(window).load(function(e){
             }
         }
     });
-    var propertyDetails = getPropertyDetails();
-    console.log(propertyDetails);
+    // var propertyDetails = getPropertyDetails();
+    // console.log(propertyDetails);
     $('#open_menu').click(function(e){
         // $('body').addClass('no_scroll');
         $('.mobile_menu_container').fadeIn();
