@@ -158,7 +158,7 @@
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label for="hydro">Is hydro required?</label>
-                            <select class="form-control" id="hydro" name="hydro" >
+                            <select class="form-control" id="hydro" name="hydro" required  >
                                 <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
