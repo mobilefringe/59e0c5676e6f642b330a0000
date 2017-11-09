@@ -1,6 +1,6 @@
 <style scoped>
     .portfolio_item{
-        height:160px;
+        height:260px;
         width:260px;
         display:inline-block;
         margin-bottom:17px !important;
