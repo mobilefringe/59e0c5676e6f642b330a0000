@@ -61,13 +61,13 @@
             Mustache.parse(template_html);   // optional, speeds up future uses
             console.log(collection);
             $.each( collection , function( key, val ) {
-                if( val.name == "photos"){
+                // if( val.name == "photos"){
                     $.each( val.images , function( key, val ) {
                         val.alt_url = getImageURL(val.photo_url);
                         item_list.push(val);
                         console.log(val);
                     });
-                }
+                // }
             });
             $.each( item_list , function( key, val ) {
                 var repo_rendered = Mustache.render(template_html,val);
