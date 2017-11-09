@@ -389,6 +389,7 @@ function site_search(){
             $('#search_results_promotions').html('');
             $('.search_results_container').hide();
             $('.close_search_desk').hide();
+            $('.search_btn_desk').show();
         }
         else{
             $('#close_search').show();
