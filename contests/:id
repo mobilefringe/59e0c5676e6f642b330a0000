@@ -138,8 +138,6 @@
             if (contestDetails) {
                 renderPageData('#contest_container','#contest_template',contestDetails, 'contestDetails')
                 
-                // $("#loading_screen").hide();
-                // $("#main_content").fadeIn( "fast");
                 randomgen();
                 jQuery(function($){
                    $("#birthday").mask("9999/99/99");
