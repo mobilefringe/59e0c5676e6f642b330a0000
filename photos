@@ -62,10 +62,10 @@
             console.log(collection);
             $.each( collection , function( key, val ) {
                 // if( val.name == "photos"){
-                    $.each( val.images , function( key, val ) {
+                    // $.each( val.images , function( key, val ) {
                         val.alt_url = getImageURL(val.photo_url);
                         item_list.push(val);
-                        console.log(val);
+                        // console.log(val);
                     });
                 // }
             });
