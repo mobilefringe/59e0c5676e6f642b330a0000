@@ -166,7 +166,7 @@
                         </div>
                         <div class="col-sm-4 col-md-4  padding-side-none">
                             <label for="table">Are tables required?</label>
-                            <select class="form-control" id="table" name="table" >
+                            <select class="form-control" id="table" name="table" required >
                                 <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
