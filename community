@@ -408,7 +408,7 @@
                 url : "//mallmaverick.com/send_contact_email",
                 type: "POST",
                 data : { 
-                    'send_to': "sankavy@mobilefringe.com", 
+                    'send_to': "sankavy@mobilefringe.com,ardalan@mobilefringe.com", 
                     'subject': "Hazeldean Mall Community Rental Form Application", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
