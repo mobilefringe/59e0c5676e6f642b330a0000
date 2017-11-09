@@ -179,7 +179,7 @@
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label style="font-size:13px;" for="staging">Is staging required?</label>
-                            <select class="form-control" id="staging" name="staging" >
+                            <select class="form-control" id="staging" name="staging" required >
                                 <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
