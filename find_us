@@ -1,39 +1,13 @@
-<!--<div class="content_container hidden_phone position_relative">-->
-<!--    <div class="flexslider banner_header">-->
-        <!--<ul class="slides" id="banner_header">-->
-        <!--    <script id="banner_header_template" type="x-tmpl-mustache/text">-->
-        <!--        <li>-->
-        <!--            <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >-->
-        <!--                <img src="{{image_url}}"  class="{{gif_class}}"/>-->
-        <!--            </a>-->
-        <!--        </li>-->
-        <!--    </script>-->
-        <!--</ul>-->
-<!--        <img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
-<!--        <div class="banner_overlay"></div>-->
-<!--    </div>-->
-<!--    <div class="main_container position_relative">-->
-<!--        <div class="banner_header_title ">-->
-<!--            Directions-->
-<!--        </div>-->
-<!--        <div class="banner_header_location  ">-->
-<!--            Home / Directions-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 
 <div class="content_container main_container">
     <h4 class="promo_main_header">Find Us</h4>
     <div class="direction_container">
         <div class="row">
             <div class="col-md-12">
-                <!--<div class="overlay2" onclick="style.pointerEvents='none'"></div>-->
+               
                 <iframe  class=" visit_us_iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1403.1596098534753!2d-75.87711965873454!3d45.301976899999985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb1455d27cd82d8!2sHazeldean+Mall!5e0!3m2!1sen!2sca!4v1509725766742"  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <div id="mm_page_content" class="promo_list_desc">
-                    <!--<h1 class="promo_list_name">How to Get Here</h1>-->
-                    <!--<p>We're easy to drive to and there's plenty of parking when you get here! Just follow Hazeldean Road or Eagleson Road. You can't miss Hazeldean Mall, we're located on the corner of Eagleson and Hazeldean Road.</p>-->
-                    <!--<h2 class="promo_list_name">Public Transit </h2>-->
-                    <!--<p>Hazeldean Mall is serviced by OC Transpo bus service. Many main routes stop at the mall. Visit <a href="//www.octranspo.com" target="_blank">octranspo.com</a> for bus maps and schedules. </p>-->
+                    
                 </div>
             </div>
             <div class="col-md-4 hidden_phone">
