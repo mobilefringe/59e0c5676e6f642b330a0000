@@ -187,7 +187,7 @@
                         </div>
                         <div class="col-sm-4 col-md-4  padding-side-none">
                             <label for="chair">Are chairs required?</label>
-                            <select class="form-control" id="chair" name="chair" >
+                            <select class="form-control" id="chair" name="chair" required >
                                 <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
