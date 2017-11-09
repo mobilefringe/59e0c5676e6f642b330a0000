@@ -107,7 +107,7 @@
                     <div class="col-sm-12 col-md-12 padding-side-none">
                         <div class="col-sm-6 col-md-6 padding-left-none">
                             <label for="phone">Telephone Number</label>
-                            <input name="phone" id="phone" class="form-control" type="text"  />
+                            <input name="phone" id="phone" class="form-control" type="text" required  />
                         </div>
                         <div class="col-sm-6 col-md-6 padding-right-none">
                             <label for="fax">Fax Number</label>
