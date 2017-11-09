@@ -49,7 +49,7 @@
             var leasing_photos = getRepoDetailsByName("photos").images;
             // renderGeneral("#photo_container", "#photo_template", leasing_photos)
             // var repoList = getRepoList();  
-            renderPhotos("#photo_container", "#photo_template", repoList);
+            renderPhotos("#photo_container", "#photo_template", leasing_photos);
             $.getScript("//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
             $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
         }
