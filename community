@@ -132,7 +132,7 @@
                 
                 <div class="col-sm-4 col-md-4 padding-left-none">
                     <label for="charitable">Charitable <span># (BN/Registration Number)</span></label>
-                    <input name="charitable" id="charitable" class="form-control" type="text" value  />
+                    <input name="charitable" id="charitable" class="form-control" type="text" value required  />
                 </div>
                 <div class="col-sm-4 col-md-4 padding-right-none">
                     <label for="lottery">Lottery License <span># (If applicable)</span></label>
