@@ -80,7 +80,7 @@
                 
                 <div class="col-sm-6 col-md-6 padding-left-none">
                     <label for="descOrg">Description of Organization</label>
-                    <textarea name="descOrg" id="descOrg" class="form-control" rows="5" ></textarea>
+                    <textarea name="descOrg" id="descOrg" class="form-control" rows="5" required ></textarea>
                 </div>
                 <div class="col-sm-6 col-md-6 padding-right-none">
                     <div class="col-sm-12 col-md-12 padding-side-none">
