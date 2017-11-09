@@ -383,7 +383,7 @@ function site_search(){
     )
     $('#site_search').keyup(function(){
         if ($(this).val() == ""){
-            console.log($(this).val());
+            console.log("search check",$(this).val());
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
