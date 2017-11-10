@@ -53,37 +53,37 @@
 <div class="show_phone mobile_banner">
     <div class="flexslider">
         <ul class="slides" id="mobile_banner">
-        <!--    <script id="mobile_banner_template" type="x-tmpl-mustache/text">-->
-        <!--        <li>-->
-        <!--            <a class="banner_image_li" href="{{url}}" >-->
-        <!--                <img src="{{image_url}}" alt="banner"/>-->
-        <!--            </a>-->
-        <!--        </li>-->
-        <!--    </script>-->
-         <li>
-                <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509717633000/HomePageMobileSantaExperience.jpg)" class="banner_image_div">
-                    <a class="banner_image_li" href="/events/hazeldean-santa-claus-at-hazeldean-mall" >
+            <script id="mobile_banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" >
+                        <img src="{{image_url}}" alt="banner"/>
                     </a>
-                </div>
-            </li>
-            <li>
-                <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509717627000/HomePageMobiletoreDirectory.jpg)" class="banner_image_div">
-                    <a class="banner_image_li" href="/stores"  >
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509717632000/HomePageMobileEventCalendar.jpg)" class="banner_image_div">
-                    <a class="banner_image_li" href="/events"  >
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509717631000/HomePageMobileSalesPromotions.jpg)" class="banner_image_div">
-                    <a class="banner_image_li" href="/promotions" >
-                    </a>
-                </div>
-            </li>
+                </li>
+            </script>
+         <!--<li>-->
+         <!--       <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509717633000/HomePageMobileSantaExperience.jpg)" class="banner_image_div">-->
+         <!--           <a class="banner_image_li" href="/events/hazeldean-santa-claus-at-hazeldean-mall" >-->
+         <!--           </a>-->
+         <!--       </div>-->
+         <!--   </li>-->
+         <!--   <li>-->
+         <!--       <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509717627000/HomePageMobiletoreDirectory.jpg)" class="banner_image_div">-->
+         <!--           <a class="banner_image_li" href="/stores"  >-->
+         <!--           </a>-->
+         <!--       </div>-->
+         <!--   </li>-->
+         <!--   <li>-->
+         <!--       <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509717632000/HomePageMobileEventCalendar.jpg)" class="banner_image_div">-->
+         <!--           <a class="banner_image_li" href="/events"  >-->
+         <!--           </a>-->
+         <!--       </div>-->
+         <!--   </li>-->
+         <!--   <li>-->
+         <!--       <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509717631000/HomePageMobileSalesPromotions.jpg)" class="banner_image_div">-->
+         <!--           <a class="banner_image_li" href="/promotions" >-->
+         <!--           </a>-->
+         <!--       </div>-->
+         <!--   </li>-->
         </ul> 
         <!--<img src="http://assets.codecloudapp.com/sites/59e0c5676e6f642b330a0000/image/png/1507646813000/mobile_bg_2x.png" class="" alt="">-->
     </div>
