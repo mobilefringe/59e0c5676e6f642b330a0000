@@ -310,7 +310,7 @@
             if(popup != undefined){
                 // if($.cookie("popup_viewed") != "true"){
                     $.cookie("popup_viewed", "true", { expires: 1 });
-                    
+                    $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body)
                     console.log();
                     $('.custom_popup').show()
                 // }
