@@ -303,7 +303,7 @@
             // show_content();
             
             
-            renderSitePopup();
+            // renderSitePopup();
         }
         function renderPopup(){
             var popup = getPopups()[0];
