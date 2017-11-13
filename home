@@ -1,4 +1,5 @@
-<div class="custom_popup">
+<div class="hidden-popup-bg">
+    <div class="custom_popup">
     <div class="popup_form_div">
         <h2 class="pop_up_header p_name">Join Our eClub</h2>
         <img class="text-left width_100 hide_desk custom_img" src="" />
@@ -49,7 +50,7 @@
     </div>
     <span class="close_popup">CLOSE</span>
 </div>
-
+</div>
 <div class="show_phone mobile_banner">
     <div class="flexslider">
         <ul class="slides" id="mobile_banner">
