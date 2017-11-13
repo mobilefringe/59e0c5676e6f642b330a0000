@@ -340,6 +340,7 @@
                 });
                 $('.close_popup').click(function(){
                     $('.custom_popup').fadeOut();
+                    $(".hidden-popup-bg").fadeOut();
                 });
             }
         }
