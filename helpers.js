@@ -55,7 +55,9 @@ $(window).load(function(e){
         $('body').removeClass('no_scroll');
     })
     // renderPropertyLogo('#logo_template','#main_logo_container',propertyDetails);
-    
+    //dynamically changing copyright year
+var current_year = moment().year();
+$("#current_year").text(current_year);
 });
 // $(document).ready(function(){
     
