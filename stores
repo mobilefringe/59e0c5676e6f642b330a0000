@@ -219,7 +219,7 @@
             init_map(reg);
             
             //add alt tags to zoom buttons
-            $('.custom_img').attr('alt', 'Enter for a chance to win a $50 gift card');
+            $('#btnZoomIn').attr('alt', 'Enter for a chance to win a $50 gift card');
         }
         
 		loadMallDataCached(renderAll); 
