@@ -191,7 +191,7 @@
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
             else {
-                var events = getPromotionsList().sortBy(function(o){ return o.start_date });
+                var events = getEventsList().sortBy(function(o){ return o.start_date });
                 var published_promos = [];
                 $.each( events , function( key, val ){
                     today = moment();
