@@ -1,0 +1,332 @@
+<div class="hidden-popup-bg">
+    <div class="custom_popup">
+    <div class="popup_form_div">
+        <h2 class="pop_up_header p_name">Join Our eClub</h2>
+        <img class="text-left width_100 hide_desk custom_img" src="" />
+        <h3 class="text-right right_desc hide_desk custom_text"></h3>
+        <div class="custom_row">
+            <div class="col-md-6">
+                <section class="">
+                    <form id="form_popup" class="" action="//mobilefringe.createsend.com/t/d/s/illljr/" method="POST">	
+                        <input type="hidden" value="Popup" name="cm-f-tdtlkr" />
+                        <input type="hidden" value="" name="cm-name" id="cm-name" />
+                        <label for="FNAME" class="main_label"><span class="">First Name</span>
+                            <input id="FNAME" name="first_name" placeholder="" class="custom_field_control" required="required" type="text" value="">
+                        </label>
+                        <label for="LNAME" class="main_label"><span class="">Last Name</span>
+                            <input id="LNAME" name="last_name" placeholder="" class="custom_field_control" required="required" type="text" value="">
+                        </label>
+                        <label for="EMAIL" class="main_label"><span class="">Email Address</span>
+                            <input id="EMAIL" name="cm-illljr-illljr" placeholder="" class="custom_field_control" required="required" type="email" value="">	
+                        </label>
+                        <label for="PCODE" class="main_label"><span class="">Postal Code</span>
+					        <input id="PCODE" name="cm-f-tdtlky" placeholder="" class="custom_field_control" required="required" type="text" value="">
+                        </label>
+                        <label for="FMALEMALE" class="main_label radio_main"><span class="">Female/Male</span>
+                            <label for="FMALEMALE-1" class="radio_inside" required="required">
+                                <input type="radio" name="cm-f-tdtlkj" id="FMALEMALE-1" checked="checked" value="Female">
+                                <span class="">Female</span>
+                            </label>
+                            <label for="FMALEMALE-2" class="radio_inside">
+                                <input type="radio" name="cm-f-tdtlkj" id="FMALEMALE-2" value="Male">
+                                <span class="">Male</span>
+                            </label>
+                        </label>
+                        <label class="main_label">
+                            <input type="checkbox" id="popup_agree" />
+                            I agree to receive emails from Hazeldean Mall.
+                        </label>
+                        <button type="submit" class="popup_submit">Submit</button>	
+                    </form>	
+                </section>
+            </div>
+            <div class="col-md-6 hide_phone">
+                <img class="text-left width_100 custom_img" src="" />
+                <h2 class="text-right right_header p_name">Join Our eClub today!</h2>
+                <h3 class="text-right right_desc custom_text"></h3>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <span class="close_popup">CLOSE</span>
+</div>
+</div>
+<div class="show_phone mobile_banner">
+    <div class="flexslider">
+        <ul class="slides" id="mobile_banner">
+            <script id="mobile_banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" >
+                        <img src="{{image_url}}" alt="banner"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+    </div>
+    <div class="menu_links">
+        <a href="/stores">VIEW DIRECTORY</a>
+        <a href="/promotions">SEE OUR SPECIALS</a>
+        <a href="/events">CHECK OUR EVENTS</a>
+    </div>
+</div>
+
+
+<div class="content_container hidden_phone">
+    <div class="flexslider">
+        <ul class="slides" id="home_banner">
+            <script id="banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <!--<div style="background-image:url({{image_url}})" class="banner_image_div">-->
+                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}" class="" alt="">
+                        </a>
+                    <!--</div>-->
+                </li>
+            </script>
+            <!--<li>-->
+            <!--    <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509634719000/HomePageBANNERSantaExperience.jpg)" class="banner_image_div">-->
+            <!--        <a class="banner_image_li" href="/events/hazeldean-santa-claus-at-hazeldean-mall" >-->
+            <!--        </a>-->
+            <!--    </div>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--    <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509634716000/HomePageBANNERStoreDirectory.jpg)" class="banner_image_div">-->
+            <!--        <a class="banner_image_li" href="/stores"  >-->
+            <!--        </a>-->
+            <!--    </div>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--    <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509634720000/HomePageBANNEREventCalendar.jpg)" class="banner_image_div">-->
+            <!--        <a class="banner_image_li" href="/events"  >-->
+            <!--        </a>-->
+            <!--    </div>-->
+            <!--</li>-->
+            <!--<li>-->
+            <!--    <div style="background-image:url(//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509634718000/HomePageBANNERSalesPromotions.jpg)" class="banner_image_div">-->
+            <!--        <a class="banner_image_li" href="/promotions" >-->
+            <!--        </a>-->
+            <!--    </div>-->
+            <!--</li>-->
+        </ul>
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+    </div>
+</div>
+<div class="content_container main_container hidden_phone  position_relative">
+    <div class="feature_row" id="feature_container_2">
+        <script id="feature_template_2" type="x-tmpl-mustache/text">
+            <div class="feature_item_container">
+                <p class="feature_title">{{name}}</p>
+                <div class="feature_item wow animated flipInX animated teamy-team">
+                    <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">
+                        <div class="teamy__layout">
+                            <a href="{{url}}" >
+                                <div class="teamy__preview">
+                                    <img src="{{image_url}}" class="teamy__avatar" alt="The demo photo">
+                                </div>
+                                <div class="teamy__back">
+                                    <div class="teamy__back-inner">
+                                        <div class="teamy__content">
+                                            <h3 class="teamy__name">View</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </script>
+    <!--<div class="feature_item_container">-->
+    <!--            <p class="feature_title">Naturalizer</p>-->
+    <!--            <div class="feature_item wow animated flipInX animated teamy-team">-->
+    <!--                <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">-->
+    <!--                    <div class="teamy__layout">-->
+    <!--                        <a href="/stores/hazeldean-naturalizer" >-->
+    <!--                            <div class="teamy__preview">-->
+    <!--                                <img src="//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509631550000/FEATURE03NATURALIZER.jpg" class="teamy__avatar" alt="The demo photo">-->
+    <!--                            </div>-->
+    <!--                            <div class="teamy__back">-->
+    <!--                                <div class="teamy__back-inner">-->
+    <!--                                    <div class="teamy__content">-->
+    <!--                                        <h3 class="teamy__name">View</h3>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </a>-->
+    <!--                    </div>-->
+    <!--                </article>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="feature_item_container">-->
+    <!--            <p class="feature_title">Reitmans</p>-->
+    <!--            <div class="feature_item wow animated flipInX animated teamy-team">-->
+    <!--                <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">-->
+    <!--                    <div class="teamy__layout">-->
+    <!--                        <a href="/stores/hazeldean-reitmans" >-->
+    <!--                            <div class="teamy__preview">-->
+    <!--                                <img src="//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509631550000/FEATURE)REITMANS.jpg" class="teamy__avatar" alt="The demo photo">-->
+    <!--                            </div>-->
+    <!--                            <div class="teamy__back">-->
+    <!--                                <div class="teamy__back-inner">-->
+    <!--                                    <div class="teamy__content">-->
+    <!--                                        <h3 class="teamy__name">View</h3>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </a>-->
+    <!--                    </div>-->
+    <!--                </article>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <div class="feature_item_container">-->
+    <!--            <p class="feature_title">The Source</p>-->
+    <!--            <div class="feature_item wow animated flipInX animated teamy-team">-->
+    <!--                <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">-->
+    <!--                    <div class="teamy__layout">-->
+    <!--                        <a href="/stores/hazeldean-the-source" >-->
+    <!--                            <div class="teamy__preview">-->
+    <!--                                <img src="//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509631551000/FEATURE01THESOURCE.jpg" class="teamy__avatar" alt="The demo photo">-->
+    <!--                            </div>-->
+    <!--                            <div class="teamy__back">-->
+    <!--                                <div class="teamy__back-inner">-->
+    <!--                                    <div class="teamy__content">-->
+    <!--                                        <h3 class="teamy__name">View</h3>-->
+    <!--                                    </div>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+    <!--                        </a>-->
+    <!--                    </div>-->
+    <!--                </article>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    </div>
+    
+    <div class="promotions">
+        <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
+        <p class="exclusive_deals">don’t miss our exclusive deals</p>
+        <hr/>
+        <div class="home_promotions feature_row" id="promos_container">
+            <script id="promos_template" type="x-tmpl-mustache/text">
+                <div class="promotion_item wow animated flipInX animated teamy-team">
+                    <article class="teamy teamy_style2 teamy_mask-circle teamy_zoom-photo">
+                        <div class="teamy__layout">
+                             <a href="/promotions/{{slug}}">
+                                <div class="teamy__preview">
+                                    <img src="{{image_url}}" class="teamy__avatar featured_promo_img" alt="The demo photo">
+                                </div>
+                                <div class="teamy__back">
+                                    <div class="teamy__back-inner">
+                                        <div class="teamy__content">
+                                            <h3 class="teamy__name">View Details</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </a>
+                        </div>
+                    </article>
+                    <h3 class="promotion_header home_promos">{{name}}</h3>
+                    <p class="promotion_dates">{{dates}}</p>
+                </div>
+            </script>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    
+</div>
+<div class="content_container main_container hidden_phone  position_relative" style="padding:0">
+    <h2 class="promotion_heading text-center visit_us_header">Visit Us!</h2>
+    <iframe  class="grayscale visit_us_iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1403.1596098534753!2d-75.87711965873454!3d45.301976899999985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb1455d27cd82d8!2sHazeldean+Mall!5e0!3m2!1sen!2sca!4v1509725766742"  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <hr/>
+</div>
+<div class="content_container position_relative main_container show_phone ">
+   <h2 class="promotion_heading text-center visit_us_header">VISIT US!</h2>
+    <iframe  class="grayscale visit_us_iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1403.1596098534753!2d-75.87711965873454!3d45.301976899999985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcb1455d27cd82d8!2sHazeldean+Mall!5e0!3m2!1sen!2sca!4v1509725766742"  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+
+<style>
+    .newsletter_container{
+        margin-top:-5px;
+    }
+</style>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            renderPopup();
+            var banners = getBanners();
+            var mobile_banners = getRepoDetailsByName("Mobile Banners");
+            var feature_items = getFeatureList().splice(0, 3);
+            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
+            renderBanner('#banner_template','#home_banner',banners);
+            if(mobile_banners != undefined)
+                renderMobileBanner('#mobile_banner_template', '#mobile_banner', mobile_banners.images);
+            renderFeatureItems('#feature_container','#feature_template', feature_items);
+            renderFeatureItems('#feature_container_2','#feature_template_2', feature_items);
+            var published_promos = [];
+            console.log(published_promos);
+            $.each( promotions , function( key, val ){
+                today = moment();
+                webDate = moment(val.show_on_web_date);
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_promos.push(val)
+                }
+            });
+            console.log(published_promos.reverse().slice(0,3));
+            if(published_promos.length > 0){
+                renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
+            }
+            // show_content();
+            
+            
+            // renderSitePopup();
+        }
+        function renderPopup(){
+            var popup = getPopups()[0];
+            if(popup != undefined){
+                if($.cookie("popup_viewed") != "true"){
+                    $.cookie("popup_viewed", "true", { expires: 1 });
+                    $('<div class="modal-backdrop custom_backdrop"></div>').appendTo(document.body)
+                    console.log();
+                    $(".hidden-popup-bg").show();
+                    $('.custom_popup').show()
+                }
+                $('.close_popup, .custom_backdrop').click(function(){
+                    $(".modal-backdrop").remove();
+    		        $(".custom_popup").remove();
+                })
+                
+                if(popup.contest.id != null){
+                    $('.custom_img').attr('src', '//mallmaverick.cdn.speedyrails.net'+ popup.photo_url);
+                    $('.custom_text').text(popup.description1);
+                    $('.p_name').text(popup.name);
+                } else {
+                    $('.popup_form_div').css('visibility', 'hidden');
+                    $('.custom_popup').css('background-image', 'url(//mallmaverick.cdn.speedyrails.net' + popup.photo_url + ')');
+                }
+    
+                $('#form_popup').submit(function(){
+                    $('#cm-name').val($('#FNAME').val() + " " + $('#LNAME').val());
+                    if($('#popup_agree').is(':checked') == false){
+                        alert("Please agree to receive emails.");
+                        $('#popup_agree').focus();
+                        return false;
+                    }
+                });
+                $('.close_popup').click(function(){
+                    $('.custom_popup').fadeOut();
+                    $(".hidden-popup-bg").fadeOut();
+                });
+            }
+        }
+        loadMallData(renderAll); 
+    });
+    $(window).load(function(e){
+        $('.flexslider').flexslider({
+                animation: "slide",
+                allowOneSlide: false,
+            });
+            $(".flex-direction-nav").hide();
+        show_content();
+    });
+</script>
