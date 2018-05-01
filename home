@@ -94,7 +94,7 @@
                         <div class="teamy__layout">
                             <a href="{{url}}" >
                                 <div class="teamy__preview">
-                                    <img src="{{image_url}}" class="teamy__avatar" alt="The demo photo">
+                                    <img src="{{image_url}}" class="teamy__avatar" alt="Click here for more info on {{name}}">
                                 </div>
                                 <div class="teamy__back">
                                     <div class="teamy__back-inner">
