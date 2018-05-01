@@ -1,0 +1,68 @@
+<div class="content_container main_container padding_bottom_50">
+    <div class="promo_main_header">
+       <h3>EVENTS</h3> 
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="promos_container">
+                <script id="promos_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row padding_top_20" data-cat="{{cat_list}}">
+                        <div class="col-md-5 text-center position_relative promo_img_container">
+                            <img src="{{event_image_url_abs}}" alt="{{name}}" class="actual_width promo_img" />
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="promo_list_name"><a class="hover_underline" href="/events/{{slug}}">{{name}}</a></h2>
+                            <p>
+                                <span class="promo_dates">{{dates}}</span>
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/events/{{slug}}">Read More</a>
+                        </div>
+                    </div>
+                    <hr/>
+                </script>
+            </div>
+            <div class="row promo_item cats_row promo_list_desc hidden_now" id="no_promos">
+                No events available at this moment. Please check back later!
+            </div>
+        </div>
+        
+        <div class="col-md-4 hidden_phone">
+        <img src="//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509634558000/DETAILIMAGESEVENTS02.jpg" class="" alt="">
+        </div> 
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var events = getEventsList().sortBy(function(o){ return o.start_date }).reverse();
+            var categories = getStoreCategories();
+            renderGeneral('#category_container', '#category_template', categories);
+            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            show_cat_stores()
+            var published_events = [];
+            $.each( events , function( key, val ){
+                var today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_events.push(val)
+                } 
+            });
+            if(published_events.length > 0){
+                renderEvents("#promos_container","#promos_template", published_events);
+            }
+            else{
+                $('#no_promos').show()
+            }
+            // show_content();    
+        }
+        
+		loadMallDataCached(renderAll); 
+    });
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
