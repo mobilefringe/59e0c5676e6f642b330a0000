@@ -113,7 +113,7 @@
     
     <div class="promotions">
         <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
-        <p class="exclusive_deals">don’t miss our exclusive deals</p>
+        <h4 class="exclusive_deals">don’t miss our exclusive deals</h4>
         <hr/>
         <div class="home_promotions feature_row" id="promos_container">
             <script id="promos_template" type="x-tmpl-mustache/text">
