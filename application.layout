@@ -152,7 +152,7 @@
             <hr class="strikethrough" />
             <div class="social_icons_menu show_phone text-center">
                 <p>Follow us on</p>
-                <a href="https://www.facebook.com/HazeldeanMall" target="_blank">
+                <a href="https://www.facebook.com/HazeldeanMall" target="_blank"><p style="display:none;"></p>
                     <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911898000/icon_facebook2.png" class="" alt="Click here to view Hazeldean Facebook">
                 </a>
             </div>
