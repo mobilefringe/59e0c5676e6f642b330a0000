@@ -219,7 +219,7 @@
             init_map(reg);
             
             //add alt tags to zoom buttons
-            $('#btnZoomIn').attr('alt', 'Enter for a chance to win a $50 gift card');
+            $('#btnZoomIn').attr('alt', 'Zoom In');
             $('#btnZoomOut').attr('alt', 'Enter for a chance to win a $50 gift card');
         }
         
