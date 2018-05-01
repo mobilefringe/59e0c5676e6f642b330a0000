@@ -24,12 +24,16 @@
                         </label>
                         <label for="FMALEMALE" class="main_label radio_main"><span class="">Female/Male</span>
                             <label for="FMALEMALE-1" class="radio_inside" required="required">
-                                <input type="radio" name="cm-f-tdtlkj" id="FMALEMALE-1" checked="checked" value="Female">
-                                <span class="">Female</span>
+                                <fieldset>
+                                    <input type="radio" name="cm-f-tdtlkj" id="FMALEMALE-1" checked="checked" value="Female">
+                                    <span class="">Female</span>
+                                </fieldset>
                             </label>
                             <label for="FMALEMALE-2" class="radio_inside">
-                                <input type="radio" name="cm-f-tdtlkj" id="FMALEMALE-2" value="Male">
-                                <span class="">Male</span>
+                                <fieldset>
+                                    <input type="radio" name="cm-f-tdtlkj" id="FMALEMALE-2" value="Male">
+                                    <span class="">Male</span>
+                                </fieldset>
                             </label>
                         </label>
                         <label class="main_label">
