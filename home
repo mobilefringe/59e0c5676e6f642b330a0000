@@ -191,7 +191,7 @@
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
             else {
-                
+                $(".promotions").hide();
             }
         }
         function renderPopup(){
