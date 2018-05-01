@@ -193,10 +193,6 @@
             else {
                 
             }
-            // show_content();
-            
-            
-            // renderSitePopup();
         }
         function renderPopup(){
             var popup = getPopups()[0];
