@@ -31,7 +31,7 @@
                 <option value="{{id}}">{{name}}</option>
             </script>
         </select>
-        <label for="mobile_alpha_list" style="display:none"></label>
+        <label for="mobile_alpha_list" style="display:none">Index</label>
         <select id="mobile_alpha_list" class="form-control custom_form_control">
             <option disabled="disabled" selected>Index</option>
             <option value="7">top</option>
