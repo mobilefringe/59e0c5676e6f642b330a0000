@@ -1,0 +1,80 @@
+
+<div class="content_container main_container padding_bottom_50">
+    <h3 class="promo_main_header"> Promotions </h3>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="promos_container">
+                <script id="promos_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                        <div class="col-md-5 ">
+                            <div class="promo_img_container"><img src="{{image_url}}" alt="{{name}}" class="promo_img"/></div>
+                            
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="promo_list_name"><a class="hover_underline" href="/promotions/{{slug}}">{{name}}</a></h2>
+                            <p>
+                          
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/promotions/{{slug}}">Read More</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            
+        </div>
+        
+        <div class="col-md-4 show_cats">
+            <!--<p class="category_header hidden_phone">Categories</p>-->
+            <!--<h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>-->
+            <!--<div id="category_container" class="hidden_phone">-->
+            <!--    <script id="category_template" type="x-tmpl-mustache/text">-->
+            <!--        <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    -->
+            <!--    </script>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <div class="">
+        <div class=" promo_item cats_row promo_list_desc hidden_now" id="no_promos">
+                No promotions available at this moment. Please check back later!
+        </div>
+        <br/><br/>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            
+            console.log(getPromotionsList());
+            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date }).reverse();
+            var categories = getStoreCategories();
+            renderGeneral('#category_container', '#category_template', categories);
+            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            show_cat_stores();
+            var published_promos = [];
+            $.each( promotions , function( key, val ){
+                var today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_promos.push(val)
+                } 
+            });
+            if(published_promos.length > 0){
+                renderPromotions("#promos_container","#promos_template", published_promos);
+            }
+            else{
+                $('#no_promos').show();
+                $(".show_cats").hide();
+            }
+            // show_content();
+        }
+        
+		loadMallDataCached(renderAll); 
+    });
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
