@@ -34,6 +34,7 @@
                                 <fieldset>
                                     <input type="radio" name="cm-f-tdtlkj" id="FMALEMALE-2" value="Male">
                                     <span class="">Male</span>
+                                    <legend> Male</legend>
                                 </fieldset>
                             </label>
                         </label>
