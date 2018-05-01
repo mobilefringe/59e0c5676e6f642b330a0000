@@ -300,7 +300,9 @@
                 allowOneSlide: false,
                 pauseOnHover: true
             });
-            $(".flex-direction-nav").hide();
+        $(".flex-direction-nav").hide();
+        $(".flex-prev").html("<p style='display: none'>Previous Slide</p>");
+		$(".flex-next").html("<p style='display: none'>Next Slide</p>");   
         show_content();
     });
 </script>
