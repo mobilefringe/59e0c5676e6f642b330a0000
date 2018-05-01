@@ -27,6 +27,7 @@
                                 <fieldset>
                                     <input type="radio" name="cm-f-tdtlkj" id="FMALEMALE-1" checked="checked" value="Female">
                                     <span class="">Female</span>
+                                    <legend> Female</legend>
                                 </fieldset>
                             </label>
                             <label for="FMALEMALE-2" class="radio_inside">
