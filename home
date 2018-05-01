@@ -117,7 +117,7 @@
         </script>
     </div>
     
-    <div class="promotions">
+    <div class="promotions" if="featured_promos>
         <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
         <h4 class="exclusive_deals">don’t miss our exclusive deals</h4>
         <hr/>
