@@ -101,8 +101,8 @@
 </head>
 
 <body class="">
-    <nav class="mobile_menu_container">
-        <div class="opened_mobile_menu">
+    <div class="mobile_menu_container">
+        <nav class="opened_mobile_menu">
             <h3>
                 MENU
             </h3>
