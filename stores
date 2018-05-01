@@ -220,7 +220,7 @@
             
             //add alt tags to zoom buttons
             $('#btnZoomIn').attr('alt', 'Zoom In');
-            $('#btnZoomOut').attr('alt', 'Enter for a chance to win a $50 gift card');
+            $('#btnZoomOut').attr('alt', 'Zoom Out');
         }
         
 		loadMallDataCached(renderAll); 
