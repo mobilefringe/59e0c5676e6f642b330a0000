@@ -233,7 +233,7 @@
         </nav>
     </section>
     <section class="yield">
-    <h1 style="display:none">Hazeldean Mall</h1>
+        <h1 style="display:none">Hazeldean Mall</h1>
         {{yield}}
     </section>
     
