@@ -298,6 +298,7 @@
         $('.flexslider').flexslider({
                 animation: "slide",
                 allowOneSlide: false,
+                pauseOnHover: true,
             });
             $(".flex-direction-nav").hide();
         show_content();
