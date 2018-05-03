@@ -382,6 +382,7 @@ body{
 .flex-control-paging li a{
     color: transparent;
     border: 1px #000 solid;
+    background: #fff;
 }
 
 .flex-direction-nav a{
