@@ -383,7 +383,7 @@ body{
     color: transparent;
     border: 1px #000 solid;
     background: rgba(255,255,255,0.5);
-    &:flex-active {
+    .:flex-active {
         background: #fff;
     }
 }
