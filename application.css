@@ -162,7 +162,11 @@ body{
 .popup-body img{
     width:700px;
 }
-
+#form_popup {
+    .main_label {
+        
+    }
+}
 .mobile_search {
     display:none
 }
@@ -377,7 +381,7 @@ body{
 
 .flex-control-paging li a{
     color: transparent;
-        border: 1px #000 solid;
+    border: 1px #000 solid;
 }
 
 .flex-direction-nav a{
