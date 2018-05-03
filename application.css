@@ -382,7 +382,7 @@ body{
 .flex-control-paging li a{
     color: transparent;
     border: 1px #000 solid;
-    background: #fff;
+    background: rgba(255,255,255,0.5);
     &:flex-active {
         background: #fff;
     }
