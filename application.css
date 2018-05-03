@@ -383,6 +383,9 @@ body{
     color: transparent;
     border: 1px #000 solid;
     background: #fff;
+    &:flex-active {
+        
+    }
 }
 
 .flex-direction-nav a{
