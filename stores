@@ -70,11 +70,11 @@
         <div class="col-md-12">
             <div class="alpha_list">
                 <a href="#" id="all_stores_a">all</a>
-                <a href="#7">#</a>
-                <a href="#A">A</a>
-                <a href="#B">B</a>
-                <a href="#C">C</a>
-                <a href="#D">D</a>
+                <a href="#7" id="7">#</a>
+                <a href="#A" id="A">A</a>
+                <a href="#B" id="B">B</a>
+                <a href="#C" id="C">C</a>
+                <a href="#D"  id="D">D</a>
                 <a href="#E">E</a>
                 <a href="#F">F</a>
                 <a href="#G">G</a>
