@@ -229,7 +229,7 @@
             $( ".alpha_list a" ).each(function( index ) {
                 // console.log( index + ": " + $( this ).text() );
                 if($( this ).text() === "#") {
-                    var find_id = $("#"+$( this ).text());
+                    var find_id = $("#7");
                     console.log($( this ).text(), find_id);
                 }
                 else {
