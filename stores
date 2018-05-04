@@ -225,8 +225,8 @@
             $('#btnZoomOut').attr('alt', 'Zoom Out');
             
             //loop through alpha list and remove unneccesary links
-            alpha_list
-            $( "li" ).each(function( index ) {
+            
+            $( ".alpha_list a" ).each(function( index ) {
                 console.log( index + ": " + $( this ).text() );
             });
         }
