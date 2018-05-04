@@ -225,6 +225,10 @@
             $('#btnZoomOut').attr('alt', 'Zoom Out');
             
             //loop through alpha list and remove unneccesary links
+            alpha_list
+            $( "li" ).each(function( index ) {
+  console.log( index + ": " + $( this ).text() );
+});
         }
         
 		loadMallDataCached(renderAll); 
