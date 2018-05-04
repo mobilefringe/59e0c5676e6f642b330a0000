@@ -227,8 +227,8 @@
             //loop through alpha list and remove unneccesary links
             alpha_list
             $( "li" ).each(function( index ) {
-  console.log( index + ": " + $( this ).text() );
-});
+                console.log( index + ": " + $( this ).text() );
+            });
         }
         
 		loadMallDataCached(renderAll); 
