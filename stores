@@ -231,7 +231,7 @@
                 if($( this ).text() === "#") {
                     var find_id = $("#7");
                     if(find_id == null || find_id == undefined || find_id.length == 0) {
-                        $( this )
+                        $( this ).attr('href', "#")
                         
                     }
                 }
