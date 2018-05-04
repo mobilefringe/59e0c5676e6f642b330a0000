@@ -231,6 +231,7 @@
                 if($( this ).text() !== "#") {
                 var find_id = $("#"+$( this ).text());
                 console.log($( this ).text(), find_id);
+                }
             });
         }
         
