@@ -228,7 +228,7 @@
             
             $( ".alpha_list a" ).each(function( index ) {
                 // console.log( index + ": " + $( this ).text() );
-                if($( this ).text() !== "#") {
+                if($( this ).text() === "#") {
                     
                 }
                 else {
