@@ -224,7 +224,7 @@
             $('#btnZoomIn').attr('alt', 'Zoom In');
             $('#btnZoomOut').attr('alt', 'Zoom Out');
             
-            //loop through alpha list and remove unneccesary link 
+            //loop through alpha list and remove unneccesary links
         }
         
 		loadMallDataCached(renderAll); 
