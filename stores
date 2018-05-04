@@ -230,15 +230,11 @@
                 // console.log( index + ": " + $( this ).text() );
                 if($( this ).text() === "#") {
                     var find_id = $("#7");
-                    if(find_id == null || find_id == undefined || find_id.length == 0) {
-                        
-                    }
+                    console.log($( this ).text(), find_id);
                 }
                 else {
                     var find_id = $("#"+$( this ).text());
-                    if(find_id == null || find_id == undefined || find_id.length == 0) {
-                        
-                    }
+                    
                 }
             });
         }
