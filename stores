@@ -236,7 +236,7 @@
                     var find_id = $("#"+$( this ).text());
                     // console.log($( this ).text(), find_id);
                     if(find_id == null || find_id == undefined || find_id.length == 0) {
-                        console.log($( this ).text());
+                        // console.log($( this ).text());
                     }
                 }
             });
