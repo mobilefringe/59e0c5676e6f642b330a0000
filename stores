@@ -238,7 +238,7 @@
                 }
                 
                 if(find_id == null || find_id == undefined || find_id.length == 0) {
-                    }
+                }
             });
         }
         
