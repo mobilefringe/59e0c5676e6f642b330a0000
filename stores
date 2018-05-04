@@ -227,7 +227,7 @@
             //loop through alpha list and remove unneccesary links
             
             $( ".alpha_list a" ).each(function( index ) {
-                console.log( index + ": " + $( this ).text() );
+                // console.log( index + ": " + $( this ).text() );
                 var find_id = $("#"+$( this ).text());
                 console.log($( this ).text(), find_id);
             });
