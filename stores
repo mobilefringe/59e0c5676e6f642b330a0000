@@ -223,6 +223,8 @@
             //add alt tags to zoom buttons
             $('#btnZoomIn').attr('alt', 'Zoom In');
             $('#btnZoomOut').attr('alt', 'Zoom Out');
+            
+            //loop through alpha list and remove unneccesary link 
         }
         
 		loadMallDataCached(renderAll); 
