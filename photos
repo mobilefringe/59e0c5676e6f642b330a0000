@@ -79,8 +79,8 @@
         }
         loadMallData(renderAll);  
 
-        $.getScript("http://bkindoortemplate.codecloudapp.com/slimbox_mod.js");
-        $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
+        // $.getScript("http://bkindoortemplate.codecloudapp.com/slimbox_mod.js");
+        // $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
     });
     $(window).load(function(e){
         show_content();
