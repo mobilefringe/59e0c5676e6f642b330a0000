@@ -175,7 +175,18 @@
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
-            renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details')
+            // renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details')
+            var pages_json = prefix+"/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_title').html(data.title);
+                $('#mm_title_phone').html(data.title);
+                $('#mm_title_location').html(data.title);
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+                }
+            }); 
             $("#loading_screen").hide();
             $("#main_content").show();
         }
