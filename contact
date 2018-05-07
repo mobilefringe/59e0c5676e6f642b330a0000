@@ -120,7 +120,7 @@
                 //   <p class="directory_content"><strong>Security</strong> 
                 //   <br>613-227-1711
                 //   <br><a href="mailto:HazeldeanMallSecurity@BentallKennedy.com" target="_blank">HazeldeanMallSecurity@BentallKennedy.com</a></p>
-                  <div id="mm_page_content"></div>
+                  <div id="mm_page_content" class="directory_content"></div>
                    
                 </script>
             </div>
