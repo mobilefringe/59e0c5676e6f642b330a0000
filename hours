@@ -1,0 +1,65 @@
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding padding_bottom_50 ">
+<h2 class="promo_main_header">
+       Shopping Hours
+    </h2>
+    <div class="margin_25_across padding_top_20">
+    
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-12"> 
+                        <h3 class="hours_heading" >Regular Shopping Hours</h3>
+                        <div id="hours_container" class="hours_container">
+                            <script id="hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_div">
+                                    <span>{{day}}:</span>
+                                    <span>{{h}}</span>
+                                </div>
+                            </script>
+                        </div>
+                        <div class="padding_top_20"></div>
+                        <h3 class="hours_heading">Reduced Holiday Hours of Operation</h3>
+                        <div id="holidays_hours_container" class="hours_container">
+                            <script id="holidays_hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_div">
+                                    <span>{{holiday_name}} ({{formatted_date}})</span>
+                                    <span>{{h}}</span>
+                                </div>
+                            </script>
+                        </div>
+                        <div class="padding_top_20"></div>
+                        <h3 class="hours_heading">Holiday Closures</h3>
+                        <div id="closed_hours_container" class="hours_container">
+                            <script id="closed_hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_div">
+                                    <span>{{holiday_name}} ({{formatted_date}})</span>
+                                </div>
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 hidden_phone">
+                <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509738369000/HOURS830x940.jpg" alt="plaza">
+            </div> 
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var hours = getPropertyRegularHours();
+            renderHours('#hours_container','#hours_template', hours, 'reg_hours')
+            var holiday_hours = getPropertyHolidayHours();
+            renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
+            renderHours('#closed_hours_container','#closed_hours_template', holiday_hours, 'closed_hours')
+            // show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
