@@ -78,7 +78,7 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509634558000/CONTACT830x940.jpg" class="hidden_phone" alt="">
         </div>
         <div class="col-md-4 contact_contents">
-            <p class="right_column_header promo_list_name ">CENTRE INFORMATION</p>
+            <h3 class="right_column_header promo_list_name ">CENTRE INFORMATION</h3>
             <div id="centre_info_container" class="promo_list_desc">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
                 <br>
