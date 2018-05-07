@@ -9,7 +9,7 @@
                             <img src="{{event_image_url_abs}}" alt="{{name}}" class="actual_width promo_img" />
                         </div>
                         <div class="col-md-7">
-                            <h2 class="promo_list_name"><a class="hover_underline" href="/events/{{slug}}">{{name}}</a></h2>
+                            <h2 class="promo_list_name">{{name}}</h2>
                             <p>
                                 <span class="promo_dates">{{dates}}</span>
                             </p>
