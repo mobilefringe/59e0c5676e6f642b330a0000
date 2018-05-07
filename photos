@@ -1,0 +1,89 @@
+<style scoped>
+    .portfolio_item{
+        height:260px;
+        width:260px;
+        display:inline-block;
+        margin-bottom:17px !important;
+        margin-right:17px !important;
+    }
+    
+    @media (max-width: 767px) {
+        .portfolio_item{
+            margin-right:auto !important;
+            margin-left:auto !important;
+            display:block;
+        }  
+    }
+    
+</style>
+<div class="content_container main_container padding_bottom_50">
+   <div class="promo_main_header">
+        PHOTOS
+    </div>
+    <div class="direction_container padding_top_20">
+        <div class="row">
+            <div class="col-md-12">
+                <!--<div id="mm_page_content" class="promo_list_desc"></div>-->
+                <section class="portfolio_strict" id="photo_container">
+                <div class="row isotope_portfolio_container">
+                    <script id="photo_template" type="x-tmpl-mustache/text">
+            
+                            <div class="portfolio_item"> 
+                                <a href="{{alt_url}}" rel="lightbox-gallery" title="{{name}}">
+                                    <img alt="photo{{id}}" src="{{alt_url}}"/>
+                                </a>
+                             </div>
+                    </script>
+                </div>
+                </section>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e) {
+        init(e);
+        function renderAll (){
+            var leasing_photos = getRepoDetailsByName("photos").images;
+            // renderGeneral("#photo_container", "#photo_template", leasing_photos)
+            // var repoList = getRepoList();  
+            renderPhotos("#photo_container", "#photo_template", leasing_photos);
+            $.getScript("//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js");
+            $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
+        }
+        
+        function renderPhotos(container, template, collection){
+            var item_list = [];
+            var item_rendered = [];
+            var template_html = $(template).html();
+            Mustache.parse(template_html);   // optional, speeds up future uses
+            console.log(collection);
+            $.each( collection , function( key, val ) {
+                // if( val.name == "photos"){
+                    // $.each( val.images , function( key, val ) {
+                        val.alt_url = getImageURL(val.photo_url);
+                        item_list.push(val);
+                        // console.log(val);
+                    // });
+                // }
+            });
+            $.each( item_list , function( key, val ) {
+                var repo_rendered = Mustache.render(template_html,val);
+                item_rendered.push(repo_rendered);
+            });
+            
+            $(container).show();
+            $(container).html(item_rendered.join(''));    
+        }
+        loadMallData(renderAll);  
+
+        $.getScript("http://bkindoortemplate.codecloudapp.com/slimbox_mod.js");
+        $('head').append('<link rel="stylesheet" href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" type="text/css" media="screen" />');
+    });
+    $(window).load(function(e){
+        show_content();
+    });
+    
+</script>
