@@ -322,7 +322,7 @@
         </div>
     </section>
     <script>
-        var menuItems = document.querySelectorAll('li.dropdown');
+        var menuItems = document.querySelectorAll('li.dropdown.nav_li');
         Array.prototype.forEach.call(menuItems, function(el, i){
         	el.querySelector('a').addEventListener("click",  function(event){
         		if (this.parentNode.className == "dropdown") {
