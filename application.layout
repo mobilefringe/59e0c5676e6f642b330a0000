@@ -326,7 +326,7 @@
         Array.prototype.forEach.call(menuItems, function(el, i){
         	el.querySelector('a').addEventListener("click",  function(event){
         		if (this.parentNode.className == "dropdown") {
-        			this.parentNode.classList.add("dropdown open");
+        			this.parentNode.classList.add("open");
         			this.setAttribute('aria-expanded', "true");
         		} else {
         			this.parentNode.className = "dropdown";
