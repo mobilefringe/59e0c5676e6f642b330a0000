@@ -170,7 +170,7 @@ a {
         li.nav_li{
             float:none;
             display: inline-block;
-           &:focus {
+            &:focus {
         	    outline: thin dotted;
                 outline: 5px auto -webkit-focus-ring-color;
                 outline-offset: -2px;
