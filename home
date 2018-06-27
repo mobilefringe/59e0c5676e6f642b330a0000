@@ -33,7 +33,7 @@
                             </label>
                         </label>
                         <label class="main_label">
-                            <input type="checkbox" id="popup_agree" />
+                            <input type="checkbox" id="popup_agree" required />
                             I agree to receive emails from Hazeldean Mall.
                         </label>
                         <button type="submit" class="popup_submit">Submit</button>	
@@ -330,14 +330,14 @@
                     $('.custom_popup').css('background-image', 'url(//mallmaverick.cdn.speedyrails.net' + popup.photo_url + ')');
                 }
     
-                $('#form_popup').submit(function(){
-                    $('#cm-name').val($('#FNAME').val() + " " + $('#LNAME').val());
-                    if($('#popup_agree').is(':checked') == false){
-                        alert("Please agree to receive emails.");
-                        $('#popup_agree').focus();
-                        return false;
-                    }
-                });
+                // $('#form_popup').submit(function(){
+                //     $('#cm-name').val($('#FNAME').val() + " " + $('#LNAME').val());
+                //     if($('#popup_agree').is(':checked') == false){
+                //         alert("Please agree to receive emails.");
+                //         $('#popup_agree').focus();
+                //         return false;
+                //     }
+                // });
                 $('.close_popup').click(function(){
                     $('.custom_popup').fadeOut();
                     $(".hidden-popup-bg").fadeOut();
