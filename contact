@@ -84,6 +84,8 @@
                     <p class="directory_content">{{name}}</p>
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
+                    <p class="directory_content">613-592-0095</p>
+                    
                     <br>
                     <p class="directory_content"><strong>Cindy Lavigne</strong> 
                     <br>General Manager
@@ -111,11 +113,7 @@
                    <br>Retail Accounts Coordinator
                    <br>613-592-4542 
                    <br><a href="mailto:tsavoie@bentallkennedy.com" target="_blank">tsavoie@bentallkennedy.com</a></p>
-                   <br>
-                   <p class="directory_content"><strong>Leanne Burley</strong> 
-                   <br>Administrative Assistant
-                   <br>613-592-0095
-                   <br><a href="mailto:lburley@bentallkennedy.com" target="_blank">lburley@bentallkennedy.com</a></p>
+                   
                    <br>
                    <p class="directory_content"><strong>Security</strong> 
                    <br>613-227-1711
