@@ -20,7 +20,7 @@
             
             <form name="contact_form" id="contact_form" method="post">
                 <div class="row "  style="margin-left:0px;margin-right:0px">
-                    <h5 class="promo_list_desc">We value your feedback. Send us your comments or questions by completing the contact form below.</h5>
+                    <h2 class="promo_list_desc">We value your feedback. Send us your comments or questions by completing the contact form below.</h2>
                 </div>
                 <div class="row padding_top_20" >
                     
@@ -75,51 +75,17 @@
                 There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
             </div>    
             <div class="padding_top_20"></div>
-            <img src="//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1509634558000/CONTACT830x940.jpg" class="hidden_phone" alt="">
+            <img src="//codecloud.cdn.speedyrails.net/sites/5ae876e66e6f64765d130000/image/jpeg/1509634558000/CONTACT830x940.jpg" class="hidden_phone" alt="">
         </div>
         <div class="col-md-4 contact_contents">
-            <p class="right_column_header promo_list_name ">CENTRE INFORMATION</p>
+            <h3 class="right_column_header promo_list_name ">CENTRE INFORMATION</h3>
             <div id="centre_info_container" class="promo_list_desc">
                 <script id="centre_info_template" type="x-tmpl-mustache/text">
+                <br>
                     <p class="directory_content">{{name}}</p>
                     <p class="directory_content">{{address1}}</p>
                     <p class="directory_content">{{city}}, {{province_state}} {{postal_code}}</p>
-                    <p class="directory_content">613-592-0095</p>
-                    
-                    <br>
-                    <p class="directory_content"><strong>Cindy Lavigne</strong> 
-                    <br>General Manager
-                    <br>613-592-7515
-                    <br><a href="mailto:clavigne@bentallkennedy.com ">clavigne@bentallkennedy.com</a></p>
-                    <br>
-                     <p class="directory_content"><strong>Jennifer Crispel</strong> 
-                    <br>Director, Leasing*
-                    <br>1.866.681.2715
-                    <br><a href="mailto:jcrispel@bentallkennedy.com">jcrispel@bentallkennedy.com</a>
-                    <br>*Sales Representative</p>
-                    <br>
-                    <p class="directory_content"><strong>Robin Forrest </strong> 
-                    <br>Operations Manager
-                    <br>613-592-4614
-                    <br><a href="mailto:rforrest@bentallkennedy.com">rforrest@bentallkennedy.com</a></p>
-                    <br>
-                      
-                    <p class="directory_content"><strong>Frank Fenn</strong> 
-                    <br>Marketing Coordinator
-                    <br>613-592-6184
-                    <br><a href="mailto:ffenn@bentallkennedy.com ">ffenn@bentallkennedy.com</a></p>
-                    <br>
-                   <p class="directory_content"><strong>Teresa Savoie</strong> 
-                   <br>Retail Accounts Coordinator
-                   <br>613-592-4542 
-                   <br><a href="mailto:tsavoie@bentallkennedy.com" target="_blank">tsavoie@bentallkennedy.com</a></p>
-                   
-                   <br>
-                   <p class="directory_content"><strong>Security</strong> 
-                   <br>613-227-1711
-                   <br><a href="mailto:HazeldeanMallSecurity@BentallKennedy.com" target="_blank">HazeldeanMallSecurity@BentallKennedy.com</a></p>
-                  
-                   
+                    <div id="mm_page_content" class="directory_content"></div>
                 </script>
             </div>
         </div>
@@ -173,7 +139,19 @@
         function renderAll (){
             var propertyDetails = getPropertyDetails();
             renderPageData('#centre_info_container','#centre_info_template',propertyDetails, 'property_details')
-            renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details')
+            // renderPageData('#centre_info_container_mobile','#centre_info_template_mobile',propertyDetails, 'property_details')
+            prefix = get_prefix();
+            var pages_json = prefix+"/pages/hazeldean-contact-us.json"
+            $.getJSON(pages_json).done(function(data) {
+                $('#mm_title').html(data.title);
+                // $('#mm_title_phone').html(data.title);
+                // $('#mm_title_location').html(data.title);
+                $('#mm_page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+                }
+            }); 
             $("#loading_screen").hide();
             $("#main_content").show();
         }
