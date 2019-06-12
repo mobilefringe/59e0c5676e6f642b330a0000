@@ -63,7 +63,7 @@
             <script id="mobile_banner_template" type="x-tmpl-mustache/text">
                 <li>
                     <a class="banner_image_li" href="{{url}}" >
-                        <img src="{{image_url}}" alt="Click here {{name}}"/>
+                        <img src="{{image_url}}" alt="{{name}}"/>
                     </a>
                 </li>
             </script>
