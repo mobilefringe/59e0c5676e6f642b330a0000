@@ -267,7 +267,7 @@
                                 <div class="hours_today site_map_desc text_center " id="hours_home">{%raw%}{{h}}{%endraw%}</div>
                             </script>
                         </span>
-                            <a href="/hours" class="" ><u>View all hours</u></a>
+                            <a href="/hours" class="" >View all hours</a>
                         </div>
                         
                     </div>
