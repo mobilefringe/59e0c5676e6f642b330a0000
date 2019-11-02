@@ -80,13 +80,11 @@
 <div class="content_container hidden_phone">
     <div class="flexslider">
         <ul class="slides" id="home_banner">
-                        <script id="banner_template" type="x-tmpl-mustache/text">
+            <script id="banner_template" type="x-tmpl-mustache/text">
                 <li>
-                    
-                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
-                        <img src="{{image_url}}" class="" alt="">
-                        </a>
-
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  alt="{{name}}">
+                    </a>
                 </li>
             </script>
         </ul>
