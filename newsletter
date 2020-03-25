@@ -59,15 +59,15 @@
                     
                 <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">
                 
-                <label class="newsletter_label">
-                    <input id="newsletter_agree" type="checkbox" required />
-                     I agree to receive emails from Hazeldean Mall
-                </label>
+                <!--<label class="newsletter_label">-->
+                <!--    <input id="newsletter_agree" type="checkbox" required />-->
+                <!--     I agree to receive emails from Hazeldean Mall-->
+                <!--</label>-->
             </div>
             <div class="col-md-12">
                 <button type="submit" class="animated_btn main_btn">Subscribe</button>
-                <br />
-                <button type="submit" class="animated_btn main_btn">Subscribe</button>
+                <!--<br />-->
+                <!--<button type="submit" class="animated_btn main_btn">Subscribe</button>-->
                 <!--<p class="hidden_now" id="success_subscribe">-->
                 <!--    Thank you for subscribing!-->
                 <!--</p>-->
