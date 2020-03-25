@@ -35,7 +35,7 @@
         <div class="row">
             <div class="col-md-6 text-left">
                 <label class="text-left" for="fieldName">Name</label>
-                <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name">
+                <input class="form-control" aria-label="Name" id="fieldName" maxlength="200" name="cm-name">
                 
                 <label class="text-left" for="fieldName">Name</label>
                 <input id="fieldName" name="cm-name" type="text" class="form-control">
@@ -43,7 +43,7 @@
         
             <div class="col-md-6 text-left">
                 <label class="text-left" for="fieldEmail">Email</label>
-                <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-illljr-illljr" required="" type="email">
+                <input autocomplete="Email" aria-label="Email" class="form-control js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-illljr-illljr" required="" type="email">
         
         
                 <label class="text-left" for="fieldEmail">Email</label>
