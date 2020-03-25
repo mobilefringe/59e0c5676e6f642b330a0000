@@ -11,39 +11,14 @@
                 Join our list and stay connected to be the first to hear about special sales & exclusive events!
             </p>
             <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AD2450E25C4CD30DEA28CCA9AEE54AECDC5C8ACD038564F694CC6AA4DCF405BB722B7F25C9447E1CB6173C6C3B82F53B2">
-
-                
-                <!--<label>Name </label>-->
-                <!--<input aria-label="Name" id="fieldName" maxlength="200" name="cm-name">-->
-                
-                <!--<label>Email </label>-->
-                <!--<input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-illljr-illljr" required="" type="email">-->
-                    
-                    
-                <!--<input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox">-->
-                <!--<label for="cm-privacy-consent">I agree to be emailed</label>-->
-                    
-                <!--<input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">-->
-                    
-                <!--<button type="submit">Subscribe</button>-->
-                    
-                
-                
                 <div class="row">
                     <div class="col-md-6 text-left">
                         <label class="text-left" for="fieldName">Name</label>
                         <input class="form-control" aria-label="Name" id="fieldName" maxlength="200" name="cm-name">
-                        
-                        <!--<label class="text-left" for="fieldName">Name</label>-->
-                        <!--<input id="fieldName" name="cm-name" type="text" class="form-control">-->
                     </div>
                     <div class="col-md-6 text-left">
                         <label class="text-left" for="fieldEmail">Email</label>
                         <input autocomplete="Email" aria-label="Email" class="form-control js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-illljr-illljr" required="" type="email">
-                
-                
-                        <!--<label class="text-left" for="fieldEmail">Email</label>-->
-                        <!--<input id="fieldEmail" name="cm-illljr-illljr" type="email" required class="form-control">-->
                     </div>
                 </div>
                 <div class="row padding_top_20">
@@ -54,19 +29,9 @@
                                 
                         </label>
                         <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">
-                        <br />
-                        <!--<label class="newsletter_label">-->
-                        <!--    <input id="newsletter_agree" type="checkbox" required />-->
-                        <!--     I agree to receive emails from Hazeldean Mall-->
-                        <!--</label>-->
                     </div>
                     <div class="col-md-12 text-center">
                         <button type="submit" class="animated_btn main_btn">Subscribe</button>
-                        <!--<br />-->
-                        <!--<button type="submit" class="animated_btn main_btn">Subscribe</button>-->
-                        <!--<p class="hidden_now" id="success_subscribe">-->
-                        <!--    Thank you for subscribing!-->
-                        <!--</p>-->
                     </div>
                 </div>
             </form>
@@ -78,29 +43,6 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        
         show_content();
-        
-        // $('#newsletter_form').submit(function(e){
-        //     e.preventDefault();
-        //     if ($("#newsletter_agree").prop("checked") != true){
-        //         alert("Please agree to receive newsletters from " + site_json.mall_name + "." );
-        //         $("#newsletter_agree").focus();
-        //         return false;
-        //     }
-        //     $.getJSON(
-        //         this.action + "?callback=?",
-        //         $(this).serialize(),
-        //         function (data) {
-        //             if (data.Status === 400) {
-        //                 alert("Please try again later.");
-        //             } else { // 200
-        //                 $("#success_subscribe").fadeIn()
-        //                 // $('#success_subscribe').delay(2000).fadeOut();
-        //                 // $('#newsletter_form').trigger('reset')
-        //             }
-        //         }
-        //     );
-        // });
     })
 </script>
