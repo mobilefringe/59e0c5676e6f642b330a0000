@@ -37,25 +37,35 @@
                 <label class="text-left" for="fieldName">Name</label>
                 <input class="form-control" aria-label="Name" id="fieldName" maxlength="200" name="cm-name">
                 
-                <label class="text-left" for="fieldName">Name</label>
-                <input id="fieldName" name="cm-name" type="text" class="form-control">
+                <!--<label class="text-left" for="fieldName">Name</label>-->
+                <!--<input id="fieldName" name="cm-name" type="text" class="form-control">-->
             </div>
-        
             <div class="col-md-6 text-left">
                 <label class="text-left" for="fieldEmail">Email</label>
                 <input autocomplete="Email" aria-label="Email" class="form-control js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-illljr-illljr" required="" type="email">
         
         
-                <label class="text-left" for="fieldEmail">Email</label>
-                <input id="fieldEmail" name="cm-illljr-illljr" type="email" required class="form-control">
+                <!--<label class="text-left" for="fieldEmail">Email</label>-->
+                <!--<input id="fieldEmail" name="cm-illljr-illljr" type="email" required class="form-control">-->
             </div>
         </div>
         <div class="row padding_top_20">
             <div class="col-md-12">
+                <label for="cm-privacy-consent">
+                    <input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox">
+                    I agree to receive emails from Hazeldean Mall
+                        
+                </label>
+                    
+                <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">
+                
                 <label class="newsletter_label">
                     <input id="newsletter_agree" type="checkbox" required />
                      I agree to receive emails from Hazeldean Mall
                 </label>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="animated_btn main_btn">Subscribe</button>
                 <br />
                 <button type="submit" class="animated_btn main_btn">Subscribe</button>
                 <!--<p class="hidden_now" id="success_subscribe">-->
