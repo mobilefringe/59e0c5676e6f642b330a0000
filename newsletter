@@ -1,41 +1,70 @@
 <div class="content_container main_container padding_bottom_50">
     <h4 class="promo_main_header">Newsletter</h4>
-    <form action="//mobilefringe.createsend.com/t/d/s/illljr/" method="post" id="newsletter_form">
-        <div class="row">
-            <div class="col-md-12">
-                <img src="//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1510237835000/HM Subscribeopt03.jpg" class="padding_20" />
-            </div>
-            <div class="col-md-8 text-center" style=" float: none; margin: 0 auto; ">
-                <p class="text-left">
-                    Join our list and stay connected to be the first to hear about special sales & exclusive events!
-                </p>
-                <div class="row">
-                    <div class="col-md-6 text-left">
-                        <label class="text-left" for="fieldName">Name</label>
-                        <input id="fieldName" name="cm-name" type="text" class="form-control">
-                    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <img src="//codecloud.cdn.speedyrails.net/sites/59e0c5676e6f642b330a0000/image/jpeg/1510237835000/HM Subscribeopt03.jpg" class="padding_20" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 text-center" style=" float: none; margin: 0 auto; ">
+            <p class="text-left">
+                Join our list and stay connected to be the first to hear about special sales & exclusive events!
+            </p>
+        </div>
+    </div>
                 
-                    <div class="col-md-6 text-left">
-                        <label class="text-left" for="fieldEmail">Email</label>
-                        <input id="fieldEmail" name="cm-illljr-illljr" type="email" required class="form-control">
-                    </div>
-                </div>
-                <div class="row padding_top_20">
-                    <div class="col-md-12">
-                        <label class="newsletter_label">
-                            <input id="newsletter_agree" type="checkbox" required />
-                             I agree to receive emails from Hazeldean Mall
-                        </label>
-                        <br />
-                        <button type="submit" class="animated_btn main_btn">Subscribe</button>
-                        <p class="hidden_now" id="success_subscribe">
-                            Thank you for subscribing!
-                        </p>
-                    </div>
-                </div>
+    <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="92D4C54F0FEC16E5ADC2B1904DE9ED1AD2450E25C4CD30DEA28CCA9AEE54AECDC5C8ACD038564F694CC6AA4DCF405BB722B7F25C9447E1CB6173C6C3B82F53B2">
+
+                
+                <!--<label>Name </label>-->
+                <!--<input aria-label="Name" id="fieldName" maxlength="200" name="cm-name">-->
+                
+                <!--<label>Email </label>-->
+                <!--<input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-illljr-illljr" required="" type="email">-->
+                    
+                    
+                <!--<input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox">-->
+                <!--<label for="cm-privacy-consent">I agree to be emailed</label>-->
+                    
+                <!--<input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">-->
+                    
+                <!--<button type="submit">Subscribe</button>-->
+                    
+                
+                
+        <div class="row">
+            <div class="col-md-6 text-left">
+                <label class="text-left" for="fieldName">Name</label>
+                <input aria-label="Name" id="fieldName" maxlength="200" name="cm-name">
+                
+                <label class="text-left" for="fieldName">Name</label>
+                <input id="fieldName" name="cm-name" type="text" class="form-control">
+            </div>
+        
+            <div class="col-md-6 text-left">
+                <label class="text-left" for="fieldEmail">Email</label>
+                <input autocomplete="Email" aria-label="Email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-illljr-illljr" required="" type="email">
+        
+        
+                <label class="text-left" for="fieldEmail">Email</label>
+                <input id="fieldEmail" name="cm-illljr-illljr" type="email" required class="form-control">
+            </div>
+        </div>
+        <div class="row padding_top_20">
+            <div class="col-md-12">
+                <label class="newsletter_label">
+                    <input id="newsletter_agree" type="checkbox" required />
+                     I agree to receive emails from Hazeldean Mall
+                </label>
+                <br />
+                <button type="submit" class="animated_btn main_btn">Subscribe</button>
+                <!--<p class="hidden_now" id="success_subscribe">-->
+                <!--    Thank you for subscribing!-->
+                <!--</p>-->
             </div>
         </div>
     </form>
+    <script type="text/javascript" src="https://js.createsend1.com/javascript/copypastesubscribeformlogic.js"></script>      
 </div>
 
 <script>
