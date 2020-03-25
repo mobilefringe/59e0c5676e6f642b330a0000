@@ -56,9 +56,8 @@
                     I agree to receive emails from Hazeldean Mall
                         
                 </label>
-                    
                 <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true">
-                
+                <br />
                 <!--<label class="newsletter_label">-->
                 <!--    <input id="newsletter_agree" type="checkbox" required />-->
                 <!--     I agree to receive emails from Hazeldean Mall-->
