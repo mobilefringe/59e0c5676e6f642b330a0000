@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="row padding_top_20">
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
                 <label for="cm-privacy-consent">
                     <input aria-required="" id="cm-privacy-consent" name="cm-privacy-consent" required="" type="checkbox">
                     I agree to receive emails from Hazeldean Mall
@@ -63,7 +63,7 @@
                 <!--     I agree to receive emails from Hazeldean Mall-->
                 <!--</label>-->
             </div>
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
                 <button type="submit" class="animated_btn main_btn">Subscribe</button>
                 <!--<br />-->
                 <!--<button type="submit" class="animated_btn main_btn">Subscribe</button>-->
